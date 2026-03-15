@@ -1,0 +1,144 @@
+// Galaxy S26 Ultra case with diamond lattice back
+// All diamonds complete, symmetric grid, no camera overlap
+
+diamond_diag = 7.0;
+cut_depth = 7;
+side = diamond_diag / sqrt(2);
+
+module lattice_cutter() {
+    translate([0, 0, -0.5])
+    linear_extrude(cut_depth)
+    union() {
+        translate([-29.5000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 25.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 34.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 42.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 51.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 59.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 68.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-29.5000, 76.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 25.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 34.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 42.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 51.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 59.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 68.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-21.0000, 76.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 25.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 34.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 42.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 51.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 59.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 68.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-12.5000, 76.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 25.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 34.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 42.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 51.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 59.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 68.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([-4.0000, 76.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, 25.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([4.5000, 34.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([13.0000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([21.5000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -76.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -67.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -59.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -50.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -42.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -33.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -25.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -16.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, -8.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, 0.2500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, 8.7500]) rotate([0,0,45]) square([side, side], center=true);
+        translate([30.0000, 17.2500]) rotate([0,0,45]) square([side, side], center=true);
+    }
+}
+
+difference() {
+    import("galaxy-s26-ultra-case.stl");
+    lattice_cutter();
+}
