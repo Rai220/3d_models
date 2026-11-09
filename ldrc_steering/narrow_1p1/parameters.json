@@ -1,0 +1,8 @@
+{
+  "slot_width_mm": 1.1,
+  "original_slot_width_mm": 2.8,
+  "slot_center_x_mm": -14.75,
+  "slot_closed_end_z_mm": 9.0,
+  "stem_y_min_mm": -0.5,
+  "stem_y_max_mm": 2.5
+}

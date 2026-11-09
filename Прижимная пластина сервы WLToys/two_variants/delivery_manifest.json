@@ -1,0 +1,182 @@
+{
+  "physical_fit_verified": false,
+  "printer_job_started": false,
+  "known_dimension_interpretation": "19.8 x 21.5 footprint; 8.2 installed height",
+  "files": [
+    {
+      "path": "Original_16mm.stl",
+      "bytes": 192884,
+      "sha256": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898"
+    },
+    {
+      "path": "Original_16mm_geometry.json",
+      "bytes": 722,
+      "sha256": "3726eeba4ec655f2ea15e13fae8b01187575480b78344b1697dac48594610732"
+    },
+    {
+      "path": "Original_16mm_toolpath_validation.json",
+      "bytes": 22126,
+      "sha256": "487e4ffc559bc63b94c6b61cde303f840fb1031310396838f042c2c91258c57e"
+    },
+    {
+      "path": "P1S_both_servo_clamps.3mf",
+      "bytes": 109811,
+      "sha256": "01c65ef16eac8af8b0935b932795641d517c673f7efd4b1b5828c8c8df794842"
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 10425,
+      "sha256": "172a83292549dd18889fb03584250ed20c271568ccbfa64249a97f065f8406c1"
+    },
+    {
+      "path": "Reduced_10p2mm.stl",
+      "bytes": 192884,
+      "sha256": "919a0b4cd203184720dbe05755827c09e12e06671a52b7b381aba6ece435e019"
+    },
+    {
+      "path": "Reduced_10p2mm_geometry.json",
+      "bytes": 764,
+      "sha256": "debf2f08ecb1bff2fcd3af5e8f60366015fdf3774407a8dd507ce03fcbcabab3"
+    },
+    {
+      "path": "Reduced_10p2mm_toolpath_validation.json",
+      "bytes": 22018,
+      "sha256": "9772a45f4de82002153f04e2c1ae5712ce8fa3e3d872038f0e72334591ba80dd"
+    },
+    {
+      "path": "comparison.png",
+      "bytes": 492240,
+      "sha256": "8d9775b569ebde49f1c1cebc675477a6d81a6b584f379c780ca348567abef953"
+    },
+    {
+      "path": "geometry_only.3mf",
+      "bytes": 77220,
+      "sha256": "3620f00416fb498b39c09ca2b2d47c3a1a96fa3c45b0cd51c8e92636702c22e2"
+    },
+    {
+      "path": "geometry_validation.json",
+      "bytes": 2567,
+      "sha256": "6881bb83681b18d19d499b06a96c76d7d394c4becf6a8674fe719dd080077502"
+    },
+    {
+      "path": "inputs/original.stl",
+      "bytes": 192884,
+      "sha256": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898"
+    },
+    {
+      "path": "inputs/original_geometry.json",
+      "bytes": 2966,
+      "sha256": "6ce2cf875b866a7da5bd09dc050589abd0f469e46d1013f489f996ff54223fb7"
+    },
+    {
+      "path": "parameters_small.json",
+      "bytes": 679,
+      "sha256": "c39ab1a9ea6064f7781ff54ee011dc32c84696489dd2be074c04b47be9c829de"
+    },
+    {
+      "path": "prepare.log",
+      "bytes": 202,
+      "sha256": "fece9c868077ede55f348f8dfd69f002f8ef59fcf3ed865644ffd00436529c64"
+    },
+    {
+      "path": "presets/generic_pla.json",
+      "bytes": 7773,
+      "sha256": "f7dc48b59cec642e0b03edd648f2ddd4ee5b7bba9e7b1993623fe823bef54cf7"
+    },
+    {
+      "path": "presets/p1s_04.json",
+      "bytes": 20332,
+      "sha256": "a51910aae0368dd3c1dd87f93ccdc8cb8f2a0a9a6370864fd0a989de415cfe02"
+    },
+    {
+      "path": "presets/servo_012.json",
+      "bytes": 7983,
+      "sha256": "ab856b3fa98c26549195fb88888418c2814f64a698f7e868536ab0683dea17f0"
+    },
+    {
+      "path": "result.json",
+      "bytes": 207,
+      "sha256": "8501b1d92cef8dfedf13db6ab09266be6c486138b7cc31da681019b2acadbbaa"
+    },
+    {
+      "path": "sections.png",
+      "bytes": 60118,
+      "sha256": "9e62a8cefd12b07fca0d6f21d1dd176dbf90d0d4724f6ce855529c5c4289bc94"
+    },
+    {
+      "path": "slicing_check/checked_both_clamps.gcode.3mf",
+      "bytes": 551423,
+      "sha256": "cd14d481b4683494699f9695dcd0984e4794ed2bce5d235961103c5f94de5917"
+    },
+    {
+      "path": "slicing_check/plate_1.gcode",
+      "bytes": 3197803,
+      "sha256": "e31392ad06ed0a0fbfd609abd8cdfd491267ddec4b996ed3fc8984df08c93b08"
+    },
+    {
+      "path": "slicing_check/result.json",
+      "bytes": 3134,
+      "sha256": "a5710232b27f43001be2b3655fd7517080214f5c978ba30183c8aaafca14750b"
+    },
+    {
+      "path": "slicing_check/slice.log",
+      "bytes": 1083,
+      "sha256": "024079ad5b51081a1f159df3152c1d1df003668eb0e92945cf9652cc9830dc48"
+    },
+    {
+      "path": "slicing_check/slicer_preview.png",
+      "bytes": 7712,
+      "sha256": "e5c2d30d07327241fd2a9c569b6f0158c0a66610c5077885c5e50822e30c6851"
+    },
+    {
+      "path": "slicing_validation.json",
+      "bytes": 4349,
+      "sha256": "e3bb5726c16e0230a804e6a8c3eeb7cd17c82985d2a090a9229a80ab3a289fda"
+    },
+    {
+      "path": "small_assembly_validation.json",
+      "bytes": 701,
+      "sha256": "e5ba3bfcfa2333362e673bcd5eaf3c6a5f36ff61704d723b32c1bff6e6a2911a"
+    },
+    {
+      "path": "source/build.py",
+      "bytes": 7322,
+      "sha256": "e4aeb4de93a61828d595c04f82c0477be8ab85686f483751f9ef45292b46ae2a"
+    },
+    {
+      "path": "source/cad_helpers.py",
+      "bytes": 4155,
+      "sha256": "eb0af9d526dd8e0f4e278f346df40f90ae4ef9601d03620fbdd2478ef7a4fd44"
+    },
+    {
+      "path": "source/prepare_bambu.py",
+      "bytes": 7460,
+      "sha256": "ccc561eff41f3456fa5be8050be2b111278e1d0a4ad68892235b31146cf926ce"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 181,
+      "sha256": "b4aa7d55585326ec78c7de9086ce4ad869931bdc16c1890b1be8384e3d58c445"
+    },
+    {
+      "path": "source/sections.py",
+      "bytes": 1056,
+      "sha256": "bdda179f6bf609ba6518d561024fc95d68bba80552c9c4b6f3a6c87948a1b020"
+    },
+    {
+      "path": "source/verify_paths.py",
+      "bytes": 5227,
+      "sha256": "c0df6a293985211b11d37f00763457dd8189fa028e32eadc22fbd68bb8fa0e9c"
+    },
+    {
+      "path": "toolpath_validation.json",
+      "bytes": 52628,
+      "sha256": "602f6b83479c4312a69e5bf2fb7b2a72a8c13c78520f1a44159e18182c7fe6e7"
+    },
+    {
+      "path": "toolpaths.png",
+      "bytes": 228613,
+      "sha256": "00a097e7b4e7ff54b8aeb9390345d179c0fb90538d14aad534ccdf5bc2e06a8d"
+    }
+  ]
+}

@@ -1,0 +1,1387 @@
+{
+  "units": "millimeter",
+  "variant": "1:28 M3x10/M3x16 countersunk mechanical redesign",
+  "parameters": {
+    "units": "millimeter",
+    "spine_length": 180.0,
+    "crossrail_length": 160.0,
+    "rail_base_width": 16.0,
+    "rail_base_height": 1.6,
+    "rail_neck_width": 8.0,
+    "rail_neck_top": 3.0,
+    "rail_top_width": 14.0,
+    "rail_height": 6.0,
+    "guide_side_clearance": 0.25,
+    "guide_top_clearance": 0.3,
+    "slider_bottom": 0.4,
+    "slider_length": 28.0,
+    "slider_width": 32.0,
+    "axle_saddle_top": 10.0,
+    "wheel_carriage_top": 18.0,
+    "foot_height": 11.0,
+    "foot_side": 20.0,
+    "foot_mount_x": 70.0,
+    "clamp_x": 9.0,
+    "clamp_z": 5.4,
+    "nut_af": 5.9,
+    "nut_depth": 2.8,
+    "bolt_clearance": 3.4,
+    "mount_x": 11.0,
+    "platform_radius": 14.0,
+    "platform_thickness": 5.0,
+    "bearing_od": 22.0,
+    "bearing_id": 4.0,
+    "bearing_thickness": 0.8,
+    "contact_offset_from_pivot": 10.0,
+    "gauge_length": 60.0,
+    "measurement_span": 44.0,
+    "gauge_contact_height": 20.0,
+    "gauge_backbone_height": 10.0,
+    "contact_spacing": 12.0,
+    "contact_width": 4.0,
+    "zero_width": 60.0,
+    "zero_length": 24.0,
+    "zero_height": 20.0,
+    "design_wheelbase_range": [
+      70.0,
+      140.0
+    ],
+    "design_overall_wheel_width_range": [
+      50.0,
+      120.0
+    ],
+    "design_tire_width_range": [
+      6.0,
+      14.0
+    ],
+    "design_wheel_diameter_range": [
+      20.0,
+      40.0
+    ],
+    "design_max_toe_per_wheel_deg": 5.0,
+    "scale_tick_step_deg": 1.0,
+    "scale_tick_radius": 50.0,
+    "scale_outer_radius": 65.0,
+    "scale_sector_half_angle_deg": 9.0,
+    "scale_plate_thickness": 2.4,
+    "scale_engraving_depth": 0.6,
+    "scale_tick_width": 0.5,
+    "pointer_tip_radius": 52.0,
+    "pointer_thickness": 2.0,
+    "pivot_nut_bottom": 9.2,
+    "pivot_nut_top": 12.0,
+    "saddle_nut_bottom": 2.0,
+    "saddle_nut_top": 4.8,
+    "clamp_nut_inner_y": 10.8,
+    "clamp_nut_outer_y": 13.6,
+    "foot_nut_depth": 3.6,
+    "countersink_diameter": 6.6,
+    "countersink_angle_deg": 90.0,
+    "available_screw_lengths": [
+      10,
+      16
+    ],
+    "revision": "M3 countersunk 10/16; integral wheel units; retained side-loaded nuts"
+  },
+  "quantities": {
+    "spine": 1,
+    "crossrail": 2,
+    "axle_saddle": 2,
+    "wheel_carriage_right": 2,
+    "wheel_carriage_left": 2,
+    "wheel_unit": 4,
+    "bearing_washer": 4,
+    "foot": 4,
+    "zero_block": 1
+  },
+  "assumed_nozzle_mm": 0.4,
+  "assumed_material": "Generic PLA",
+  "physical_fit_verified": false,
+  "physical_print_verified": false,
+  "measurement_accuracy_verified": false,
+  "bambu_studio_slicing_verified": true,
+  "parts": {
+    "spine": {
+      "file": "spine.stl",
+      "extents_mm": [
+        180.0,
+        16.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 12564.0,
+      "minimum_z_mm": 0.0,
+      "sha256": "6f4735ebbb5212d51855a88472555c69ac0d9849138768ed658d349ca1b448ee",
+      "print_inverted_from_assembly": false
+    },
+    "crossrail": {
+      "file": "crossrail.stl",
+      "extents_mm": [
+        160.0,
+        16.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 10878.369,
+      "minimum_z_mm": 0.0,
+      "sha256": "8fbcd6eee9c7e5a01bd4e1056178c9fd2604534617df76ca16c2680e214f27b7",
+      "print_inverted_from_assembly": false
+    },
+    "axle_saddle": {
+      "file": "axle_saddle.stl",
+      "extents_mm": [
+        28.0,
+        32.0,
+        9.6
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 5624.966,
+      "minimum_z_mm": 0.0,
+      "sha256": "57d7a121b6973f693bd4bdb9ec049a09addb7b276b61820af7c5a5dbdd50e543",
+      "print_inverted_from_assembly": true
+    },
+    "wheel_carriage_right": {
+      "file": "wheel_carriage_right.stl",
+      "extents_mm": [
+        79.0,
+        32.0,
+        17.6
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 14522.054,
+      "minimum_z_mm": 0.0,
+      "sha256": "f35312f16c5c1a20da87b5efae1ab14598837008370dd62ae7d366a0f0021dfa",
+      "print_inverted_from_assembly": true
+    },
+    "wheel_carriage_left": {
+      "file": "wheel_carriage_left.stl",
+      "extents_mm": [
+        79.0,
+        32.0,
+        17.6
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 14523.264,
+      "minimum_z_mm": 0.0,
+      "sha256": "e6cf55e6998dcbe7f226caeb2aca9687a893be5c4ccf31e6d13fa78eba580a17",
+      "print_inverted_from_assembly": true
+    },
+    "wheel_unit": {
+      "file": "wheel_unit.stl",
+      "extents_mm": [
+        66.0,
+        60.0,
+        25.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 10756.872,
+      "minimum_z_mm": 0.0,
+      "sha256": "47f7b190d6fc202c5a22079de1293f1cbc43d955e1b7a6d1f6006ed72fe1f9cf",
+      "print_inverted_from_assembly": false
+    },
+    "bearing_washer": {
+      "file": "bearing_washer.stl",
+      "extents_mm": [
+        22.0,
+        22.0,
+        0.8
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 293.935,
+      "minimum_z_mm": 0.0,
+      "sha256": "87a03be325f1c20d86a0d44b2cd0ddc133b85b29896a7cb42ebc4d608f475f15",
+      "print_inverted_from_assembly": false
+    },
+    "foot": {
+      "file": "foot.stl",
+      "extents_mm": [
+        20.0,
+        20.0,
+        11.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 4138.444,
+      "minimum_z_mm": 0.0,
+      "sha256": "6e90c01ef3d7522914a2311fc6a923a33d138ad873e14c0915f1c081d69cfe06",
+      "print_inverted_from_assembly": false
+    },
+    "zero_block": {
+      "file": "zero_block.stl",
+      "extents_mm": [
+        60.0,
+        24.0,
+        20.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 6720.0,
+      "minimum_z_mm": 0.0,
+      "sha256": "1d058cba3533367cecde0ca6c29ba35555883a0246111bdd8ec43d49b816b562",
+      "print_inverted_from_assembly": false
+    },
+    "fit_rail": {
+      "file": "fit_rail.stl",
+      "extents_mm": [
+        40.0,
+        16.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 2792.0,
+      "minimum_z_mm": 0.0,
+      "sha256": "4c44e1527a4b07726495136aa77dbca9127d169e5453feb17fb516da6b24d1b1",
+      "print_inverted_from_assembly": false
+    },
+    "fit_slider": {
+      "file": "fit_slider.stl",
+      "extents_mm": [
+        28.0,
+        32.0,
+        17.6
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "positive_volume_mm3": 13124.721,
+      "minimum_z_mm": 0.0,
+      "sha256": "368fbc79f870747237fc35561ca9694ae4b0b05cd37d4b70796493845c56cf36",
+      "print_inverted_from_assembly": true
+    }
+  },
+  "guide_mating_checks": [
+    {
+      "slider": "axle_saddle",
+      "offset_mm": -5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "axle_saddle",
+      "offset_mm": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "axle_saddle",
+      "offset_mm": 5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "wheel_carriage_right",
+      "offset_mm": -5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "wheel_carriage_right",
+      "offset_mm": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "wheel_carriage_right",
+      "offset_mm": 5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "wheel_carriage_left",
+      "offset_mm": -5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "wheel_carriage_left",
+      "offset_mm": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "wheel_carriage_left",
+      "offset_mm": 5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "fit_slider",
+      "offset_mm": -5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "fit_slider",
+      "offset_mm": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "slider": "fit_slider",
+      "offset_mm": 5,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "pivot_shaft_probe_tip_clearance_above_rail_mm": 1.5,
+  "assembly_collision_cases": [
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": 0,
+      "rear_toe_per_wheel": 0,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 98,
+      "front_width": 78,
+      "rear_width": 78,
+      "front_toe_per_wheel": 0,
+      "rear_toe_per_wheel": 0,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 70,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 50,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 50,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": -5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": -5,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "wheelbase": 140,
+      "front_width": 120,
+      "rear_width": 120,
+      "front_toe_per_wheel": 5,
+      "rear_toe_per_wheel": 5,
+      "maximum_intersection_mm3": 0.0
+    }
+  ],
+  "wheel_support_height_mm": 34.8,
+  "degree_scale": {
+    "min_deg": -5,
+    "max_deg": 5,
+    "tick_step_deg": 1.0,
+    "tick_pitch_at_50mm_mm": 0.8726535498373935,
+    "pointer_to_scale_vertical_clearance_mm": 0.8,
+    "positive_means": "toe-in on correctly installed L/R carriages, chassis front toward +Y",
+    "individual_zero_and_chassis_alignment_required": true,
+    "scale_step_is_not_accuracy": true
+  },
+  "hardware_validation": {
+    "hardware_assumptions": {
+      "M3_shaft_diameter": 3.0,
+      "nut_af": 5.5,
+      "nut_height": 2.4,
+      "head_diameter": 6.0,
+      "head_angle_deg": 90,
+      "screw_length_includes_head": true,
+      "available_screw_lengths_mm": [
+        10,
+        16
+      ]
+    },
+    "bill_of_hardware": {
+      "M3x10_countersunk": 6,
+      "M3x16_countersunk": 12,
+      "M3_nut": 18
+    },
+    "pivot_tip_clearance_above_rail_mm": 1.5,
+    "pivot_tip_clearance_above_guide_roof_mm": 1.2,
+    "pivot_nut_floor_thickness_mm": 2.8999999999999995,
+    "pivot_nut_roof_thickness_mm": 6.0,
+    "foot_nut_bearing_shoulder_mm": 7.4,
+    "foot_screw_tip_above_table_mm": 0.7,
+    "head_recess_below_rail_top_mm": 0.3,
+    "nut_retention": [
+      {
+        "nut": "pivot",
+        "blocking_material_in_both_axial_directions_mm3": [
+          6.8487,
+          13.6974
+        ]
+      },
+      {
+        "nut": "crossrail -11.0",
+        "blocking_material_in_both_axial_directions_mm3": [
+          6.8487,
+          13.6974
+        ]
+      },
+      {
+        "nut": "crossrail 11.0",
+        "blocking_material_in_both_axial_directions_mm3": [
+          6.8487,
+          13.6974
+        ]
+      },
+      {
+        "nut": "wheel_carriage clamp",
+        "blocking_material_in_both_axial_directions_mm3": [
+          6.8487,
+          13.6974
+        ]
+      },
+      {
+        "nut": "axle_saddle clamp",
+        "blocking_material_in_both_axial_directions_mm3": [
+          6.8487,
+          13.6974
+        ]
+      },
+      {
+        "nut": "fit_slider clamp",
+        "blocking_material_in_both_axial_directions_mm3": [
+          6.8487,
+          13.6974
+        ]
+      }
+    ],
+    "full_crossrail_sweep": {
+      "range_mm": [
+        -65,
+        65
+      ],
+      "positions": 131,
+      "maximum_intersection_mm3": 0,
+      "installed_mounting_hardware_included": true,
+      "clamp_released": true
+    },
+    "physical_hardware_fit_verified": false,
+    "checks": [
+      {
+        "probe": "pivot M3x16; complete head, shaft and tip",
+        "intersections_mm3": {
+          "carriage": 0.0,
+          "wheel_unit": 0.0011006,
+          "washer": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut",
+        "intersections_mm3": {
+          "carriage": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-19.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-18.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-17.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-16.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-15.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-14.0",
+        "intersections_mm3": {
+          "carriage": -0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-13.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-12.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-11.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-10.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-9.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-8.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-7.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-6.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-5.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-4.0",
+        "intersections_mm3": {
+          "carriage": -0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-3.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-2.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=-1.0",
+        "intersections_mm3": {
+          "carriage": -0.0
+        }
+      },
+      {
+        "probe": "pivot nut insertion x=0.0",
+        "intersections_mm3": {
+          "carriage": 0.0
+        }
+      },
+      {
+        "probe": "pivot screwdriver approach",
+        "intersections_mm3": {
+          "wheel_unit": 0.0
+        }
+      },
+      {
+        "probe": "crossrail M3x16 x=-11.0",
+        "intersections_mm3": {
+          "saddle": 0.0,
+          "beam": 0.0011006,
+          "spine": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut x=-11.0",
+        "intersections_mm3": {
+          "saddle": 0.0,
+          "beam": 0.0,
+          "spine": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-19.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-18.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-17.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-16.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-15.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-14.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-13.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-12.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-11.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-10.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-9.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-8.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-7.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-6.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-5.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-4.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-3.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-2.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/-1.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion -11.0/0.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail M3x16 x=11.0",
+        "intersections_mm3": {
+          "saddle": 0.0,
+          "beam": 0.0011006,
+          "spine": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut x=11.0",
+        "intersections_mm3": {
+          "saddle": 0.0,
+          "beam": 0.0,
+          "spine": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-19.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-18.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-17.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-16.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-15.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-14.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-13.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-12.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-11.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-10.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-9.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-8.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-7.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-6.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-5.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-4.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-3.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-2.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/-1.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "crossrail nut insertion 11.0/0.0",
+        "intersections_mm3": {
+          "saddle": 0.0
+        }
+      },
+      {
+        "probe": "foot through M3x16",
+        "intersections_mm3": {
+          "foot": 0.0,
+          "rail": 0.0011003
+        }
+      },
+      {
+        "probe": "foot underside nut",
+        "intersections_mm3": {
+          "foot": 7e-07
+        }
+      },
+      {
+        "probe": "foot full through bore",
+        "intersections_mm3": {
+          "foot": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage M3x10 clamp",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 10.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 9.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 8.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 7.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 6.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 5.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 4.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 3.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 2.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 1.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "wheel_carriage clamp nut insertion 0.0",
+        "intersections_mm3": {
+          "wheel_carriage": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle M3x10 clamp",
+        "intersections_mm3": {
+          "axle_saddle": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut",
+        "intersections_mm3": {
+          "axle_saddle": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 10.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 9.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 8.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 7.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 6.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 5.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 4.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 3.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 2.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 1.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "axle_saddle clamp nut insertion 0.0",
+        "intersections_mm3": {
+          "axle_saddle": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider M3x10 clamp",
+        "intersections_mm3": {
+          "fit_slider": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut",
+        "intersections_mm3": {
+          "fit_slider": 0.0,
+          "rail": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 10.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 9.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 8.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 7.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 6.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 5.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 4.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 3.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 2.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 1.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      },
+      {
+        "probe": "fit_slider clamp nut insertion 0.0",
+        "intersections_mm3": {
+          "fit_slider": 0.0
+        }
+      }
+    ]
+  },
+  "slicing_project_file": "P1S_toe_M3x10_M3x16.3mf",
+  "slicing_project_sha256": "7ac46029b92c64909f0123cfbb51c02b70732c96856779d45983dcfb21b02f87"
+}

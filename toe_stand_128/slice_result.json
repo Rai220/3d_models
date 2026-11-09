@@ -1,0 +1,418 @@
+{
+    "error_string": "Success.",
+    "export_time": 247,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 38,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 750.0466918945313,
+                "Bridge": 488.9352111816406,
+                "Custom": 381.6051330566406,
+                "Flush": 29.0,
+                "Gap infill": 127.98265075683594,
+                "Inner wall": 3764.37255859375,
+                "Internal solid infill": 2007.9298095703125,
+                "Outer wall": 3346.287841796875,
+                "Overhang wall": 39.558509826660156,
+                "Sparse infill": 1181.5028076171875,
+                "Top surface": 888.6233520507813,
+                "Travel": 940.0783081054688,
+                "Undefined": 924.9956665039063
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 86.08477020263672,
+                    "total_used_g": 86.08477020263672
+                }
+            ],
+            "generate_support_material_time": 16,
+            "id": 1,
+            "infill_time": 306,
+            "layer_filament_change": 0,
+            "main_predication": 13508.9716796875,
+            "make_perimeters_time": 164,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 66.0,
+                        "height": 25.0,
+                        "width": 60.0,
+                        "x": 31.0,
+                        "y": 130.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "wheel_unit_1",
+                    "triangle_count": 1824
+                },
+                {
+                    "bbox": {
+                        "depth": 66.0,
+                        "height": 25.0,
+                        "width": 60.0,
+                        "x": 165.0,
+                        "y": 130.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "wheel_unit_2",
+                    "triangle_count": 1824
+                },
+                {
+                    "bbox": {
+                        "depth": 24.0,
+                        "height": 20.0,
+                        "width": 60.0,
+                        "x": 98.0,
+                        "y": 201.0,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "zero_block_1",
+                    "triangle_count": 44
+                },
+                {
+                    "bbox": {
+                        "depth": 16.0,
+                        "height": 6.0,
+                        "width": 180.0,
+                        "x": 38.0,
+                        "y": 59.0,
+                        "z": 0.0
+                    },
+                    "id": 25,
+                    "name": "spine_1",
+                    "triangle_count": 36
+                },
+                {
+                    "bbox": {
+                        "depth": 16.0,
+                        "height": 6.0,
+                        "width": 160.0,
+                        "x": 48.0,
+                        "y": 31.0,
+                        "z": 0.0
+                    },
+                    "id": 29,
+                    "name": "crossrail_1",
+                    "triangle_count": 3140
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 17.600000381469727,
+                        "width": 79.0,
+                        "x": 146.0,
+                        "y": 90.0,
+                        "z": -7.34862837248329e-10
+                    },
+                    "id": 45,
+                    "name": "wheel_carriage_right_1",
+                    "triangle_count": 3720
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 17.600000381469727,
+                        "width": 79.0,
+                        "x": 31.0,
+                        "y": 90.0,
+                        "z": -7.34862837248329e-10
+                    },
+                    "id": 49,
+                    "name": "wheel_carriage_left_1",
+                    "triangle_count": 3600
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 9.600000381469727,
+                        "width": 28.0,
+                        "x": 113.0,
+                        "y": 130.0,
+                        "z": -7.34862837248329e-10
+                    },
+                    "id": 53,
+                    "name": "axle_saddle_1",
+                    "triangle_count": 3480
+                },
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 11.0,
+                        "width": 20.0,
+                        "x": 136.0,
+                        "y": 171.0,
+                        "z": 0.0
+                    },
+                    "id": 73,
+                    "name": "foot_2",
+                    "triangle_count": 744
+                },
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 11.0,
+                        "width": 20.0,
+                        "x": 108.0,
+                        "y": 171.0,
+                        "z": 0.0
+                    },
+                    "id": 77,
+                    "name": "foot_1",
+                    "triangle_count": 744
+                },
+                {
+                    "bbox": {
+                        "depth": 22.0,
+                        "height": 0.800000011920929,
+                        "width": 22.0,
+                        "x": 44.0,
+                        "y": 201.0,
+                        "z": 3.9535541507262906e-11
+                    },
+                    "id": 89,
+                    "name": "bearing_washer_1",
+                    "triangle_count": 1024
+                },
+                {
+                    "bbox": {
+                        "depth": 22.0,
+                        "height": 0.800000011920929,
+                        "width": 22.0,
+                        "x": 188.0,
+                        "y": 201.0,
+                        "z": 3.9535541507262906e-11
+                    },
+                    "id": 93,
+                    "name": "bearing_washer_2",
+                    "triangle_count": 1024
+                }
+            ],
+            "sliced_time": 850,
+            "sliced_time_with_cache": 262,
+            "total_predication": 13933.4638671875,
+            "triangle_count": 21204,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bottom surface": 662.8743896484375,
+                "Bridge": 511.54632568359375,
+                "Custom": 381.6035461425781,
+                "Flush": 29.0,
+                "Gap infill": 128.88711547851563,
+                "Inner wall": 3340.4443359375,
+                "Internal solid infill": 1857.375244140625,
+                "Outer wall": 2936.269287109375,
+                "Overhang wall": 46.454345703125,
+                "Sparse infill": 1279.1588134765625,
+                "Top surface": 784.6481323242188,
+                "Travel": 952.9798583984375,
+                "Undefined": 937.897216796875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 78.44088745117188,
+                    "total_used_g": 78.44088745117188
+                }
+            ],
+            "generate_support_material_time": 17,
+            "id": 2,
+            "infill_time": 259,
+            "layer_filament_change": 0,
+            "main_predication": 12474.4453125,
+            "make_perimeters_time": 146,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 66.0,
+                        "height": 25.0,
+                        "width": 59.9999885559082,
+                        "x": 472.20001220703125,
+                        "y": 130.0,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "wheel_unit_4",
+                    "triangle_count": 1824
+                },
+                {
+                    "bbox": {
+                        "depth": 66.0,
+                        "height": 25.0,
+                        "width": 59.9999885559082,
+                        "x": 338.20001220703125,
+                        "y": 130.0,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "wheel_unit_3",
+                    "triangle_count": 1824
+                },
+                {
+                    "bbox": {
+                        "depth": 16.0,
+                        "height": 6.0,
+                        "width": 159.99998474121094,
+                        "x": 355.20001220703125,
+                        "y": 31.0,
+                        "z": 0.0
+                    },
+                    "id": 33,
+                    "name": "crossrail_2",
+                    "triangle_count": 3140
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 17.600000381469727,
+                        "width": 78.99998474121094,
+                        "x": 453.20001220703125,
+                        "y": 90.0,
+                        "z": -7.34862837248329e-10
+                    },
+                    "id": 37,
+                    "name": "wheel_carriage_right_2",
+                    "triangle_count": 3720
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 17.600000381469727,
+                        "width": 78.99998474121094,
+                        "x": 338.20001220703125,
+                        "y": 90.0,
+                        "z": -7.34862837248329e-10
+                    },
+                    "id": 41,
+                    "name": "wheel_carriage_left_2",
+                    "triangle_count": 3600
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 9.600000381469727,
+                        "width": 27.999988555908203,
+                        "x": 420.20001220703125,
+                        "y": 130.0,
+                        "z": -7.34862837248329e-10
+                    },
+                    "id": 57,
+                    "name": "axle_saddle_2",
+                    "triangle_count": 3480
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 17.600000381469727,
+                        "width": 27.999988555908203,
+                        "x": 411.20001220703125,
+                        "y": 53.0,
+                        "z": -7.34862837248329e-10
+                    },
+                    "id": 61,
+                    "name": "fit_slider_1",
+                    "triangle_count": 2424
+                },
+                {
+                    "bbox": {
+                        "depth": 16.0,
+                        "height": 6.0,
+                        "width": 39.9999885559082,
+                        "x": 347.20001220703125,
+                        "y": 59.0,
+                        "z": 0.0
+                    },
+                    "id": 65,
+                    "name": "fit_rail_1",
+                    "triangle_count": 36
+                },
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 11.0,
+                        "width": 19.999988555908203,
+                        "x": 443.20001220703125,
+                        "y": 171.0,
+                        "z": 0.0
+                    },
+                    "id": 69,
+                    "name": "foot_4",
+                    "triangle_count": 744
+                },
+                {
+                    "bbox": {
+                        "depth": 20.0,
+                        "height": 11.0,
+                        "width": 19.999988555908203,
+                        "x": 415.20001220703125,
+                        "y": 171.0,
+                        "z": 0.0
+                    },
+                    "id": 81,
+                    "name": "foot_3",
+                    "triangle_count": 744
+                },
+                {
+                    "bbox": {
+                        "depth": 22.0,
+                        "height": 0.800000011920929,
+                        "width": 21.999988555908203,
+                        "x": 495.20001220703125,
+                        "y": 201.0,
+                        "z": 3.9535541507262906e-11
+                    },
+                    "id": 85,
+                    "name": "bearing_washer_4",
+                    "triangle_count": 1024
+                },
+                {
+                    "bbox": {
+                        "depth": 22.0,
+                        "height": 0.800000011920929,
+                        "width": 21.999988555908203,
+                        "x": 351.20001220703125,
+                        "y": 201.0,
+                        "z": 3.9535541507262906e-11
+                    },
+                    "id": 97,
+                    "name": "bearing_washer_3",
+                    "triangle_count": 1024
+                }
+            ],
+            "sliced_time": 789,
+            "sliced_time_with_cache": 265,
+            "total_predication": 12898.935546875,
+            "triangle_count": 23584,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

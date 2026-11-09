@@ -1,0 +1,208 @@
+{
+  "parameters": {
+    "radius": 72.0,
+    "land_lift": 0.8,
+    "mm_per_km": 0.65
+  },
+  "files": {
+    "earth_globe.stl": {
+      "triangles": 2346774,
+      "vertices": 1173389,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 116099.3318508741,
+      "bounds_mm": [
+        [
+          -71.9999771118164,
+          -73.94275665283203,
+          0.0
+        ],
+        [
+          72.61813354492188,
+          73.44821166992188,
+          130.4178009033203
+        ]
+      ],
+      "size_mm": [
+        144.61811065673828,
+        147.3909683227539,
+        130.4178009033203
+      ],
+      "min_triangle_area_mm2": 0.006138613037793769,
+      "degenerate_faces": 0
+    },
+    "earth_base.stl": {
+      "triangles": 213186,
+      "vertices": 106593,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 78825.8254632502,
+      "bounds_mm": [
+        [
+          -48.0,
+          -48.0,
+          0.0
+        ],
+        [
+          48.0,
+          48.0,
+          25.382190704345703
+        ]
+      ],
+      "size_mm": [
+        96.0,
+        96.0,
+        25.382190704345703
+      ],
+      "min_triangle_area_mm2": 1.2227254046592861e-05,
+      "degenerate_faces": 0
+    },
+    "earth_lower_trial.stl": {
+      "triangles": 225990,
+      "vertices": 112995,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 11057.819623389056,
+      "bounds_mm": [
+        [
+          -56.88938903808594,
+          -55.03984069824219,
+          0.0
+        ],
+        [
+          55.03984069824219,
+          55.03984069824219,
+          12.0
+        ]
+      ],
+      "size_mm": [
+        111.92922973632812,
+        110.07968139648438,
+        12.0
+      ],
+      "min_triangle_area_mm2": 0.008434401581342708,
+      "degenerate_faces": 0
+    },
+    "earth_roof_trial.stl": {
+      "triangles": 362400,
+      "vertices": 181202,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 36060.138399305666,
+      "bounds_mm": [
+        [
+          -49.79949951171875,
+          -51.3942985534668,
+          0.0
+        ],
+        [
+          52.574501037597656,
+          54.12186813354492,
+          20.0
+        ]
+      ],
+      "size_mm": [
+        102.3740005493164,
+        105.51616668701172,
+        20.0
+      ],
+      "min_triangle_area_mm2": 0.0003154993244152138,
+      "degenerate_faces": 0
+    },
+    "earth_light_test.stl": {
+      "triangles": 48,
+      "vertices": 26,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 3551.999931335449,
+      "bounds_mm": [
+        [
+          -6.0,
+          -10.0,
+          0.0
+        ],
+        [
+          42.0,
+          10.0,
+          7.199999809265137
+        ]
+      ],
+      "size_mm": [
+        48.0,
+        20.0,
+        7.199999809265137
+      ],
+      "min_triangle_area_mm2": 6.0,
+      "degenerate_faces": 0
+    }
+  },
+  "physical_print_tested": false,
+  "sources": {
+    "elevation": "NOAA ETOPO 2022 60s surface, stride 6",
+    "shoreline": "Natural Earth Land 1:10m 5.1.1",
+    "printing_reference": "https://3dmakerbench.com/moon-lamp-generator"
+  },
+  "actual": {
+    "sphere_center_above_globe_bottom_mm": 58.41780550482874,
+    "globe_bottom_in_assembly_mm": 20.982194495171264,
+    "ocean_radius_mm": 72.0,
+    "nominal_ocean_wall_mm": 1.2,
+    "opening_diameter_mm": 80,
+    "plug_diameter_mm": 79.3,
+    "radial_fit_clearance_mm": 0.35,
+    "plug_engagement_mm": 4.4,
+    "base_diameter_mm": 96,
+    "led_pocket_diameter_mm": 48,
+    "led_pocket_floor_z_mm": 17.982194495171264,
+    "cable_channel_mm": [
+      7,
+      3
+    ],
+    "inner_ceiling_height_mm": 128.81780550482875,
+    "final_ceiling_bridge_mm": 8,
+    "roof_trial_start_z_mm": 110.41780550482875,
+    "max_outer_radial_growth_per_mm": 1.5,
+    "max_inner_radial_shrink_per_mm": 2.5,
+    "layer_height_mm": 0.08,
+    "outer_wall_line_width_mm": 0.45,
+    "inner_wall_line_width_mm": 0.5
+  },
+  "overhang_geometry": {
+    "outer_max_growth": 1.5000000000000355,
+    "inner_max_shrink": 2.500000000000009,
+    "stand_max_growth": 1.5000000000000195,
+    "outer_step_at_008_mm": 0.12000000000000284,
+    "inner_step_at_008_mm": 0.2000000000000007,
+    "ceiling_bridge_diameter_mm": 8,
+    "vault_start_latitude_deg": 49.43207626662434,
+    "maximum_vault_radial_ocean_wall_mm": 5.148983043996694,
+    "max_added_lower_approach_mm": 3.1369170143134113,
+    "changed_surface_fraction": 0.014046890927624872
+  },
+  "assembly": {
+    "intersection_mm3": 0,
+    "size_mm": [
+      144.61811,
+      147.39097,
+      151.39999449517126
+    ],
+    "retention": "gravity fit with orientation key; carry by the base",
+    "checked_vertical_lifts_mm": [
+      0,
+      1,
+      2.5,
+      4.5,
+      8
+    ]
+  },
+  "source_sha256": {
+    "etopo_2022_stride6.dods": "838da9028bb5aea79bd25527a9c3aa72b5235adf36e7686bee4b8953b568d966",
+    "ne_10m_land.zip": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+    "derived_grid.npz": "d725d4b34df42878f93773d67f4097e86983444d74974370ff757c1db2a9e253"
+  }
+}

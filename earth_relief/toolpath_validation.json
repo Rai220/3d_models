@@ -1,0 +1,46 @@
+{
+  "globe": {
+    "model_extrusion_moves": 1191778,
+    "support_extrusion_moves": 360476,
+    "intrusions": 0,
+    "support_moves_inside_cavity": 224806,
+    "support_moves_in_cable_channel": 0,
+    "checked_layers_mm": [
+      2.44,
+      4.52,
+      70.12,
+      130.12
+    ]
+  },
+  "base": {
+    "model_extrusion_moves": 138616,
+    "support_extrusion_moves": 66943,
+    "intrusions": 0,
+    "support_moves_inside_cavity": 0,
+    "support_moves_in_cable_channel": 216,
+    "checked_layers_mm": [
+      22.6,
+      26.6
+    ]
+  },
+  "fit_ring": {
+    "model_extrusion_moves": 1346,
+    "support_extrusion_moves": 0,
+    "intrusions": 0,
+    "support_moves_inside_cavity": 0,
+    "support_moves_in_cable_channel": 0,
+    "checked_layers_mm": [
+      2.44
+    ]
+  },
+  "light_test": {
+    "model_extrusion_moves": 7463,
+    "support_extrusion_moves": 0,
+    "intrusions": 0,
+    "support_moves_inside_cavity": 0,
+    "support_moves_in_cable_channel": 0,
+    "checked_layers_mm": [
+      2.44
+    ]
+  }
+}

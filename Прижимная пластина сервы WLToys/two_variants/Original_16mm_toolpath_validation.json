@@ -1,0 +1,1048 @@
+{
+  "project_sha256": "01c65ef16eac8af8b0935b932795641d517c673f7efd4b1b5828c8c8df794842",
+  "gcode_sha256": "e31392ad06ed0a0fbfd609abd8cdfd491267ddec4b996ed3fc8984df08c93b08",
+  "stl_sha256": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898",
+  "pilot_layer_checks": 198,
+  "minimum_nominal_open_diameter_mm": 1.1759423923355254,
+  "all_pilot_layers_clear": true,
+  "floor_checks": [
+    {
+      "z_mm": 0.2,
+      "hole": "A",
+      "nominal_extrusion_distance_mm": -0.11509209913770979
+    },
+    {
+      "z_mm": 0.2,
+      "hole": "B",
+      "nominal_extrusion_distance_mm": -0.11420202833556788
+    },
+    {
+      "z_mm": 0.2,
+      "hole": "C",
+      "nominal_extrusion_distance_mm": 0.06975052833556111
+    },
+    {
+      "z_mm": 1.88,
+      "hole": "A",
+      "nominal_extrusion_distance_mm": -0.01483815966796781
+    },
+    {
+      "z_mm": 1.88,
+      "hole": "B",
+      "nominal_extrusion_distance_mm": -0.014335840332031446
+    },
+    {
+      "z_mm": 1.88,
+      "hole": "C",
+      "nominal_extrusion_distance_mm": -0.08662215966796921
+    },
+    {
+      "z_mm": 7.88,
+      "hole": "A",
+      "nominal_extrusion_distance_mm": -0.013784028335569937
+    },
+    {
+      "z_mm": 7.88,
+      "hole": "B",
+      "nominal_extrusion_distance_mm": -0.013981528335569898
+    },
+    {
+      "z_mm": 7.88,
+      "hole": "C",
+      "nominal_extrusion_distance_mm": -0.013731528335569898
+    }
+  ],
+  "checks": [
+    {
+      "z_mm": 8.12,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 8.12,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5881365333898232
+    },
+    {
+      "z_mm": 8.12,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880476313022647
+    },
+    {
+      "z_mm": 8.24,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 8.24,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 8.24,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880476313022647
+    },
+    {
+      "z_mm": 8.36,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880147534638536
+    },
+    {
+      "z_mm": 8.36,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 8.36,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880476313022647
+    },
+    {
+      "z_mm": 8.48,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880162220215576
+    },
+    {
+      "z_mm": 8.48,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880162220215576
+    },
+    {
+      "z_mm": 8.48,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880359045801108
+    },
+    {
+      "z_mm": 8.6,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880447843833706
+    },
+    {
+      "z_mm": 8.6,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880447843833719
+    },
+    {
+      "z_mm": 8.6,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880147534638474
+    },
+    {
+      "z_mm": 8.72,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 8.72,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 8.72,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 8.84,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 8.84,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 8.84,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 8.96,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 8.96,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 8.96,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5879925689383773
+    },
+    {
+      "z_mm": 9.08,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.08,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.08,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 9.2,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 9.2,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.2,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 9.32,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.32,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.32,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 9.44,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 9.44,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588054926209783
+    },
+    {
+      "z_mm": 9.44,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5879925689383773
+    },
+    {
+      "z_mm": 9.56,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.56,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.56,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880636028496058
+    },
+    {
+      "z_mm": 9.68,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 9.68,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.68,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 9.8,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.8,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 9.8,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880476313022647
+    },
+    {
+      "z_mm": 9.92,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 9.92,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 9.92,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 10.04,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5882301766250991
+    },
+    {
+      "z_mm": 10.04,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5882301766251019
+    },
+    {
+      "z_mm": 10.04,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 10.16,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.16,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.16,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 10.28,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.28,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.28,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 10.4,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.4,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.4,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 10.52,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5881973246824964
+    },
+    {
+      "z_mm": 10.52,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5881973246824991
+    },
+    {
+      "z_mm": 10.52,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 10.64,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.64,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.64,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 10.76,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.76,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.76,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882273225839638
+    },
+    {
+      "z_mm": 10.88,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.88,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 10.88,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.0,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.0,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.0,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.12,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5881655759085836
+    },
+    {
+      "z_mm": 11.12,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5881655759085863
+    },
+    {
+      "z_mm": 11.12,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.24,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.24,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.24,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.36,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.36,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.36,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.48,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5882470343918156
+    },
+    {
+      "z_mm": 11.48,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5882470343918184
+    },
+    {
+      "z_mm": 11.48,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.6,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.6,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.6,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5881613075553285
+    },
+    {
+      "z_mm": 11.72,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.72,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.72,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.84,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.84,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.84,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 11.96,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.96,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 11.96,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 12.08,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879711961677627
+    },
+    {
+      "z_mm": 12.08,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.08,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 12.2,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.2,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.2,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 12.32,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5881348757028817
+    },
+    {
+      "z_mm": 12.32,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5881348757028872
+    },
+    {
+      "z_mm": 12.32,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 12.44,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.44,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.44,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 12.56,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.56,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.56,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 12.68,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.68,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.68,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880476313022647
+    },
+    {
+      "z_mm": 12.8,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.8,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.8,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 12.92,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.92,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 12.92,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 13.04,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.04,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.04,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 13.16,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5882470343918156
+    },
+    {
+      "z_mm": 13.16,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5882470343918184
+    },
+    {
+      "z_mm": 13.16,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 13.28,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5882470343918156
+    },
+    {
+      "z_mm": 13.28,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5882470343918184
+    },
+    {
+      "z_mm": 13.28,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882273225839638
+    },
+    {
+      "z_mm": 13.4,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.4,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.4,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 13.52,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.52,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.52,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 13.64,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5881655759085836
+    },
+    {
+      "z_mm": 13.64,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5881655759085863
+    },
+    {
+      "z_mm": 13.64,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 13.76,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.76,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.76,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 13.88,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.88,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588248840332036
+    },
+    {
+      "z_mm": 13.88,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5882488403320361
+    },
+    {
+      "z_mm": 14.0,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5881365333898232
+    },
+    {
+      "z_mm": 14.0,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.0,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 14.12,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.12,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.12,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 14.24,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 14.24,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.24,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5879925689383773
+    },
+    {
+      "z_mm": 14.36,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 14.36,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880659313123627
+    },
+    {
+      "z_mm": 14.36,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 14.48,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 14.48,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.48,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 14.6,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 14.6,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.6,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 14.72,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.72,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5881365333898232
+    },
+    {
+      "z_mm": 14.72,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 14.84,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.84,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 14.84,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 14.96,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5881365333898232
+    },
+    {
+      "z_mm": 14.96,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 14.96,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 15.08,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.08,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.08,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 15.2,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.2,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.2,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880956544766998
+    },
+    {
+      "z_mm": 15.32,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 15.32,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.588054926209783
+    },
+    {
+      "z_mm": 15.32,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5879925689383773
+    },
+    {
+      "z_mm": 15.44,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.44,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.44,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880963083694223
+    },
+    {
+      "z_mm": 15.56,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5879925689383733
+    },
+    {
+      "z_mm": 15.56,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.56,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5881365333898232
+    },
+    {
+      "z_mm": 15.68,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.5880476313022645
+    },
+    {
+      "z_mm": 15.68,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.5880963083694224
+    },
+    {
+      "z_mm": 15.68,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.5880963083694223
+    },
+    {
+      "z_mm": 15.8,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.6126576234509122
+    },
+    {
+      "z_mm": 15.8,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.6128395071590623
+    },
+    {
+      "z_mm": 15.8,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.6126576234509105
+    },
+    {
+      "z_mm": 15.92,
+      "hole": "A",
+      "nominal_clear_radius_mm": 0.6888718508108739
+    },
+    {
+      "z_mm": 15.92,
+      "hole": "B",
+      "nominal_clear_radius_mm": 0.6888718508108739
+    },
+    {
+      "z_mm": 15.92,
+      "hole": "C",
+      "nominal_clear_radius_mm": 0.6888718508108739
+    }
+  ],
+  "physical_hole_diameter_verified": false
+}

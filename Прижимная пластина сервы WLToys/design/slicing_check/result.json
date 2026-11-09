@@ -1,0 +1,77 @@
+{
+    "error_string": "Success.",
+    "export_time": 58,
+    "layer_height": 0.11999999731779099,
+    "plate_index": 1,
+    "prepare_time": 12,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 2.174074172973633,
+                "Custom": 411.2014465332031,
+                "Flush": 29.0,
+                "Gap infill": 63.27643585205078,
+                "Inner wall": 648.7124633789063,
+                "Internal solid infill": 32.290367126464844,
+                "Outer wall": 395.5489807128906,
+                "Sparse infill": 6.036562442779541,
+                "Top surface": 28.605939865112305,
+                "Travel": 250.1876983642578,
+                "Undefined": 234.9320831298828
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 2.070814609527588,
+                    "total_used_g": 2.070814609527588
+                }
+            ],
+            "generate_support_material_time": 26,
+            "id": 1,
+            "infill_time": 26,
+            "layer_filament_change": 0,
+            "main_predication": 1397.9091796875,
+            "make_perimeters_time": 63,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 28.498794555664063,
+                        "height": 16.0,
+                        "width": 30.299999237060547,
+                        "x": 112.84999084472656,
+                        "y": 113.75060272216797,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "WLToys servo clamp - photo fit trial",
+                    "triangle_count": 3856
+                }
+            ],
+            "sliced_time": 232,
+            "sliced_time_with_cache": 98,
+            "total_predication": 1851.824462890625,
+            "triangle_count": 3856,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 40.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 5
+}

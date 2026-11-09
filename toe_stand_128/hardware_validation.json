@@ -1,0 +1,756 @@
+{
+  "hardware_assumptions": {
+    "M3_shaft_diameter": 3.0,
+    "nut_af": 5.5,
+    "nut_height": 2.4,
+    "head_diameter": 6.0,
+    "head_angle_deg": 90,
+    "screw_length_includes_head": true,
+    "available_screw_lengths_mm": [
+      10,
+      16
+    ]
+  },
+  "bill_of_hardware": {
+    "M3x10_countersunk": 6,
+    "M3x16_countersunk": 12,
+    "M3_nut": 18
+  },
+  "pivot_tip_clearance_above_rail_mm": 1.5,
+  "pivot_tip_clearance_above_guide_roof_mm": 1.2,
+  "pivot_nut_floor_thickness_mm": 2.8999999999999995,
+  "pivot_nut_roof_thickness_mm": 6.0,
+  "foot_nut_bearing_shoulder_mm": 7.4,
+  "foot_screw_tip_above_table_mm": 0.7,
+  "head_recess_below_rail_top_mm": 0.3,
+  "nut_retention": [
+    {
+      "nut": "pivot",
+      "blocking_material_in_both_axial_directions_mm3": [
+        6.8487,
+        13.6974
+      ]
+    },
+    {
+      "nut": "crossrail -11.0",
+      "blocking_material_in_both_axial_directions_mm3": [
+        6.8487,
+        13.6974
+      ]
+    },
+    {
+      "nut": "crossrail 11.0",
+      "blocking_material_in_both_axial_directions_mm3": [
+        6.8487,
+        13.6974
+      ]
+    },
+    {
+      "nut": "wheel_carriage clamp",
+      "blocking_material_in_both_axial_directions_mm3": [
+        6.8487,
+        13.6974
+      ]
+    },
+    {
+      "nut": "axle_saddle clamp",
+      "blocking_material_in_both_axial_directions_mm3": [
+        6.8487,
+        13.6974
+      ]
+    },
+    {
+      "nut": "fit_slider clamp",
+      "blocking_material_in_both_axial_directions_mm3": [
+        6.8487,
+        13.6974
+      ]
+    }
+  ],
+  "full_crossrail_sweep": {
+    "range_mm": [
+      -65,
+      65
+    ],
+    "positions": 131,
+    "maximum_intersection_mm3": 0,
+    "installed_mounting_hardware_included": true,
+    "clamp_released": true
+  },
+  "physical_hardware_fit_verified": false,
+  "checks": [
+    {
+      "probe": "pivot M3x16; complete head, shaft and tip",
+      "intersections_mm3": {
+        "carriage": 0.0,
+        "wheel_unit": 0.0011006,
+        "washer": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut",
+      "intersections_mm3": {
+        "carriage": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-19.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-18.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-17.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-16.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-15.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-14.0",
+      "intersections_mm3": {
+        "carriage": -0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-13.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-12.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-11.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-10.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-9.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-8.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-7.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-6.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-5.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-4.0",
+      "intersections_mm3": {
+        "carriage": -0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-3.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-2.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=-1.0",
+      "intersections_mm3": {
+        "carriage": -0.0
+      }
+    },
+    {
+      "probe": "pivot nut insertion x=0.0",
+      "intersections_mm3": {
+        "carriage": 0.0
+      }
+    },
+    {
+      "probe": "pivot screwdriver approach",
+      "intersections_mm3": {
+        "wheel_unit": 0.0
+      }
+    },
+    {
+      "probe": "crossrail M3x16 x=-11.0",
+      "intersections_mm3": {
+        "saddle": 0.0,
+        "beam": 0.0011006,
+        "spine": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut x=-11.0",
+      "intersections_mm3": {
+        "saddle": 0.0,
+        "beam": 0.0,
+        "spine": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-19.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-18.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-17.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-16.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-15.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-14.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-13.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-12.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-11.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-10.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-9.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-8.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-7.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-6.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-5.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-4.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-3.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-2.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/-1.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion -11.0/0.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail M3x16 x=11.0",
+      "intersections_mm3": {
+        "saddle": 0.0,
+        "beam": 0.0011006,
+        "spine": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut x=11.0",
+      "intersections_mm3": {
+        "saddle": 0.0,
+        "beam": 0.0,
+        "spine": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-19.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-18.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-17.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-16.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-15.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-14.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-13.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-12.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-11.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-10.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-9.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-8.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-7.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-6.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-5.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-4.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-3.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-2.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/-1.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "crossrail nut insertion 11.0/0.0",
+      "intersections_mm3": {
+        "saddle": 0.0
+      }
+    },
+    {
+      "probe": "foot through M3x16",
+      "intersections_mm3": {
+        "foot": 0.0,
+        "rail": 0.0011003
+      }
+    },
+    {
+      "probe": "foot underside nut",
+      "intersections_mm3": {
+        "foot": 7e-07
+      }
+    },
+    {
+      "probe": "foot full through bore",
+      "intersections_mm3": {
+        "foot": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage M3x10 clamp",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 10.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 9.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 8.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 7.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 6.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 5.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 4.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 3.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 2.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 1.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "wheel_carriage clamp nut insertion 0.0",
+      "intersections_mm3": {
+        "wheel_carriage": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle M3x10 clamp",
+      "intersections_mm3": {
+        "axle_saddle": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut",
+      "intersections_mm3": {
+        "axle_saddle": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 10.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 9.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 8.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 7.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 6.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 5.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 4.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 3.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 2.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 1.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "axle_saddle clamp nut insertion 0.0",
+      "intersections_mm3": {
+        "axle_saddle": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider M3x10 clamp",
+      "intersections_mm3": {
+        "fit_slider": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut",
+      "intersections_mm3": {
+        "fit_slider": 0.0,
+        "rail": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 10.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 9.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 8.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 7.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 6.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 5.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 4.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 3.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 2.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 1.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    },
+    {
+      "probe": "fit_slider clamp nut insertion 0.0",
+      "intersections_mm3": {
+        "fit_slider": 0.0
+      }
+    }
+  ]
+}

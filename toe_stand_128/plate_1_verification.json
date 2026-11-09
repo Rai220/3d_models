@@ -1,0 +1,50 @@
+{
+  "objects": 12,
+  "minimum_part_spacing_mm": 5.436179290485066,
+  "minimum_edge_clearance_mm": 31.0,
+  "bounds_mm": [
+    [
+      31.0,
+      31.0,
+      0.0
+    ],
+    [
+      225.0,
+      225.0,
+      25.0
+    ]
+  ],
+  "return_code": 0,
+  "slice_process_exit_code": 0,
+  "warning_message": "",
+  "gcode_bytes": 7608501,
+  "gcode_features": {
+    "Custom": 2,
+    "Inner wall": 1507,
+    "Outer wall": 1501,
+    "Bottom surface": 20,
+    "Gap infill": 735,
+    "Internal solid infill": 770,
+    "Bridge": 74,
+    "Top surface": 52,
+    "Sparse infill": 679,
+    "Floating vertical shell": 235,
+    "Overhang wall": 82
+  },
+  "estimated_seconds": 13933,
+  "estimated_filament_g": 86.08,
+  "object_names": [
+    "axle_saddle_1",
+    "bearing_washer_1",
+    "bearing_washer_2",
+    "crossrail_1",
+    "foot_1",
+    "foot_2",
+    "spine_1",
+    "wheel_carriage_left_1",
+    "wheel_carriage_right_1",
+    "wheel_unit_1",
+    "wheel_unit_2",
+    "zero_block_1"
+  ]
+}

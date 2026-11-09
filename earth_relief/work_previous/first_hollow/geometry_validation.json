@@ -1,0 +1,135 @@
+{
+  "parameters": {
+    "diameter": 150,
+    "land_lift": 1.0,
+    "mm_per_km": 1.0,
+    "step": 0.3
+  },
+  "data_sources": {
+    "elevation": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+    "elevation_download": "https://www.ngdc.noaa.gov/thredds/dodsC/global/ETOPO2022/60s/60s_surface_elev_netcdf/ETOPO_2022_v1_60s_N90W180_surface.nc.dods?z[0:6:10799][0:6:21599]",
+    "land": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/",
+    "land_download": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip"
+  },
+  "vertical_exaggeration": 88.48611111111111,
+  "source_sampling_degrees": 0.1,
+  "mesh_sampling_degrees": 0.3,
+  "physical_print_tested": false,
+  "files": {
+    "earth_globe.stl": {
+      "triangles": 1309126,
+      "vertices": 654565,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 104295.33661656194,
+      "bounds_mm": [
+        [
+          -71.76556396484375,
+          -75.18065643310547,
+          2.0171653432043968e-06
+        ],
+        [
+          72.83707427978516,
+          74.1456298828125,
+          142.83497619628906
+        ]
+      ],
+      "size_mm": [
+        144.6026382446289,
+        149.32628631591797,
+        142.83497417912372
+      ],
+      "min_triangle_area_mm2": 4.744359546763078e-06,
+      "degenerate_faces": 0
+    },
+    "earth_base.stl": {
+      "triangles": 4092,
+      "vertices": 2046,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 25969.454553773267,
+      "bounds_mm": [
+        [
+          -43.0,
+          -43.0,
+          0.0
+        ],
+        [
+          43.0,
+          43.0,
+          9.399999618530273
+        ]
+      ],
+      "size_mm": [
+        86.0,
+        86.0,
+        9.399999618530273
+      ],
+      "min_triangle_area_mm2": 0.0001571499151395983,
+      "degenerate_faces": 0
+    },
+    "earth_fit_ring.stl": {
+      "triangles": 2048,
+      "vertices": 1024,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 2352.188518136438,
+      "bounds_mm": [
+        [
+          -32.400001525878906,
+          -32.400001525878906,
+          0.0
+        ],
+        [
+          32.400001525878906,
+          32.400001525878906,
+          5.0
+        ]
+      ],
+      "size_mm": [
+        64.80000305175781,
+        64.80000305175781,
+        5.0
+      ],
+      "min_triangle_area_mm2": 0.8834820046158711,
+      "degenerate_faces": 0
+    }
+  },
+  "actual": {
+    "ocean_radius_mm": 71.76556070211201,
+    "ocean_wall_mm": 1.2,
+    "land_lift_mm": 0.9967438986404447,
+    "relief_mm_per_km": 0.9967438986404447,
+    "inner_radius_mm": 70.56556070211201,
+    "sphere_center_above_globe_bottom_mm": 68.8709508086693,
+    "globe_bottom_in_assembly_mm": 5,
+    "opening_diameter_mm": 60,
+    "cap_diameter_mm": 86,
+    "plug_diameter_mm": 59.3,
+    "radial_fit_clearance_mm": 0.35,
+    "plug_engagement_mm": 4.4,
+    "cable_channel_width_mm": 7,
+    "cable_channel_height_mm": 3,
+    "led_pocket_diameter_mm": 48,
+    "led_pocket_floor_mm": 2,
+    "south_latitude_cut_inner_deg": -64.84069223877428,
+    "max_land_elevation_in_sampled_grid_m": 6252.86572265625,
+    "stand_attachment": "gravity seated, deliberately not retained when lifted",
+    "max_globe_size_mm": 149.32628631591797
+  },
+  "assembly": {
+    "overlap_volume_mm3": 0,
+    "insertion_path": "straight vertical insertion; coaxial cylindrical clearance 0.35 mm",
+    "hardware_required": false,
+    "base_support_radius_mm": 43,
+    "internal_support_removal": "through 60 mm opening; break tree branches and remove with long pliers; physical trial required"
+  },
+  "sha256": {
+    "etopo_2022_stride6.dods": "838da9028bb5aea79bd25527a9c3aa72b5235adf36e7686bee4b8953b568d966",
+    "ne_10m_land.zip": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+    "derived_grid.npz": "d725d4b34df42878f93773d67f4097e86983444d74974370ff757c1db2a9e253"
+  }
+}

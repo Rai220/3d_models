@@ -1,0 +1,74 @@
+{
+    "error_string": "Success.",
+    "export_time": 17,
+    "layer_height": 0.1599999964237213,
+    "plate_index": 0,
+    "prepare_time": 14,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Custom": 377.3025817871094,
+                "Flush": 29.0,
+                "Gap infill": 12.026970863342285,
+                "Inner wall": 166.20159912109375,
+                "Outer wall": 213.25267028808594,
+                "Top surface": 19.263633728027344,
+                "Travel": 36.797767639160156,
+                "Undefined": 21.314565658569336
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 2.970545768737793,
+                    "total_used_g": 2.970545768737793
+                }
+            ],
+            "generate_support_material_time": 5,
+            "id": 1,
+            "infill_time": 11,
+            "layer_filament_change": 0,
+            "main_predication": 418.5693664550781,
+            "make_perimeters_time": 22,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 91.63414001464844,
+                        "height": 5.0,
+                        "width": 91.63414764404297,
+                        "x": 82.18291473388672,
+                        "y": 82.18292999267578,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "earth_fit_ring.stl",
+                    "triangle_count": 2048
+                }
+            ],
+            "sliced_time": 62,
+            "sliced_time_with_cache": 13,
+            "total_predication": 838.358154296875,
+            "triangle_count": 2048,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 8.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

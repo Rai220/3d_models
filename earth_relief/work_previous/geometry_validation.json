@@ -1,0 +1,112 @@
+{
+  "parameters": {
+    "diameter": 180,
+    "land_lift": 1.2,
+    "mm_per_km": 1.0,
+    "step": 0.3
+  },
+  "data_sources": {
+    "elevation": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+    "elevation_download": "https://www.ngdc.noaa.gov/thredds/dodsC/global/ETOPO2022/60s/60s_surface_elev_netcdf/ETOPO_2022_v1_60s_N90W180_surface.nc.dods?z[0:6:10799][0:6:21599]",
+    "land": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/",
+    "land_download": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip"
+  },
+  "vertical_exaggeration": 70.78888888888889,
+  "source_sampling_degrees": 0.1,
+  "mesh_sampling_degrees": 0.3,
+  "physical_print_tested": false,
+  "files": {
+    "earth_north.stl": {
+      "triangles": 720000,
+      "vertices": 360002,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 1565535.0253568795,
+      "bounds_mm": [
+        [
+          -90.0,
+          -93.10906982421875,
+          0.0
+        ],
+        [
+          91.03514862060547,
+          92.39649963378906,
+          92.22407531738281
+        ]
+      ],
+      "size_mm": [
+        181.03514862060547,
+        185.5055694580078,
+        92.22407531738281
+      ],
+      "min_triangle_area_mm2": 0.0005813563983700183,
+      "degenerate_faces": 0
+    },
+    "earth_south.stl": {
+      "triangles": 720000,
+      "vertices": 360002,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 1548187.6713260997,
+      "bounds_mm": [
+        [
+          -90.0,
+          -91.1495590209961,
+          0.0
+        ],
+        [
+          90.06857299804688,
+          93.2796630859375,
+          94.35255432128906
+        ]
+      ],
+      "size_mm": [
+        180.06857299804688,
+        184.4292221069336,
+        94.35255432128906
+      ],
+      "min_triangle_area_mm2": 0.000634063961446592,
+      "degenerate_faces": 0
+    },
+    "earth_complete.stl": {
+      "triangles": 1437600,
+      "vertices": 718802,
+      "watertight": true,
+      "consistent_normals": true,
+      "components": 1,
+      "volume_mm3": 3113722.6955000665,
+      "bounds_mm": [
+        [
+          -90.0,
+          -93.2796630859375,
+          0.0
+        ],
+        [
+          91.03514862060547,
+          92.39649963378906,
+          186.57662963867188
+        ]
+      ],
+      "size_mm": [
+        181.03514862060547,
+        185.67616271972656,
+        186.57662963867188
+      ],
+      "min_triangle_area_mm2": 0.000581356424899049,
+      "degenerate_faces": 0
+    }
+  },
+  "assembly": {
+    "equatorial_contour_mismatch_mm": 0.0,
+    "method": "two flat closed halves; glue flat faces; align coastline at Ecuador, Africa, Indonesia",
+    "hardware_required": false,
+    "insertion_path": "straight approach normal to equatorial plane; no interlocking geometry"
+  },
+  "sha256": {
+    "etopo_2022_stride6.dods": "838da9028bb5aea79bd25527a9c3aa72b5235adf36e7686bee4b8953b568d966",
+    "ne_10m_land.zip": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+    "derived_grid.npz": "d725d4b34df42878f93773d67f4097e86983444d74974370ff757c1db2a9e253"
+  }
+}

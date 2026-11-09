@@ -1,0 +1,151 @@
+{
+  "status": "fit_trial_not_physically_verified",
+  "known_servo_footprint_mm": [
+    19.8,
+    21.5
+  ],
+  "assumptions": {
+    "nozzle_mm": 0.4,
+    "material": "Generic PLA",
+    "plate": "Textured PEI Plate",
+    "overall_height_mm": 16,
+    "chassis_holes_verified": false
+  },
+  "files": [
+    {
+      "path": "P1S_servo_clamp_trial.3mf",
+      "bytes": 67243,
+      "sha256": "9230c2e503d80e974d1f4117e1e3a222c69aeeb85fdafb70f802b6a82dbf36d5"
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 16149,
+      "sha256": "1b63a2b4378bf5f3e856d13134200f3e24dbfee03456e20e705503e9dc49dc72"
+    },
+    {
+      "path": "design_preview.png",
+      "bytes": 588874,
+      "sha256": "b5a816f84a0da934dcb2d54801149ba99f46848dcdb4f985d685677be8320e9b"
+    },
+    {
+      "path": "geometry_only.3mf",
+      "bytes": 38805,
+      "sha256": "146f97ac95fedaa62a6365f93f05595c0ce951c51e5eaf356b87791c87cec92f"
+    },
+    {
+      "path": "geometry_validation.json",
+      "bytes": 2966,
+      "sha256": "6ce2cf875b866a7da5bd09dc050589abd0f469e46d1013f489f996ff54223fb7"
+    },
+    {
+      "path": "parameters.json",
+      "bytes": 653,
+      "sha256": "af131c01fffb911650274d3d73f31f0d7e5e5e313f5851ab7aea090bd5afd9e2"
+    },
+    {
+      "path": "photo_estimates.json",
+      "bytes": 3369,
+      "sha256": "7e547bb1cdcedafcbf224cde79bc2cb6ec27d622a1542b3f2f5b33d889a7459e"
+    },
+    {
+      "path": "prepare.log",
+      "bytes": 202,
+      "sha256": "7470b62d8718349bc827e5bc1f52367d0d27d3f9be3128b9814871dc42607858"
+    },
+    {
+      "path": "presets/generic_pla.json",
+      "bytes": 7773,
+      "sha256": "f7dc48b59cec642e0b03edd648f2ddd4ee5b7bba9e7b1993623fe823bef54cf7"
+    },
+    {
+      "path": "presets/p1s_04.json",
+      "bytes": 20332,
+      "sha256": "a51910aae0368dd3c1dd87f93ccdc8cb8f2a0a9a6370864fd0a989de415cfe02"
+    },
+    {
+      "path": "presets/servo_012.json",
+      "bytes": 7983,
+      "sha256": "ab856b3fa98c26549195fb88888418c2814f64a698f7e868536ab0683dea17f0"
+    },
+    {
+      "path": "result.json",
+      "bytes": 207,
+      "sha256": "ec22ec0e98e44e3d91b20d7624199533269db11afb530e901e6ac8d614224817"
+    },
+    {
+      "path": "servo_clamp_trial.stl",
+      "bytes": 192884,
+      "sha256": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898"
+    },
+    {
+      "path": "slicing_check/checked_servo_clamp.gcode.3mf",
+      "bytes": 281512,
+      "sha256": "1dc275ca3978631c71976f34bd2c9a50fbd13648bc1c02f6dafb474eb9b7eb31"
+    },
+    {
+      "path": "slicing_check/plate_1.gcode",
+      "bytes": 1825979,
+      "sha256": "6a5f3d871366d9f6773c76633c726956cab0734ab15aaabc16e5d4548e3f584e"
+    },
+    {
+      "path": "slicing_check/result.json",
+      "bytes": 2642,
+      "sha256": "43dcda59896fddf257e81354ae6e4c64515c1d73b835e0b11987250c853262f1"
+    },
+    {
+      "path": "slicing_check/slice.log",
+      "bytes": 983,
+      "sha256": "a320d399f0a3a94fd038df722f33977d943b024a4187bfea7ebbb86888a1e3e8"
+    },
+    {
+      "path": "slicing_check/slicer_preview.png",
+      "bytes": 6644,
+      "sha256": "d12c69c1792aec608e354ba0b3f30ed24e9d1dbaef5b93b305a0ec53143988b5"
+    },
+    {
+      "path": "slicing_validation.json",
+      "bytes": 3721,
+      "sha256": "0c1e02e555a5563b83438bddc5ce169fee693ba09473c436c0fcec6395f83d9b"
+    },
+    {
+      "path": "source/build.py",
+      "bytes": 10824,
+      "sha256": "7728d3d06e3ffce5c0bce86c2b2961ba25ba32d697dee821212ca22e2cdf5e52"
+    },
+    {
+      "path": "source/cad_helpers.py",
+      "bytes": 4155,
+      "sha256": "eb0af9d526dd8e0f4e278f346df40f90ae4ef9601d03620fbdd2478ef7a4fd44"
+    },
+    {
+      "path": "source/gcode_paths.py",
+      "bytes": 3083,
+      "sha256": "1f30b8b5191d5e1fa26dfc8c84cf581cbb184cbea1cedb8ee85eeaf3a8ac41cf"
+    },
+    {
+      "path": "source/prepare_bambu.py",
+      "bytes": 7029,
+      "sha256": "d5e01423e8d9dd163d649b8b74b9ba0a508057e0b476dd51ea7e7f368c30e6c8"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 181,
+      "sha256": "b4aa7d55585326ec78c7de9086ce4ad869931bdc16c1890b1be8384e3d58c445"
+    },
+    {
+      "path": "source/verify_paths.py",
+      "bytes": 4573,
+      "sha256": "8ed2b7befb7e28ad11cf89fe3c2b914cb07351513e27cae269a1256e6abc2f82"
+    },
+    {
+      "path": "toolpath_validation.json",
+      "bytes": 21561,
+      "sha256": "1226d786ce466596e505d1ca595e787ce7471f9d82bcc6bf3ca8bce96bf8a14e"
+    },
+    {
+      "path": "toolpaths.png",
+      "bytes": 208010,
+      "sha256": "f0609668204a220471346e3aabb48466307abce7c4f8d01b3c64324047b0d005"
+    }
+  ]
+}

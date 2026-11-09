@@ -1,0 +1,8 @@
+Building north
+Building south
+Hollowing and cutting access opening
+globe {'triangles': 1310302, 'vertices': 655153, 'watertight': True, 'consistent_normals': True, 'components': 1, 'volume_mm3': 103917.08352802845, 'bounds_mm': [[-71.76555633544922, -75.18065643310547, -0.0], [72.83706665039062, 74.1456298828125, 137.83497619628906]], 'size_mm': [144.60262298583984, 149.32628631591797, 137.83497619628906], 'min_triangle_area_mm2': 5.853507900610566e-09, 'degenerate_faces': 0}
+base {'triangles': 130642, 'vertices': 65321, 'watertight': True, 'consistent_normals': True, 'components': 1, 'volume_mm3': 52556.43772566493, 'bounds_mm': [[-43.0, -43.0, 0.0], [43.0, 43.0, 28.56502914428711]], 'size_mm': [86.0, 86.0, 28.56502914428711], 'min_triangle_area_mm2': 8.944537718101193e-09, 'degenerate_faces': 0}
+fit_ring {'triangles': 2044, 'vertices': 1022, 'watertight': True, 'consistent_normals': True, 'components': 1, 'volume_mm3': 2324.0590738497485, 'bounds_mm': [[-32.400001525878906, -32.400001525878906, 0.0], [32.400001525878906, 32.400001525878906, 5.0]], 'size_mm': [64.80000305175781, 64.80000305175781, 5.0], 'min_triangle_area_mm2': 0.27829900044093847, 'degenerate_faces': 0}
+light_test {'triangles': 48, 'vertices': 26, 'watertight': True, 'consistent_normals': True, 'components': 1, 'volume_mm3': 3551.999931335449, 'bounds_mm': [[-6.0, -10.0, 0.0], [42.0, 10.0, 7.199999809265137]], 'size_mm': [48.0, 20.0, 7.199999809265137], 'min_triangle_area_mm2': 6.0, 'degenerate_faces': 0}
+DONE

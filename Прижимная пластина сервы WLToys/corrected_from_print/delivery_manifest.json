@@ -1,0 +1,254 @@
+{
+  "status": "thin_5mm_plate_three_through_chassis_bores",
+  "low_variant_in_project": true,
+  "previous_servo_dimensions_used": false,
+  "physical_fit_verified": false,
+  "printer_job_started": false,
+  "files": [
+    {
+      "path": "P1S_servo_clamp_corrected.3mf",
+      "bytes": 105068,
+      "sha256": "9fda4c21b07c50680aeac61253f618c16d61bf096c4c5927d65c4e9e17977b09"
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 15375,
+      "sha256": "5886e0a84c891c46822a842f105c6e036c111d3da3fee68ecf1652d6481bdefb"
+    },
+    {
+      "path": "design_preview.png",
+      "bytes": 394662,
+      "sha256": "d1796555aab3812cb99c60cc495efad5498c4c348c38d3d0a80f3149847a340b"
+    },
+    {
+      "path": "geometry_only.3mf",
+      "bytes": 72941,
+      "sha256": "6b9cb40ed25f5f21dc7b8a9a14d85589d460f4b55f6bfb83da79f9f4b7de061f"
+    },
+    {
+      "path": "geometry_validation.json",
+      "bytes": 2908,
+      "sha256": "6b5b64ea0652242f178883c409240f9431e7e28a34de47750a027cdf4fd4ab89"
+    },
+    {
+      "path": "parameters.json",
+      "bytes": 660,
+      "sha256": "ed675d570490d46adaa1254645a7f7a9d7dbf84cd84148e0fc36fb42a7b0a550"
+    },
+    {
+      "path": "parameters_thin.json",
+      "bytes": 1124,
+      "sha256": "47bfdf3eaf228ab796b2140a0100dae8f08261533af98f746303f923f5c40aeb"
+    },
+    {
+      "path": "photo_comparison.json",
+      "bytes": 3896,
+      "sha256": "0b30d643d27f0a8fadca5be2cf65207c19a5fd92333e4edf8c708f72694228d3"
+    },
+    {
+      "path": "photo_measurements.png",
+      "bytes": 1041131,
+      "sha256": "98ce5606c5b6b9f42bcddcf459859b0c7da05d3190e71a24e0836dea5209b901"
+    },
+    {
+      "path": "plate_preview.png",
+      "bytes": 291941,
+      "sha256": "19532d012a485c8a0d7f6a1f80af7cb20f267fb8da8bd45c3124e154ab4c8f64"
+    },
+    {
+      "path": "prepare.log",
+      "bytes": 877,
+      "sha256": "f91083aa90f12ad849ec93ab576f4feb7e43d58e943a2acbeabe599b8b336f8d"
+    },
+    {
+      "path": "presets/generic_pla.json",
+      "bytes": 7773,
+      "sha256": "f7dc48b59cec642e0b03edd648f2ddd4ee5b7bba9e7b1993623fe823bef54cf7"
+    },
+    {
+      "path": "presets/p1s_04.json",
+      "bytes": 20332,
+      "sha256": "a51910aae0368dd3c1dd87f93ccdc8cb8f2a0a9a6370864fd0a989de415cfe02"
+    },
+    {
+      "path": "presets/servo_012.json",
+      "bytes": 8014,
+      "sha256": "0610dd5b95589db416cd05df73e098ee0e96b49ba11245fa7e8555938b4945b0"
+    },
+    {
+      "path": "references/dhv56mg_04.jpg",
+      "bytes": 175105,
+      "sha256": "85ff4db5c8685380ea679d89203124a78ff5133a5498371e73141f906f29e380"
+    },
+    {
+      "path": "references/dhv56mg_12.jpg",
+      "bytes": 247624,
+      "sha256": "231b8595fb62db1d74a5fbd5d6d4c6a46afca9e84fb6b8c698da09936a06df38"
+    },
+    {
+      "path": "references/oversized_reference.stl",
+      "bytes": 192884,
+      "sha256": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898"
+    },
+    {
+      "path": "references/side_comparison.jpg",
+      "bytes": 218572,
+      "sha256": "dc120a6a164fe3e64d337fc3fc9b07ddfe98b2d5a0cfee3e5e3a4db1004ab189"
+    },
+    {
+      "path": "references/side_measurement_crop.png",
+      "bytes": 541089,
+      "sha256": "f876851d6249c59562db4be0dab09ba80048618306fb2af106e97196bf06efa5"
+    },
+    {
+      "path": "references/top_comparison.jpg",
+      "bytes": 219311,
+      "sha256": "0afbae70e1fddc1c331bdddab3c56b7bd90575db8e3b41b6d90335c7b704230c"
+    },
+    {
+      "path": "references/top_measurement_crop.png",
+      "bytes": 1797241,
+      "sha256": "21a62682d7af1a447573a0aee932bf14b9afdcfa9b9695cfb6de4299283dafdc"
+    },
+    {
+      "path": "result.json",
+      "bytes": 687,
+      "sha256": "22c2ece160112c586bedc7ab17b5e9bb877c81d5e41c3d7ff8c9e06f93227292"
+    },
+    {
+      "path": "servo_clamp_corrected.stl",
+      "bytes": 197484,
+      "sha256": "7970a2c590ddf2d7c1678e95281b9c36cfa57051793c2f40186e927d1615ee80"
+    },
+    {
+      "path": "servo_clamp_thin.stl",
+      "bytes": 161984,
+      "sha256": "14716d15afb39005bb5a4348c7502b8339266fa0ccbd9756ebc52302abb22eed"
+    },
+    {
+      "path": "slicing_check/checked_corrected.gcode.3mf",
+      "bytes": 694579,
+      "sha256": "e6f7daa83541afee1cfef5b4ce7df83e415aea1d366381bdffbeceae8a3f44c7"
+    },
+    {
+      "path": "slicing_check/plate_1.gcode",
+      "bytes": 3413522,
+      "sha256": "91ba5a8db51f5eeea8fef8239c18dbff56803af1615ef2f432e45a75064b8807"
+    },
+    {
+      "path": "slicing_check/result.json",
+      "bytes": 3174,
+      "sha256": "61941e1d0a5b38fdcc3243c6f738d5a317c7d374c79acf47d1add612c6652f00"
+    },
+    {
+      "path": "slicing_check/slice.log",
+      "bytes": 877,
+      "sha256": "4749bbacfffd967b4c96ae0d18e4f45eda778a0c5a80f5174f78570b6604cc2c"
+    },
+    {
+      "path": "slicing_check/slicer_preview.png",
+      "bytes": 8370,
+      "sha256": "ce735f6f8e2230b618bd30a5887b93333c419df36f6230d3e806d42feca9c423"
+    },
+    {
+      "path": "slicing_validation.json",
+      "bytes": 5198,
+      "sha256": "8565caf3be13ced672f252d85099bb4a441bd64f80f3578417dde44b43ee4182"
+    },
+    {
+      "path": "source/build.py",
+      "bytes": 9742,
+      "sha256": "71e2100ef35a67c57fe173ac6a453a085c7f6536009b6de4e787ad25867171ba"
+    },
+    {
+      "path": "source/build_thin.py",
+      "bytes": 12022,
+      "sha256": "4c3c09d19a4dc4d5e619d55bc3ada3179d360a308178e0cf565abd355802f4e6"
+    },
+    {
+      "path": "source/cad_helpers.py",
+      "bytes": 4155,
+      "sha256": "eb0af9d526dd8e0f4e278f346df40f90ae4ef9601d03620fbdd2478ef7a4fd44"
+    },
+    {
+      "path": "source/measure_photos.py",
+      "bytes": 4879,
+      "sha256": "8fbf80630d13d5b96957b5c240eea9a6367eb4f74fd135f4d1f038cd29354fde"
+    },
+    {
+      "path": "source/prepare_bambu.py",
+      "bytes": 9826,
+      "sha256": "c93434a8c90d90a5f48c0207961f099922635fee91e584f4733d49ddf3de29ae"
+    },
+    {
+      "path": "source/preview_plate.py",
+      "bytes": 1680,
+      "sha256": "778068cbd74dd29a068e76c7e5b06acf4dd886539e46e889acbb18e8b03695e7"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 181,
+      "sha256": "b4aa7d55585326ec78c7de9086ce4ad869931bdc16c1890b1be8384e3d58c445"
+    },
+    {
+      "path": "source/verify_paths.py",
+      "bytes": 6360,
+      "sha256": "5ed26d2da7c06e146e829a35155de3efbeb6e7c405922a0497e0f4f1b0369dc9"
+    },
+    {
+      "path": "source/verify_thin.py",
+      "bytes": 6381,
+      "sha256": "23bcd89abb8d1cd2da345dd296088be10cca37b57930bd7a36bb3340f30684ac"
+    },
+    {
+      "path": "thin_geometry_validation.json",
+      "bytes": 5692,
+      "sha256": "5e70ea4ef9d686b12a1afde46682b910252ec6b4996ce23dd968221169aa92e3"
+    },
+    {
+      "path": "thin_toolpath_validation.json",
+      "bytes": 23434,
+      "sha256": "656c4ff198100f9020906fb73512128f290d9017b850d30da33461d6b8d30990"
+    },
+    {
+      "path": "thin_toolpaths.png",
+      "bytes": 271813,
+      "sha256": "368573a5994211cedf5e51d49766620d39ea14337f9f098de20cd61c1e6fcc08"
+    },
+    {
+      "path": "toolpath_validation.json",
+      "bytes": 22443,
+      "sha256": "2b9adfaaeb2c94aa0ae974e1e251345c24a0353279c0de9eaefdf2e4a136c79a"
+    },
+    {
+      "path": "toolpaths.png",
+      "bytes": 198433,
+      "sha256": "8a161cbb0c31bb966b7d772e9f589e0f26080fa8002d57155af8243fbca7b6d9"
+    }
+  ],
+  "printable_objects": 2,
+  "thin_servo_dimensions_mm": [
+    19.8,
+    8.2,
+    21.5
+  ],
+  "existing_two_stl_unchanged": false,
+  "removed_imported_bracket": true,
+  "original_stl_unchanged": true,
+  "thin_plate_thickness_mm": 5,
+  "lower_legs_removed": true,
+  "servo_offset_assembly_mm": [
+    -5,
+    0,
+    0
+  ],
+  "chassis_holes_unchanged": false,
+  "only_chassis_hole_A_changed": false,
+  "outer_shape_unchanged": true,
+  "holes_B_C_unchanged": true,
+  "correction_physical_fit_verified": false,
+  "ear_hole_raise_above_seat_mm": 0.5,
+  "footprint_unchanged": true,
+  "chassis_holes_through": true,
+  "chassis_hole_centers_unchanged": true
+}

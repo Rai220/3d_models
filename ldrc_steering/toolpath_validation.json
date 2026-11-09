@@ -1,0 +1,74 @@
+{
+  "checks": [
+    {
+      "part": "tie_rod",
+      "z_mm": 2.48,
+      "x_mm": 3.0,
+      "channel_to_nearest_extrusion_mm": 1.9579694824218736,
+      "feature": "horizontal eye bore"
+    },
+    {
+      "part": "tie_rod",
+      "z_mm": 2.48,
+      "x_mm": 46.5,
+      "channel_to_nearest_extrusion_mm": 1.9579694824218736,
+      "feature": "horizontal eye bore"
+    },
+    {
+      "part": "tie_rod",
+      "z_mm": 3.68,
+      "x_mm": 3.0,
+      "channel_to_nearest_extrusion_mm": 1.553969482421877,
+      "feature": "horizontal eye bore"
+    },
+    {
+      "part": "tie_rod",
+      "z_mm": 3.68,
+      "x_mm": 46.5,
+      "channel_to_nearest_extrusion_mm": 1.553969482421877,
+      "feature": "horizontal eye bore"
+    },
+    {
+      "part": "tie_rod",
+      "support_feature_blocks": 0,
+      "gcode_sha256": "0c5a60fe2c7831d096e87960db84a7edbe241e2167913c7add27061982f7ce83"
+    },
+    {
+      "part": "knuckle",
+      "z_mm": 0.32,
+      "center_to_nearest_extrusion_mm": 6.435578426215907,
+      "feature": "axial bore"
+    },
+    {
+      "part": "knuckle",
+      "feature": "steering arm begins on first layer",
+      "z_mm": 0.32,
+      "model_segments_in_arm": 12
+    },
+    {
+      "part": "knuckle",
+      "z_mm": 4.76,
+      "center_to_nearest_extrusion_mm": 6.418982468510448,
+      "feature": "axial bore"
+    },
+    {
+      "part": "knuckle",
+      "z_mm": 9.56,
+      "center_to_nearest_extrusion_mm": 3.937923177359489,
+      "feature": "axial bore"
+    },
+    {
+      "part": "knuckle",
+      "z_mm": 11.84,
+      "center_to_nearest_extrusion_mm": 2.4311084014284314,
+      "feature": "axial bore"
+    },
+    {
+      "part": "knuckle",
+      "support_feature_blocks": 75,
+      "gcode_sha256": "d2a3f8327866b88bf22b4a4a6a88391a4421802fd075f6969e1f06884ff72b01"
+    }
+  ],
+  "physical_fit_verified": false,
+  "limitation": "Model extrusion centerlines only; supports are excluded and must be removed from the knuckle bore. These are not measured printed surfaces; hardware and mating parts unavailable."
+}

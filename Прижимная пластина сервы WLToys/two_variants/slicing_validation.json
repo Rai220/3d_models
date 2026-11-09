@@ -1,0 +1,116 @@
+{
+  "project_sha256": "01c65ef16eac8af8b0935b932795641d517c673f7efd4b1b5828c8c8df794842",
+  "stl_sha256": {
+    "Original_16mm": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898",
+    "Reduced_10p2mm": "919a0b4cd203184720dbe05755827c09e12e06671a52b7b381aba6ece435e019"
+  },
+  "slicer_version": "02.08.02.61",
+  "prepare_exit_code": 0,
+  "slice_exit_code": 0,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 4.341010093688965,
+        "Custom": 411.2433166503906,
+        "Flush": 29.0,
+        "Gap infill": 93.793701171875,
+        "Inner wall": 891.7765502929688,
+        "Internal solid infill": 44.969791412353516,
+        "Outer wall": 667.9224853515625,
+        "Sparse infill": 12.066642761230469,
+        "Top surface": 57.19907760620117,
+        "Travel": 429.2857360839844,
+        "Undefined": 414.016357421875
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 3.529766082763672,
+          "total_used_g": 3.529766082763672
+        }
+      ],
+      "generate_support_material_time": 30,
+      "id": 1,
+      "infill_time": 41,
+      "layer_filament_change": 0,
+      "main_predication": 2172.167236328125,
+      "make_perimeters_time": 114,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 28.498794555664062,
+            "height": 16.0,
+            "width": 30.29999351501465,
+            "x": 125.29724884033203,
+            "y": 121.78645324707031,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Original_16mm",
+          "triangle_count": 3856
+        },
+        {
+          "bbox": {
+            "depth": 28.49879264831543,
+            "height": 10.199999809265137,
+            "width": 30.30000114440918,
+            "x": 100.40274810791016,
+            "y": 105.7147445678711,
+            "z": -4.632568106899271e-09
+          },
+          "id": 9,
+          "name": "Reduced_10p2mm",
+          "triangle_count": 3856
+        }
+      ],
+      "sliced_time": 351,
+      "sliced_time_with_cache": 135,
+      "total_predication": 2626.110595703125,
+      "triangle_count": 7712,
+      "warning_message": ""
+    }
+  ],
+  "model_instances": 2,
+  "minimum_object_spacing_mm": 2.000225711634161,
+  "bed_and_excluded_zones_checked": true,
+  "settings": {
+    "printer_model": "Bambu Lab P1S",
+    "printer_settings_id": "Bambu Lab P1S 0.4 nozzle",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_settings_id": [
+      "Generic PLA"
+    ],
+    "curr_bed_type": "Textured PEI Plate",
+    "layer_height": "0.12",
+    "wall_loops": "5",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_density": "40%",
+    "enable_support": "0"
+  },
+  "project_contains_gcode": false,
+  "check_file_contains_gcode": true,
+  "print_seconds_estimate": 2626.110595703125,
+  "filament_g_estimate": 3.529766082763672,
+  "gcode_bytes": 3197803,
+  "gcode_sha256": "e31392ad06ed0a0fbfd609abd8cdfd491267ddec4b996ed3fc8984df08c93b08",
+  "log_messages_to_review": [
+    "[2026-10-30 12:13:13.094955] [0x00000001faf36180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+    "[2026-10-30 12:13:13.500435] [0x00000001faf36180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+    "[2026-10-30 12:13:13.514332] [0x00000001faf36180] [warning] run:2873, can not find system preset file: /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab P1S 0.4 nozzle.json ",
+    "[2026-10-30 12:13:13.514350] [0x00000001faf36180] [warning] run:2895, can not find system preset file: /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/0.12mm WLToys servo clamp trial @P1S.json ",
+    "[2026-10-30 12:13:13.514373] [0x00000001faf36180] [warning] no filament colors found in projects",
+    "[2026-10-30 12:13:13.515133] [0x00000001faf36180] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+    "[2026-10-30 12:13:13.671726] [0x00000001faf36180] [warning] tree support default to organic support",
+    "[2026-10-30 12:13:13.671755] [0x0000000172bd7000] [warning] tree support default to organic support"
+  ],
+  "physical_fit_verified": false
+}

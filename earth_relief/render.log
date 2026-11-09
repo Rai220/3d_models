@@ -1,0 +1,19 @@
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:56: RuntimeWarning: divide by zero encountered in matmul
+  pv=v@np.vstack([right,up,eye]).T
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:56: RuntimeWarning: overflow encountered in matmul
+  pv=v@np.vstack([right,up,eye]).T
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:56: RuntimeWarning: invalid value encountered in matmul
+  pv=v@np.vstack([right,up,eye]).T
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:59: RuntimeWarning: divide by zero encountered in matmul
+  diffuse=np.maximum(normals@light,0)
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:59: RuntimeWarning: overflow encountered in matmul
+  diffuse=np.maximum(normals@light,0)
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:59: RuntimeWarning: invalid value encountered in matmul
+  diffuse=np.maximum(normals@light,0)
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:61: RuntimeWarning: divide by zero encountered in matmul
+  visible=normals@eye>0
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:61: RuntimeWarning: overflow encountered in matmul
+  visible=normals@eye>0
+/Users/knkrestnikov/giga/3d_models/earth_relief/source/render_preview.py:61: RuntimeWarning: invalid value encountered in matmul
+  visible=normals@eye>0
+Rendered actual exported STL

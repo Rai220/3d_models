@@ -1,0 +1,79 @@
+{
+    "error_string": "Success.",
+    "export_time": 8765,
+    "layer_height": 0.07999999821186066,
+    "plate_index": 0,
+    "prepare_time": 3763,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 0.12741006910800934,
+                "Bridge": 14.370926856994629,
+                "Brim": 143.9138641357422,
+                "Custom": 420.6550598144531,
+                "Flush": 29.0,
+                "Gap infill": 3279.34912109375,
+                "Inner wall": 11796.939453125,
+                "Internal solid infill": 3084.66162109375,
+                "Outer wall": 35503.3359375,
+                "Sparse infill": 4413.4990234375,
+                "Top surface": 318.72625732421875,
+                "Travel": 6353.4248046875,
+                "Undefined": 6338.09619140625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 139.86233520507813,
+                    "total_used_g": 139.86233520507813
+                }
+            ],
+            "generate_support_material_time": 1047,
+            "id": 1,
+            "infill_time": 2401,
+            "layer_filament_change": 0,
+            "main_predication": 64850.82421875,
+            "make_perimeters_time": 5457,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 155.3104705810547,
+                        "height": 130.4178009033203,
+                        "width": 152.69837951660156,
+                        "x": 51.60392379760742,
+                        "y": 50.474464416503906,
+                        "z": 4.833984235119715e-08
+                    },
+                    "id": 5,
+                    "name": "earth_globe.stl",
+                    "triangle_count": 2346774
+                }
+            ],
+            "sliced_time": 13102,
+            "sliced_time_with_cache": 3276,
+            "total_predication": 65314.12109375,
+            "triangle_count": 2346774,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 100.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

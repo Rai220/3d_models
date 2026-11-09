@@ -1,0 +1,58 @@
+{
+  "tie_rod": {
+    "step": "Рулевая тяга.stp",
+    "step_volume_mm3": 500.67272386660943,
+    "stl_volume_mm3": 500.6673048384855,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        49.499935150146484,
+        11.0,
+        5.49993896484375
+      ]
+    ],
+    "faces": 5764,
+    "watertight": true,
+    "consistent_normals": true,
+    "connected_components": 1,
+    "degenerate_faces": 0,
+    "shift_after_rotation": [
+      26.249967575073242,
+      1.8369326794773865e-16,
+      2.5
+    ],
+    "stl_sha256": "54e837ace7d08622eb68605f2d1ca97f38711134539554b1684a14b74afb5128"
+  },
+  "knuckle": {
+    "step": "Поворотный кулак.stp",
+    "step_volume_mm3": 812.4981678543975,
+    "stl_volume_mm3": 812.3788152988515,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        19.75,
+        21.499048233032227,
+        12.5
+      ]
+    ],
+    "faces": 22080,
+    "watertight": true,
+    "consistent_normals": true,
+    "connected_components": 1,
+    "degenerate_faces": 0,
+    "shift_after_rotation": [
+      9.75,
+      6.999216556549072,
+      -0.0
+    ],
+    "stl_sha256": "c6e869eafc9ef6c8a475ac6f92f4589f4d3f10bc95087713b850acaa1af4cc0c"
+  }
+}

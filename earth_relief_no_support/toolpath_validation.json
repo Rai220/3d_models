@@ -1,0 +1,119 @@
+{
+  "globe": {
+    "support_extrusion_moves": 0,
+    "intrusions": 0,
+    "checked_layers_mm": [
+      2.44,
+      120.04,
+      128.76,
+      128.92
+    ],
+    "maximum_bridge_move_mm": 11.723999996746077,
+    "ceiling_bridge_layers_mm": [
+      128.92
+    ],
+    "maximum_roof_free_span_mm": 8.07891198353565,
+    "feature_extrusion_moves": {
+      "Outer wall": 528167,
+      "Inner wall": 526098,
+      "Gap infill": 251396,
+      "Bottom surface": 3,
+      "Internal solid infill": 73197,
+      "Sparse infill": 156355,
+      "Floating vertical shell": 246605,
+      "Top surface": 2697,
+      "Bridge": 66
+    },
+    "model_extrusion_moves": 1784584
+  },
+  "base": {
+    "support_extrusion_moves": 0,
+    "intrusions": 0,
+    "checked_layers_mm": [
+      19.48,
+      21.08
+    ],
+    "maximum_bridge_move_mm": 11.189917113948972,
+    "ceiling_bridge_layers_mm": [],
+    "maximum_roof_free_span_mm": 0.0,
+    "feature_extrusion_moves": {
+      "Outer wall": 23019,
+      "Inner wall": 17062,
+      "Bottom surface": 405,
+      "Internal solid infill": 27203,
+      "Sparse infill": 108120,
+      "Floating vertical shell": 3588,
+      "Top surface": 1529,
+      "Gap infill": 1484,
+      "Overhang wall": 6,
+      "Bridge": 8
+    },
+    "model_extrusion_moves": 182424
+  },
+  "lower_trial": {
+    "support_extrusion_moves": 0,
+    "intrusions": 0,
+    "checked_layers_mm": [
+      4.84
+    ],
+    "maximum_bridge_move_mm": 0.0,
+    "ceiling_bridge_layers_mm": [],
+    "maximum_roof_free_span_mm": 0.0,
+    "feature_extrusion_moves": {
+      "Outer wall": 23500,
+      "Inner wall": 13985,
+      "Gap infill": 3110,
+      "Bottom surface": 1,
+      "Internal solid infill": 9160,
+      "Sparse infill": 27641,
+      "Floating vertical shell": 1799,
+      "Top surface": 1371
+    },
+    "model_extrusion_moves": 80567
+  },
+  "roof_trial": {
+    "support_extrusion_moves": 0,
+    "intrusions": 0,
+    "checked_layers_mm": [
+      18.36,
+      18.52
+    ],
+    "maximum_bridge_move_mm": 11.63499999892191,
+    "ceiling_bridge_layers_mm": [
+      18.52
+    ],
+    "maximum_roof_free_span_mm": 7.999999995774999,
+    "feature_extrusion_moves": {
+      "Outer wall": 123635,
+      "Inner wall": 168204,
+      "Gap infill": 11590,
+      "Bottom surface": 73,
+      "Internal solid infill": 16662,
+      "Top surface": 1037,
+      "Sparse infill": 116007,
+      "Floating vertical shell": 229288,
+      "Bridge": 73
+    },
+    "model_extrusion_moves": 666569
+  },
+  "light_test": {
+    "support_extrusion_moves": 0,
+    "intrusions": 0,
+    "checked_layers_mm": [
+      0.28
+    ],
+    "maximum_bridge_move_mm": 0.0,
+    "ceiling_bridge_layers_mm": [],
+    "maximum_roof_free_span_mm": 0.0,
+    "feature_extrusion_moves": {
+      "Outer wall": 352,
+      "Inner wall": 696,
+      "Bottom surface": 188,
+      "Internal solid infill": 4236,
+      "Sparse infill": 7851,
+      "Top surface": 213,
+      "Floating vertical shell": 60
+    },
+    "model_extrusion_moves": 13596
+  }
+}

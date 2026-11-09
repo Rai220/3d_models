@@ -1,0 +1,11 @@
+numpy==2.0.2
+trimesh==4.12.2
+shapely==2.0.7
+scipy==1.13.1
+manifold3d==3.5.3
+matplotlib==3.9.4
+networkx==3.2.1
+lxml>=5,<7
+svgpathtools==1.8.0
+mapbox-earcut==2.1.0
+triangle==20250106

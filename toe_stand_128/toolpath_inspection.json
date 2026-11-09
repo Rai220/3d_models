@@ -1,0 +1,157 @@
+{
+  "project_sha256": "7ac46029b92c64909f0123cfbb51c02b70732c96856779d45983dcfb21b02f87",
+  "gcode_3mf_sha256": "94e7309643c15abc10651cd3cc481a5736e9775b3bf15675d07624c649876dce",
+  "extruder_offset_compensated_mm": [
+    0.0,
+    2.0
+  ],
+  "scales": [
+    {
+      "plate": 1,
+      "model_node": "23",
+      "all_11_tick_channels_preserved": true,
+      "tick_center_to_extrusion_centerline_mm": [
+        0.4484,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4492,
+        0.4496,
+        0.4492,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4496
+      ]
+    },
+    {
+      "plate": 1,
+      "model_node": "21",
+      "all_11_tick_channels_preserved": true,
+      "tick_center_to_extrusion_centerline_mm": [
+        0.4484,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4492,
+        0.4496,
+        0.4492,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4496
+      ]
+    },
+    {
+      "plate": 2,
+      "model_node": "19",
+      "all_11_tick_channels_preserved": true,
+      "tick_center_to_extrusion_centerline_mm": [
+        0.449,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4492,
+        0.4496,
+        0.4492,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4496
+      ]
+    },
+    {
+      "plate": 2,
+      "model_node": "17",
+      "all_11_tick_channels_preserved": true,
+      "tick_center_to_extrusion_centerline_mm": [
+        0.449,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4492,
+        0.4496,
+        0.4492,
+        0.4493,
+        0.4494,
+        0.4493,
+        0.4496
+      ]
+    }
+  ],
+  "layers": {
+    "1": [
+      {
+        "z_mm": 0.2,
+        "path_segments": 20571,
+        "extrusion_path_length_mm_by_feature": {
+          "Inner wall": 8137.918769142329,
+          "Outer wall": 2815.3124881314343,
+          "Bottom surface": 26606.182097719735,
+          "Gap infill": 115.17527889273028
+        }
+      },
+      {
+        "z_mm": 4.0,
+        "path_segments": 23869,
+        "extrusion_path_length_mm_by_feature": {
+          "Inner wall": 5858.870822481878,
+          "Outer wall": 2006.2206552560654,
+          "Sparse infill": 2797.182449848568,
+          "Floating vertical shell": 1329.1305287597238,
+          "Gap infill": 36.340680935934394,
+          "Internal solid infill": 721.3469058743741
+        }
+      },
+      {
+        "z_mm": 7.4,
+        "path_segments": 5194,
+        "extrusion_path_length_mm_by_feature": {
+          "Inner wall": 3051.0608529482265,
+          "Outer wall": 1222.811996025369,
+          "Sparse infill": 1002.024147781173,
+          "Gap infill": 186.46817499899436,
+          "Internal solid infill": 105.09558174314645,
+          "Bridge": 117.28785942561235
+        }
+      }
+    ],
+    "2": [
+      {
+        "z_mm": 0.2,
+        "path_segments": 20476,
+        "extrusion_path_length_mm_by_feature": {
+          "Inner wall": 7163.87167383195,
+          "Outer wall": 2459.2584154723227,
+          "Bottom surface": 23438.39097111745,
+          "Gap infill": 75.17745123578078
+        }
+      },
+      {
+        "z_mm": 4.0,
+        "path_segments": 24212,
+        "extrusion_path_length_mm_by_feature": {
+          "Inner wall": 4885.74326696349,
+          "Outer wall": 1650.1698729163338,
+          "Sparse infill": 2827.7098213784757,
+          "Gap infill": 30.025713087755694,
+          "Floating vertical shell": 1329.1962961305226,
+          "Internal solid infill": 161.42100304485595
+        }
+      },
+      {
+        "z_mm": 7.4,
+        "path_segments": 6057,
+        "extrusion_path_length_mm_by_feature": {
+          "Inner wall": 2972.0678899128125,
+          "Outer wall": 1169.8171897618065,
+          "Sparse infill": 1216.6500908904143,
+          "Gap infill": 186.4681553029336,
+          "Internal solid infill": 105.09558174314645,
+          "Bridge": 117.28785942561235
+        }
+      }
+    ]
+  },
+  "physical_print_verified": false
+}

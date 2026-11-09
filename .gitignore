@@ -1,2 +1,18 @@
+.venv/
+__pycache__/
 .DS_Store
+
+.venv*/
 *.pbm
+
+# Large local print artifacts (>50 MB); keep outside Git
+/Earth_150mm_P1S_NO_SUPPORTS.zip
+/Earth_150mm_P1S_white_relief.zip
+/earth_relief/check_globe/plate_1.gcode
+/earth_relief/earth_globe.stl
+/earth_relief/work_previous/earth_complete.stl
+/earth_relief/work_previous/first_hollow/check_globe/plate_1.gcode
+/earth_relief/work_previous/first_hollow/earth_globe.stl
+/earth_relief_no_support/check_globe/checked_globe.gcode.3mf
+/earth_relief_no_support/check_globe/plate_1.gcode
+/earth_relief_no_support/earth_globe.stl

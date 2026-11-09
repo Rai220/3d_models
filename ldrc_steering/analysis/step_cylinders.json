@@ -1,0 +1,131 @@
+{
+  "Рулевая тяга.stp": [
+    {
+      "radius": 3.0,
+      "origin": "CARTESIAN_POINT('',(-23.25,7.14441936841228E-15,0.))",
+      "axis": "DIRECTION('',(0.,0.,1.))"
+    },
+    {
+      "radius": 3.0,
+      "origin": "CARTESIAN_POINT('',(20.25,-3.06684704527451E-15,0.))",
+      "axis": "DIRECTION('',(0.,0.,1.))"
+    },
+    {
+      "radius": 1.75,
+      "origin": "CARTESIAN_POINT('',(20.25,-3.06684704527451E-15,0.))",
+      "axis": "DIRECTION('',(0.,0.,1.))"
+    },
+    {
+      "radius": 1.75,
+      "origin": "CARTESIAN_POINT('',(-23.25,7.14441936841228E-15,0.))",
+      "axis": "DIRECTION('',(0.,0.,1.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(-10.55,6.5,7.))",
+      "axis": "DIRECTION('',(-3.22973970800045E-16,1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(14.348129573242,-4.50000000000001,5.))",
+      "axis": "DIRECTION('',(0.,-1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(16.348129573242,-4.5,4.))",
+      "axis": "DIRECTION('',(0.,-1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(14.348129573242,-4.5,1.))",
+      "axis": "DIRECTION('',(0.,-1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(12.348129573242,-4.5,3.))",
+      "axis": "DIRECTION('',(0.,1.,0.))"
+    },
+    {
+      "radius": 3.0,
+      "origin": "CARTESIAN_POINT('',(-9.55,14.5,1.))",
+      "axis": "DIRECTION('',(6.57909940518611E-17,1.,0.))"
+    },
+    {
+      "radius": 1.2,
+      "origin": "CARTESIAN_POINT('',(-14.55,-5.3,7.8))",
+      "axis": "DIRECTION('',(0.,-1.,0.))"
+    },
+    {
+      "radius": 1.2,
+      "origin": "CARTESIAN_POINT('',(-14.95,-5.3,7.8))",
+      "axis": "DIRECTION('',(2.81961403079405E-16,-1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(-17.15,6.50000000000001,1.))",
+      "axis": "DIRECTION('',(0.,1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(-18.95,6.50000000000001,4.))",
+      "axis": "DIRECTION('',(0.,1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(-16.95,-4.5,10.))",
+      "axis": "DIRECTION('',(0.,-1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(-12.55,-4.5,10.))",
+      "axis": "DIRECTION('',(3.22973970800045E-16,-1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(-19.2919601084502,-4.5,4.))",
+      "axis": "DIRECTION('',(0.,-1.,0.))"
+    },
+    {
+      "radius": 1.0,
+      "origin": "CARTESIAN_POINT('',(16.2919601085603,6.5,3.99842125135478))",
+      "axis": "DIRECTION('',(0.,1.,0.))"
+    }
+  ],
+  "Поворотный кулак.stp": [
+    {
+      "radius": 6.25,
+      "origin": "CARTESIAN_POINT('',(0.,0.,9.5))",
+      "axis": "DIRECTION('',(0.,0.,-1.))"
+    },
+    {
+      "radius": 3.75,
+      "origin": "CARTESIAN_POINT('',(0.,0.,11.))",
+      "axis": "DIRECTION('',(0.,0.,-1.))"
+    },
+    {
+      "radius": 7.0,
+      "origin": "CARTESIAN_POINT('',(-2.95496040505866E-32,-2.4129082827114E-16,0.))",
+      "axis": "DIRECTION('',(0.,0.,1.))"
+    },
+    {
+      "radius": 1.35,
+      "origin": "CARTESIAN_POINT('',(8.,-2.26393205780259E-15,4.75))",
+      "axis": "DIRECTION('',(-1.,1.22464679914735E-16,0.))"
+    },
+    {
+      "radius": 1.5,
+      "origin": "CARTESIAN_POINT('',(-8.,1.65493769946895E-15,4.75))",
+      "axis": "DIRECTION('',(1.,-2.44929359829471E-16,0.))"
+    },
+    {
+      "radius": 2.25,
+      "origin": "CARTESIAN_POINT('',(0.,0.,21.))",
+      "axis": "DIRECTION('',(0.,0.,-1.))"
+    },
+    {
+      "radius": 1.5,
+      "origin": "CARTESIAN_POINT('',(-5.,13.,1.65296314607471))",
+      "axis": "DIRECTION('',(1.,0.,-1.83697019872103E-16))"
+    }
+  ]
+}

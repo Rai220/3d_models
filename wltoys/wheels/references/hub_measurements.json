@@ -1,0 +1,80 @@
+[
+  {
+    "file": "HamsterRC_mini-z-k969-wheel-v2.stl",
+    "author": "Hamster RC",
+    "model_url": "https://www.printables.com/model/723463-mini-zwltoys-k969k989-wheels-and-tires",
+    "license_from_model_api": "Creative Commons — Attribution",
+    "download_date": "2026-10-10",
+    "sha256": "e3cc8527063909497efa1cbff6b162ca3070c424a5533c5f80dcf99a9c6433a9",
+    "coordinate_to_mm_scale": 1,
+    "wheel_bounds_mm": [
+      [
+        -10.5,
+        -10.5,
+        0.0
+      ],
+      [
+        10.5,
+        10.5,
+        9.0
+      ]
+    ],
+    "hub_axial_length_mm": 2.0,
+    "hub_end_faces": [
+      {
+        "z_mm": 2.5,
+        "area_mm2": 13.312155121547843,
+        "outer_diameter_mm": 5.00000029809609
+      },
+      {
+        "z_mm": 4.5,
+        "area_mm2": 13.31186722850363,
+        "outer_diameter_mm": 5.000000372553483
+      }
+    ],
+    "reference_bore_xy_mm": [
+      2.0,
+      3.3995330333709717
+    ],
+    "note": "Compatible community wheel model; not a factory drawing or measurement of an OEM wheel. Only axial hub length and outside diameter are used; the user's axle hole is retained."
+  },
+  {
+    "file": "Lay10000_rim.stl",
+    "author": "Lay10000",
+    "model_url": "https://www.printables.com/model/1320028-wltoys-k969-k989-284131-wheel-rims",
+    "license_from_model_api": "Creative Commons — Attribution — Noncommercial — Share Alike",
+    "download_date": "2026-10-10",
+    "sha256": "babb388c932bdbbafdcc4f99b83d3d78327d79c11e507a59722b17f22cc02bb3",
+    "coordinate_to_mm_scale": 1000,
+    "wheel_bounds_mm": [
+      [
+        -10.500000789761543,
+        -10.500000789761543,
+        0.0
+      ],
+      [
+        10.500000789761543,
+        10.500000789761543,
+        9.000000543892384
+      ]
+    ],
+    "hub_axial_length_mm": 1.9999996293336153,
+    "hub_end_faces": [
+      {
+        "z_mm": 2.216055290773511,
+        "area_mm2": 13.312156482520344,
+        "outer_diameter_mm": 5.000000660857563
+      },
+      {
+        "z_mm": 4.216054920107126,
+        "area_mm2": 13.31186874412472,
+        "outer_diameter_mm": 5.00000066628312
+      }
+    ],
+    "reference_bore_xy_mm": [
+      2.0000000949949026,
+      3.3995332196354866
+    ],
+    "note": "Compatible community wheel model; not a factory drawing or measurement of an OEM wheel. Only axial hub length and outside diameter are used; the user's axle hole is retained."
+  }
+]

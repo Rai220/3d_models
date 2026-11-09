@@ -1,0 +1,282 @@
+{
+  "checks": [
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 0.32,
+      "centerline_clearance_mm": 1.2259675750732413
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 0.8,
+      "centerline_clearance_mm": 1.1815840560935547
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.1815840560935547
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.1815840560935547
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 2.96,
+      "centerline_clearance_mm": 1.1815840560935547
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.6170000000000042
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.6169999999999902
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.9579999999999982
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.9579999999999982
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 3.68,
+      "centerline_clearance_mm": 1.5540000000000018
+    },
+    {
+      "part": "tie_rod_slot_1p95",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 3.68,
+      "centerline_clearance_mm": 1.5540000000000018
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 0.32,
+      "centerline_clearance_mm": 0.8090324249267553
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 0.8,
+      "centerline_clearance_mm": 0.7591687884333695
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 0.7591687884333695
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 0.7591687884333695
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 2.96,
+      "centerline_clearance_mm": 0.7591687884333695
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.6170000000000042
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.6169999999999902
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.9579999999999982
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.9579999999999982
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 3.68,
+      "centerline_clearance_mm": 1.5540000000000018
+    },
+    {
+      "part": "tie_rod_slot_1p1",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 3.68,
+      "centerline_clearance_mm": 1.5540000000000018
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 0.32,
+      "centerline_clearance_mm": 1.649032424926759
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 0.8,
+      "centerline_clearance_mm": 1.6099675750732416
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.6099675750732416
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.6099675750732416
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "servo slot clear, including support and brim paths",
+      "z_mm": 2.96,
+      "centerline_clearance_mm": 1.6099675750732416
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.6170000000000042
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 1.52,
+      "centerline_clearance_mm": 1.6169999999999902
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.9579999999999982
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 2.48,
+      "centerline_clearance_mm": 1.9579999999999982
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "unchanged eye bore",
+      "x_mm": 3,
+      "z_mm": 3.68,
+      "centerline_clearance_mm": 1.5540000000000018
+    },
+    {
+      "part": "tie_rod_slot_2p8_original",
+      "feature": "unchanged eye bore",
+      "x_mm": 46.5,
+      "z_mm": 3.68,
+      "centerline_clearance_mm": 1.5540000000000018
+    },
+    {
+      "part": "knuckle_original",
+      "feature": "axial bore after support removal",
+      "z_mm": 0.32,
+      "centerline_clearance_mm": 6.435595168067746
+    },
+    {
+      "part": "knuckle_original",
+      "feature": "axial bore after support removal",
+      "z_mm": 4.76,
+      "centerline_clearance_mm": 6.419007537011205
+    },
+    {
+      "part": "knuckle_original",
+      "feature": "axial bore after support removal",
+      "z_mm": 9.56,
+      "centerline_clearance_mm": 3.9377044111758686
+    },
+    {
+      "part": "knuckle_original",
+      "feature": "axial bore after support removal",
+      "z_mm": 11.84,
+      "centerline_clearance_mm": 2.4311307495318193
+    },
+    {
+      "part": "knuckle_original",
+      "feature": "arm starts on first layer",
+      "segments": 12
+    },
+    {
+      "part": "knuckle_mirrored",
+      "feature": "axial bore after support removal",
+      "z_mm": 0.32,
+      "centerline_clearance_mm": 6.43456906887655
+    },
+    {
+      "part": "knuckle_mirrored",
+      "feature": "axial bore after support removal",
+      "z_mm": 4.76,
+      "centerline_clearance_mm": 6.427154498180488
+    },
+    {
+      "part": "knuckle_mirrored",
+      "feature": "axial bore after support removal",
+      "z_mm": 9.56,
+      "centerline_clearance_mm": 3.93184832711187
+    },
+    {
+      "part": "knuckle_mirrored",
+      "feature": "axial bore after support removal",
+      "z_mm": 11.84,
+      "centerline_clearance_mm": 2.4300247454081254
+    },
+    {
+      "part": "knuckle_mirrored",
+      "feature": "arm starts on first layer",
+      "segments": 59
+    }
+  ],
+  "project_sha256": "903a696e391cd82f8c5bf39cb42131b9d9b27e0ad570926d391e4ac8d69e6259",
+  "gcode_sha256": "51b97717c1014912cde89bd1aa05137034dd5ba481c0a4e9ec74d4e55104a5f2",
+  "physical_fit_verified": false,
+  "limitations": "Extrusion centerlines, not printed dimensions. Screw diameter and mating chassis unavailable. Knuckle supports must be removed."
+}

@@ -1,0 +1,6 @@
+[2026-11-03 13:06:33.045495] [0x00000001fdb7d300] [trace]   Initializing StaticPrintConfigs
+[2026-11-03 13:06:33.056115] [0x00000001fdb7d300] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-11-03 13:06:33.068880] [0x00000001fdb7d300] [warning] run:2873, can not find system preset file: /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab P1S 0.4 nozzle.json 
+[2026-11-03 13:06:33.068902] [0x00000001fdb7d300] [warning] run:2895, can not find system preset file: /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/0.12mm WLToys servo clamp @P1S.json 
+[2026-11-03 13:06:33.068919] [0x00000001fdb7d300] [warning] no filament colors found in projects
+[2026-11-03 13:06:33.069667] [0x00000001fdb7d300] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types

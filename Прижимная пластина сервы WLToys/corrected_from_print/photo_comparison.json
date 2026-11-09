@@ -1,0 +1,274 @@
+{
+  "method": "Manual original-versus-known-print landmark ratios with approximate floor homography",
+  "known_reference_model_mm": {
+    "width": 30.3,
+    "depth": 28.4988,
+    "height": 16,
+    "AB": 25.3,
+    "C_x": 3.5,
+    "C_y": 22
+  },
+  "assumption": "Printed reference was made at 100% scale; actual printed dimensions not measured.",
+  "top_landmarks_original_ABC_px": [
+    [
+      399.0,
+      634.0
+    ],
+    [
+      601.0,
+      625.0
+    ],
+    [
+      417.0,
+      461.0
+    ]
+  ],
+  "top_landmarks_printed_ABC_px": [
+    [
+      620.0,
+      694.0
+    ],
+    [
+      402.0,
+      717.0
+    ],
+    [
+      614.0,
+      889.0
+    ]
+  ],
+  "grid_landmarks_px": [
+    [
+      300.0,
+      415.0
+    ],
+    [
+      380.0,
+      410.0
+    ],
+    [
+      462.0,
+      404.0
+    ],
+    [
+      543.0,
+      398.0
+    ],
+    [
+      304.0,
+      499.0
+    ],
+    [
+      385.0,
+      491.0
+    ],
+    [
+      467.0,
+      484.0
+    ],
+    [
+      550.0,
+      477.0
+    ],
+    [
+      313.0,
+      658.0
+    ],
+    [
+      398.0,
+      650.0
+    ],
+    [
+      482.0,
+      642.0
+    ],
+    [
+      567.0,
+      634.0
+    ],
+    [
+      323.0,
+      821.0
+    ],
+    [
+      410.0,
+      813.0
+    ],
+    [
+      497.0,
+      804.0
+    ],
+    [
+      585.0,
+      795.0
+    ],
+    [
+      329.0,
+      902.0
+    ],
+    [
+      417.0,
+      894.0
+    ],
+    [
+      504.0,
+      885.0
+    ],
+    [
+      594.0,
+      876.0
+    ]
+  ],
+  "grid_landmarks_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0
+    ],
+    [
+      20.0,
+      0.0
+    ],
+    [
+      30.0,
+      0.0
+    ],
+    [
+      0.0,
+      10.0
+    ],
+    [
+      10.0,
+      10.0
+    ],
+    [
+      20.0,
+      10.0
+    ],
+    [
+      30.0,
+      10.0
+    ],
+    [
+      0.0,
+      30.0
+    ],
+    [
+      10.0,
+      30.0
+    ],
+    [
+      20.0,
+      30.0
+    ],
+    [
+      30.0,
+      30.0
+    ],
+    [
+      0.0,
+      50.0
+    ],
+    [
+      10.0,
+      50.0
+    ],
+    [
+      20.0,
+      50.0
+    ],
+    [
+      30.0,
+      50.0
+    ],
+    [
+      0.0,
+      60.0
+    ],
+    [
+      10.0,
+      60.0
+    ],
+    [
+      20.0,
+      60.0
+    ],
+    [
+      30.0,
+      60.0
+    ]
+  ],
+  "homography": [
+    [
+      0.12112935794738543,
+      -0.008855238052828182,
+      -32.09241700570889
+    ],
+    [
+      0.0104789632061864,
+      0.13088148151779244,
+      -57.875705682749405
+    ],
+    [
+      -3.758783192190719e-05,
+      8.510527476648771e-05,
+      1.0
+    ]
+  ],
+  "floor_grid_fit_rms_mm": 0.20920521367476466,
+  "raw_ratios_AB_Cx_Cy": [
+    0.9278668689056843,
+    0.8610486252895975,
+    0.9204938747075667
+  ],
+  "raw_estimated_AB_Cx_Cy_mm": [
+    23.475031783313813,
+    3.0136701885135913,
+    20.25086524356647
+  ],
+  "side_original_post_px": [
+    [
+      730,
+      572
+    ],
+    [
+      730,
+      645
+    ]
+  ],
+  "side_printed_post_px": [
+    [
+      780,
+      556
+    ],
+    [
+      780,
+      646
+    ]
+  ],
+  "height_ratio": 0.8111111111111111,
+  "raw_height_estimate_mm": 12.977777777777778,
+  "adopted_mm": {
+    "AB": 23.5,
+    "C_x": 3.0,
+    "C_y": 20.3,
+    "height": 13,
+    "post_width": 4.5,
+    "plate_thickness": 2
+  },
+  "practical_estimation_uncertainty_mm": {
+    "plan": 0.7,
+    "height": 1.0
+  },
+  "uncertainty_is_statistical_confidence_interval": false,
+  "limitations": "Manual points, occlusion, perspective and different elevated hole planes remain. Grid residual is not part accuracy. Section thicknesses are approximate; useful printable wall and plate thickness preserved.",
+  "withdrawn_data": "All previously supplied servo dimensions withdrawn by user; no servo box fit assertion is reused.",
+  "physical_fit_verified": false,
+  "source_sha256": {
+    "side_comparison.jpg": "dc120a6a164fe3e64d337fc3fc9b07ddfe98b2d5a0cfee3e5e3a4db1004ab189",
+    "top_comparison.jpg": "0afbae70e1fddc1c331bdddab3c56b7bd90575db8e3b41b6d90335c7b704230c"
+  }
+}

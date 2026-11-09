@@ -1,0 +1,172 @@
+{
+  "printer": "Bambu Lab P1S",
+  "assumed_nozzle_mm": 0.4,
+  "assumed_material": "Generic PLA",
+  "physical_fit_verified": false,
+  "custom_thread": {
+    "major_diameter_mm": 12,
+    "pitch_mm": 4.0,
+    "radial_clearance_mm": 0.3,
+    "axial_clearance_per_flank_mm": 0.16,
+    "standard_metric_thread": false
+  },
+  "rail_slot_width_mm": 4.6,
+  "nominal_rail_mm": [
+    3.6,
+    12
+  ],
+  "lamp_depth_range_mm": [
+    7.0,
+    25.0
+  ],
+  "pressure_face_mm": [
+    32.0,
+    30.0
+  ],
+  "parts": {
+    "clamp_body": {
+      "extents_mm": [
+        22.4,
+        44.8,
+        36.0
+      ],
+      "volume_cm3": 24.667,
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 456,
+      "max_unsupported_area_45deg_mm2": 0
+    },
+    "square_nut": {
+      "extents_mm": [
+        25.076,
+        25.076,
+        12.0
+      ],
+      "volume_cm3": 2.679,
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 13220,
+      "max_unsupported_area_45deg_mm2": 0
+    },
+    "thumb_screw": {
+      "extents_mm": [
+        28.0,
+        28.0,
+        50.0
+      ],
+      "volume_cm3": 7.582,
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 46888,
+      "max_unsupported_area_45deg_mm2": 0
+    },
+    "pressure_pad": {
+      "extents_mm": [
+        32.0,
+        30.0,
+        4.0
+      ],
+      "volume_cm3": 3.712,
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 780,
+      "max_unsupported_area_45deg_mm2": 0
+    }
+  },
+  "assembly_checks": [
+    {
+      "backoff_mm": 0,
+      "lamp_depth_mm": 7.0,
+      "intersections_mm3": {
+        "screw_nut": 0.0,
+        "screw_frame": 0.0,
+        "screw_pad": 7.2476746826311e-15,
+        "pad_frame": 0.0,
+        "pad_box": 0.0,
+        "screw_box": 0.0
+      }
+    },
+    {
+      "backoff_mm": 3,
+      "lamp_depth_mm": 10.0,
+      "intersections_mm3": {
+        "screw_nut": 0.0,
+        "screw_frame": 0.0,
+        "screw_pad": -7.730361489821647e-16,
+        "pad_frame": 0.0,
+        "pad_box": 0.0,
+        "screw_box": 0.0
+      }
+    },
+    {
+      "backoff_mm": 6,
+      "lamp_depth_mm": 13.0,
+      "intersections_mm3": {
+        "screw_nut": 0.0,
+        "screw_frame": 0.0,
+        "screw_pad": 2.3415297478734942e-14,
+        "pad_frame": 0.0,
+        "pad_box": 0.0,
+        "screw_box": 0.0
+      }
+    },
+    {
+      "backoff_mm": 9,
+      "lamp_depth_mm": 16.0,
+      "intersections_mm3": {
+        "screw_nut": 0.0,
+        "screw_frame": 0.0,
+        "screw_pad": 3.361026734705064e-17,
+        "pad_frame": 0.0,
+        "pad_box": 0.0,
+        "screw_box": 0.0
+      }
+    },
+    {
+      "backoff_mm": 12,
+      "lamp_depth_mm": 19.0,
+      "intersections_mm3": {
+        "screw_nut": 0.0,
+        "screw_frame": 0.0,
+        "screw_pad": 2.5261043257174265e-14,
+        "pad_frame": 0.0,
+        "pad_box": 0.0,
+        "screw_box": 0.0
+      }
+    },
+    {
+      "backoff_mm": 15,
+      "lamp_depth_mm": 22.0,
+      "intersections_mm3": {
+        "screw_nut": 0.0,
+        "screw_frame": 0.0,
+        "screw_pad": 4.202367620553815e-16,
+        "pad_frame": 0.0,
+        "pad_box": 0.0,
+        "screw_box": 0.0
+      }
+    },
+    {
+      "backoff_mm": 18,
+      "lamp_depth_mm": 25.0,
+      "intersections_mm3": {
+        "screw_nut": 0.0,
+        "screw_frame": 0.0,
+        "screw_pad": 1.8769708010069053e-15,
+        "pad_frame": 0.0,
+        "pad_box": 0.0,
+        "screw_box": 0.0
+      }
+    }
+  ],
+  "bambu_studio_slicing_verified": true,
+  "minimum_plate_spacing_mm": 2.0,
+  "slicer_estimate": {
+    "seconds": 7389,
+    "filament_g": 37.4,
+    "warnings": "",
+    "objects_on_plate": 4,
+    "layer_height_mm": 0.16,
+    "supports": false
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "parameters": {
+    "slot_width_mm": 1.95,
+    "original_slot_width_mm": 2.8,
+    "slot_center_x_mm": -14.75,
+    "slot_closed_end_z_mm": 9.0,
+    "stem_y_min_mm": -0.5,
+    "stem_y_max_mm": 2.5
+  },
+  "original_material_removed_mm3": 0.0,
+  "original_rod_volume_mm3": 500.67272386660943,
+  "rod_volume_added_mm3": 22.831786498186602,
+  "parts": {
+    "tie_rod_slot_1p95": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          49.499935150146484,
+          11.0,
+          5.49993896484375
+        ]
+      ],
+      "volume_mm3": 523.4988326752688,
+      "step_volume_mm3": 523.504510364796,
+      "shift": [
+        26.249967575073242,
+        1.8369326794773865e-16,
+        2.5
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_parts": 1,
+      "degenerate_faces": 0,
+      "faces": 5712,
+      "sha256": "19b9fa15b26b26954deff7b30f5c27ce04aa56e2945b42c559859a0ebfa44655"
+    },
+    "tie_rod_slot_1p1": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          49.499935150146484,
+          11.0,
+          5.49993896484375
+        ]
+      ],
+      "volume_mm3": 545.613853130723,
+      "step_volume_mm3": 545.61997747261,
+      "shift": [
+        26.249967575073242,
+        1.8369326794773865e-16,
+        2.5
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_parts": 1,
+      "degenerate_faces": 0,
+      "faces": 5712,
+      "sha256": "b00b7685921ee6fac8dc7ca15419cc168dbcd644b88dba3c0ca3c5c46b913356"
+    },
+    "knuckle_original": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          19.75,
+          21.499048233032227,
+          12.5
+        ]
+      ],
+      "volume_mm3": 812.3788152988515,
+      "step_volume_mm3": 812.4981678543975,
+      "shift": [
+        9.75,
+        6.999216556549072,
+        -0.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_parts": 1,
+      "degenerate_faces": 0,
+      "faces": 22080,
+      "sha256": "c6e869eafc9ef6c8a475ac6f92f4589f4d3f10bc95087713b850acaa1af4cc0c"
+    },
+    "knuckle_mirrored": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          19.75,
+          21.499048233032227,
+          12.5
+        ]
+      ],
+      "volume_mm3": 812.3788155108322,
+      "step_volume_mm3": 812.4981678543975,
+      "shift": [
+        10.0,
+        6.999216556549072,
+        -0.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_parts": 1,
+      "degenerate_faces": 0,
+      "faces": 22080,
+      "sha256": "37fa82b35941cd3575eea7d261d4a1cfaca34458a5b930f6ac31646fbcf28483"
+    },
+    "tie_rod_slot_2p8_original": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          49.499935150146484,
+          11.0,
+          5.49993896484375
+        ]
+      ],
+      "volume_mm3": 500.6673048384855,
+      "step_volume_mm3": 500.67272386660943,
+      "shift": [
+        26.249967575073242,
+        1.8369326794773865e-16,
+        2.5
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_parts": 1,
+      "degenerate_faces": 0,
+      "faces": 5764,
+      "sha256": "54e837ace7d08622eb68605f2d1ca97f38711134539554b1684a14b74afb5128"
+    }
+  },
+  "slot_section_checks": [
+    {
+      "print_z_mm": 0.4,
+      "distance_from_slot_mouth_mm": 1.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 0.4,
+      "distance_from_slot_mouth_mm": 4.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 0.4,
+      "distance_from_slot_mouth_mm": 7.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 0.4,
+      "distance_from_slot_mouth_mm": 8.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 1.5,
+      "distance_from_slot_mouth_mm": 1.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 1.5,
+      "distance_from_slot_mouth_mm": 4.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 1.5,
+      "distance_from_slot_mouth_mm": 7.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 1.5,
+      "distance_from_slot_mouth_mm": 8.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 2.3,
+      "distance_from_slot_mouth_mm": 1.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 2.3,
+      "distance_from_slot_mouth_mm": 4.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 2.3,
+      "distance_from_slot_mouth_mm": 7.0,
+      "slot_width_mm": 1.950000000000001
+    },
+    {
+      "print_z_mm": 2.3,
+      "distance_from_slot_mouth_mm": 8.0,
+      "slot_width_mm": 1.950000000000001
+    }
+  ],
+  "rod_length_mm": 49.499935150146484,
+  "eye_center_spacing_mm": 43.5
+}

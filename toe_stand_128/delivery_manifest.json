@@ -1,0 +1,234 @@
+{
+  "revision": "1:28 / countersunk M3x10 and M3x16 / retained nuts / through-bolted feet",
+  "folder": "/Users/knkrestnikov/giga/3d_models/toe_stand_128",
+  "units": "millimeter",
+  "full_project": "P1S_toe_M3x10_M3x16.3mf",
+  "mechanical_trial": "P1S_mechanical_trial.3mf",
+  "physical_fit_of_revised_design_verified": false,
+  "files": {
+    "P1S_mechanical_trial.3mf": {
+      "bytes": 154667,
+      "sha256": "b0ebb5322ef7dee91217140c2cd52f227bf30d70e91fba850f23c72b79e16562"
+    },
+    "P1S_toe_M3x10_M3x16.3mf": {
+      "bytes": 508845,
+      "sha256": "7ac46029b92c64909f0123cfbb51c02b70732c96856779d45983dcfb21b02f87"
+    },
+    "README_RU.md": {
+      "bytes": 26435,
+      "sha256": "4f1a51d24fd590da9e1948e9e236197425d4be297ae1cf4742db6df4a400e59f"
+    },
+    "assembly_guide.png": {
+      "bytes": 440614,
+      "sha256": "43c2e46dfec929bb85cd421d6df43b1dbc3256da518f2fab9c1b3332b5f95928"
+    },
+    "assembly_guide.py": {
+      "bytes": 9093,
+      "sha256": "3d7b9b853892633814172f05a5de952d1929ead625f928b0d96066c285db912b"
+    },
+    "axle_saddle.stl": {
+      "bytes": 174084,
+      "sha256": "57d7a121b6973f693bd4bdb9ec049a09addb7b276b61820af7c5a5dbdd50e543"
+    },
+    "bearing_washer.stl": {
+      "bytes": 51284,
+      "sha256": "87a03be325f1c20d86a0d44b2cd0ddc133b85b29896a7cb42ebc4d608f475f15"
+    },
+    "build.py": {
+      "bytes": 17134,
+      "sha256": "b5a914df0e8f853d571d59bd31ff2377bbd0274bc2e35fa28520466756c81055"
+    },
+    "cad_helpers.py": {
+      "bytes": 4155,
+      "sha256": "eb0af9d526dd8e0f4e278f346df40f90ae4ef9601d03620fbdd2478ef7a4fd44"
+    },
+    "checked_2plates.gcode.3mf": {
+      "bytes": 3808782,
+      "sha256": "94e7309643c15abc10651cd3cc481a5736e9775b3bf15675d07624c649876dce"
+    },
+    "crossrail.stl": {
+      "bytes": 157084,
+      "sha256": "8fbcd6eee9c7e5a01bd4e1056178c9fd2604534617df76ca16c2680e214f27b7"
+    },
+    "export.log": {
+      "bytes": 1043,
+      "sha256": "9955acd9a3a867cb23d841f8a4bbb39c7d1b9991c15ea7c252a1e5d9520f66b4"
+    },
+    "fastener_sections.png": {
+      "bytes": 222338,
+      "sha256": "a694ab62a00247ecd16a3e90c044647073bbdc458ea38031cfde1d8b17c22b84"
+    },
+    "fastener_toolpath_validation.json": {
+      "bytes": 15790,
+      "sha256": "a567e73a5266bd864ceef2a15f62ab9ce989149c82a4c4b2f446269c15a9bde0"
+    },
+    "fastener_toolpaths.png": {
+      "bytes": 306009,
+      "sha256": "712f18db7c3cd6074f82b7bb94855ecba7f3c8a63fb393cb7bc7c11d50f7a7b6"
+    },
+    "filament_profile.json": {
+      "bytes": 7773,
+      "sha256": "2893e8a35edf740e5fb516567a6fe9a37c158366e02a0f2e28e7412459fe0044"
+    },
+    "fit_rail.stl": {
+      "bytes": 1884,
+      "sha256": "4c44e1527a4b07726495136aa77dbca9127d169e5453feb17fb516da6b24d1b1"
+    },
+    "fit_slider.stl": {
+      "bytes": 121284,
+      "sha256": "368fbc79f870747237fc35561ca9694ae4b0b05cd37d4b70796493845c56cf36"
+    },
+    "foot.stl": {
+      "bytes": 37284,
+      "sha256": "6e90c01ef3d7522914a2311fc6a923a33d138ad873e14c0915f1c081d69cfe06"
+    },
+    "gcode_paths.py": {
+      "bytes": 3083,
+      "sha256": "1f30b8b5191d5e1fa26dfc8c84cf581cbb184cbea1cedb8ee85eeaf3a8ac41cf"
+    },
+    "geometry_validation.json": {
+      "bytes": 33351,
+      "sha256": "db0f8a90cc13b8625158ebcd686f4886f11069c32c0f40f6aefa82ba2b88aebf"
+    },
+    "hardware_geometry.py": {
+      "bytes": 1315,
+      "sha256": "4bd8b485916f52031333224f24f27a60a15e3646bbeb0a7f8ab4319b14cf35ba"
+    },
+    "hardware_validation.json": {
+      "bytes": 15867,
+      "sha256": "361797ba1fec216d4c3ceb696b68ba396960f43c443519e40c6026cac44bf831"
+    },
+    "initialize.log": {
+      "bytes": 202,
+      "sha256": "bc67bbbadb4b4f5d00e5f5a9d8af587894a817bc47c44bd83093c75dac7b3d8f"
+    },
+    "inspect_fastener_paths.py": {
+      "bytes": 4616,
+      "sha256": "42410eb2154f9c8c719d074bd3850dd0220fae4f4468412cdf8711d53a9088e2"
+    },
+    "inspect_two_plates.py": {
+      "bytes": 6343,
+      "sha256": "48cb1076813a5b4ace5e989930148499b4561ef6980e4394d7cf455ae6fa284e"
+    },
+    "layout.png": {
+      "bytes": 260530,
+      "sha256": "8330e3ea1ae7b82ab9957fa61288e4b8e1e8097d58aaf447f9accec4ee0120a9"
+    },
+    "measurement_guide.png": {
+      "bytes": 299930,
+      "sha256": "6d1b5992720d998d284f9eca8039f211788b510f381171a2692529e54809f2f7"
+    },
+    "parameters.json": {
+      "bytes": 1949,
+      "sha256": "d66f8f1101fedf08c165aeabb742b3d964ce86c977337794498a3678d3e22570"
+    },
+    "plate_1_toolpaths.png": {
+      "bytes": 188296,
+      "sha256": "559b375927aa15172bec982052726a8ffad5aa2b35ecc4781d3415a3b21802ef"
+    },
+    "plate_1_verification.json": {
+      "bytes": 965,
+      "sha256": "287b20e427cceb3dd392482d93bb7ec7571aae7bfd10b8c5c5e686e7bbf995b5"
+    },
+    "plate_2_toolpaths.png": {
+      "bytes": 195078,
+      "sha256": "e686affe72459101c3317da04ceea76dc7851abf113a182084934823a78454bc"
+    },
+    "plate_2_verification.json": {
+      "bytes": 996,
+      "sha256": "471f5336a58c9fff947f712ea8026888abc939e5070b98eacfbed9f78d4cfd4b"
+    },
+    "prepare_trial.py": {
+      "bytes": 5465,
+      "sha256": "a9a3f4bc740d7a28822803570f79cac32f9495643024f6c5f4b7ebb1140729ce"
+    },
+    "prepare_two_plates.py": {
+      "bytes": 13381,
+      "sha256": "1c71ddad9c80e5f82f0cf99d4f893c8adf4b084d533b960aed3c1fdbfb15c861"
+    },
+    "preview.png": {
+      "bytes": 475445,
+      "sha256": "e43e2e7a8858016d939486f2120b0e165973b5880322886e74f2d1dfbea7ed6e"
+    },
+    "print_profile.json": {
+      "bytes": 7942,
+      "sha256": "a215509f7b2b0f070b5bf12a45083bef4f4cc7e5fd9b431eb4b0f0da8594b6ec"
+    },
+    "printer_profile.json": {
+      "bytes": 20332,
+      "sha256": "a51910aae0368dd3c1dd87f93ccdc8cb8f2a0a9a6370864fd0a989de415cfe02"
+    },
+    "requirements.txt": {
+      "bytes": 107,
+      "sha256": "6bbfa25ccb516833d4465dc7f1ae40f4a67da0e4e5a6fca74f0ea8ced1dc1184"
+    },
+    "scale_toolpaths.png": {
+      "bytes": 530508,
+      "sha256": "fd43d5d571ec40cb4a6dcc1381ce3a5cf51b54fb8b49e6a28e169029a736cafd"
+    },
+    "slice.log": {
+      "bytes": 3443,
+      "sha256": "db34dc4b3033d7e3a161c16b081ca40cab900bb94c66b4bab71c87685a6f094d"
+    },
+    "slice_result.json": {
+      "bytes": 14713,
+      "sha256": "a201a196c67015a0fff9ed78715562509e285fab44caffca529ead632b3fb033"
+    },
+    "spine.stl": {
+      "bytes": 1884,
+      "sha256": "6f4735ebbb5212d51855a88472555c69ac0d9849138768ed658d349ca1b448ee"
+    },
+    "toe_angle.py": {
+      "bytes": 1282,
+      "sha256": "1ff0c4d914f6a50e53c42e154cac90f465bcc39912e770268872c20e746fca88"
+    },
+    "toolpath_inspection.json": {
+      "bytes": 3932,
+      "sha256": "6cbe7cbfaf8bef7dee36869ff2068f77e3eae979cd29413df4893d403b02aebe"
+    },
+    "trial_checked.gcode.3mf": {
+      "bytes": 1071560,
+      "sha256": "94ad1052bd2d98b576b3b1e138f5a899873019518771c2635ed4ba8cd3bce07c"
+    },
+    "trial_export.log": {
+      "bytes": 889,
+      "sha256": "aa20ee415c3b7300ce18cbaaf968b5f99b4c5c86f7a2fa961c86065d3bc5cb13"
+    },
+    "trial_slice.log": {
+      "bytes": 1589,
+      "sha256": "e3021297de5921a4c60c6c0cf3fe8e604afc3fc30a7cab34af42763eb8cae46c"
+    },
+    "trial_slice_result.json": {
+      "bytes": 5312,
+      "sha256": "13fe6c576f750c41ada788b760d6c4d420498f3e3e6c866e7bf6b730c0693dd9"
+    },
+    "trial_validation.json": {
+      "bytes": 1208,
+      "sha256": "2cb1383a0f545a61f53a7f1f149c9d29953d1b5818deb4ee4b7853d4cc02d0f2"
+    },
+    "validation.json": {
+      "bytes": 15228,
+      "sha256": "9b0cebddbc5c065dfabbeae425977e1dbecb580650935e1e0a60d4f782170ac2"
+    },
+    "verify_hardware.py": {
+      "bytes": 6510,
+      "sha256": "a76f995fdec279cf6cbe2c71c5e1f334dd37598ba4f1f7fe844fcccb3dae9118"
+    },
+    "wheel_carriage_left.stl": {
+      "bytes": 180084,
+      "sha256": "e6cf55e6998dcbe7f226caeb2aca9687a893be5c4ccf31e6d13fa78eba580a17"
+    },
+    "wheel_carriage_right.stl": {
+      "bytes": 186084,
+      "sha256": "f35312f16c5c1a20da87b5efae1ab14598837008370dd62ae7d366a0f0021dfa"
+    },
+    "wheel_unit.stl": {
+      "bytes": 91284,
+      "sha256": "47f7b190d6fc202c5a22079de1293f1cbc43d955e1b7a6d1f6006ed72fe1f9cf"
+    },
+    "zero_block.stl": {
+      "bytes": 2284,
+      "sha256": "1d058cba3533367cecde0ca6c29ba35555883a0246111bdd8ec43d49b816b562"
+    }
+  }
+}

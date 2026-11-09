@@ -1,0 +1,58 @@
+{
+  "dimensions_are_photo_estimates": true,
+  "printer": "Bambu Lab P1S",
+  "assumed_nozzle_mm": 0.4,
+  "assumed_material": "Generic PLA",
+  "paper_side_mm": 90.0,
+  "clear_storage_mm": [
+    95.0,
+    95.0,
+    105.0
+  ],
+  "clear_collar_mm": [
+    68.0,
+    34.0
+  ],
+  "collar_height_mm": 12.0,
+  "finger_slot_mm": 28.0,
+  "paper_fit_intersection_mm3": 0.0,
+  "collar_passage_intersection_mm3": 0.0,
+  "max_unsupported_area_at_45deg_mm2": 0.0,
+  "physical_fit_verified": false,
+  "parts": {
+    "paper_box": {
+      "extents_mm": [
+        100.6,
+        140.6,
+        108.2
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "volume_cm3": 145.66,
+      "triangles": 4016,
+      "slicer_estimate": {
+        "seconds": 14436,
+        "filament_g": 163.0,
+        "warnings": ""
+      }
+    },
+    "fit_check": {
+      "extents_mm": [
+        100.6,
+        140.6,
+        12.0
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "volume_cm3": 21.15,
+      "triangles": 1828,
+      "slicer_estimate": {
+        "seconds": 2602,
+        "filament_g": 24.2,
+        "warnings": ""
+      }
+    }
+  },
+  "bambu_studio_slicing_verified": true,
+  "bambu_studio_version": "02.08.02.61"
+}

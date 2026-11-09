@@ -1,0 +1,54 @@
+{
+  "project_sha256": "903a696e391cd82f8c5bf39cb42131b9d9b27e0ad570926d391e4ac8d69e6259",
+  "settings": {
+    "printer_model": "Bambu Lab P1S",
+    "printer_settings_id": "Bambu Lab P1S 0.4 nozzle",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_settings_id": [
+      "Generic PLA"
+    ],
+    "curr_bed_type": "Textured PEI Plate",
+    "layer_height": "0.12",
+    "initial_layer_print_height": "0.32",
+    "wall_loops": "4",
+    "sparse_infill_density": "30%"
+  },
+  "object_settings": {
+    "tie_rod_slot_1p95.stl": {
+      "name": "tie_rod_slot_1p95.stl",
+      "brim_type": "no_brim",
+      "brim_width": "0",
+      "enable_support": "0",
+      "extruder": "1"
+    },
+    "tie_rod_slot_1p1.stl": {
+      "name": "tie_rod_slot_1p1.stl",
+      "brim_type": "no_brim",
+      "brim_width": "0",
+      "enable_support": "0",
+      "extruder": "1"
+    },
+    "tie_rod_slot_2p8_original.stl": {
+      "name": "tie_rod_slot_2p8_original.stl",
+      "brim_type": "no_brim",
+      "brim_width": "0",
+      "enable_support": "0",
+      "extruder": "1"
+    },
+    "knuckle_original.stl": {
+      "name": "knuckle_original.stl",
+      "enable_support": "1",
+      "extruder": "1"
+    },
+    "knuckle_mirrored.stl": {
+      "name": "knuckle_mirrored.stl",
+      "enable_support": "1",
+      "extruder": "1"
+    }
+  }
+}

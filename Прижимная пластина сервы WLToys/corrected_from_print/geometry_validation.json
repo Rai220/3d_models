@@ -1,0 +1,125 @@
+{
+  "status": "FIT_FEEDBACK_SINGLE_TRIAL",
+  "parameters": {
+    "units": "mm",
+    "status": "fit_feedback_larger_bores_extended_tab",
+    "front_hole_spacing": 22.5,
+    "rear_hole_x": 2.4813255872894033,
+    "rear_hole_y": 19.362129742755208,
+    "post_width": 4.5,
+    "post_corner_radius": 0.7,
+    "total_height": 13.0,
+    "plate_thickness": 2.0,
+    "bar_depth": 4.5,
+    "stem_x": 11.25,
+    "stem_width": 4.7,
+    "stem_end_y": 19.1,
+    "diagonal_width": 4.2,
+    "inner_fillet": 1.2,
+    "tab_width": 6.5,
+    "tab_depth": 2.2,
+    "tab_height_above_plate": 2.0,
+    "pilot_diameter": 1.6,
+    "pilot_depth": 8.0,
+    "entry_diameter": 2.0,
+    "entry_depth": 0.3,
+    "front_tab_extension": 1.0,
+    "rear_tab_inner_y": 18.0,
+    "tab_outer_gusset": 0.8
+  },
+  "extents_mm": [
+    27.0,
+    27.86212921142578,
+    13.0
+  ],
+  "volume_mm3": 1253.2679548866781,
+  "triangles": 3948,
+  "watertight": true,
+  "consistent_normals": true,
+  "positive_volume": true,
+  "connected_solids": 1,
+  "minimum_triangle_area_mm2": 1.4104356523603201e-05,
+  "bounds_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      27.0,
+      27.86212921142578,
+      13.0
+    ]
+  ],
+  "print_shift_mm": [
+    2.25,
+    6.25,
+    -0.0
+  ],
+  "pilot_centers_print_xy_mm": [
+    [
+      2.25,
+      6.25
+    ],
+    [
+      24.75,
+      6.25
+    ],
+    [
+      4.731325587289403,
+      25.612129742755208
+    ]
+  ],
+  "pilot_checks": [
+    {
+      "hole": "A",
+      "empty_bore_checked": true,
+      "floor_checked": true
+    },
+    {
+      "hole": "B",
+      "empty_bore_checked": true,
+      "floor_checked": true
+    },
+    {
+      "hole": "C",
+      "empty_bore_checked": true,
+      "floor_checked": true
+    }
+  ],
+  "pilot_floor_z_mm": 5.0,
+  "minimum_post_wall_mm": 1.25,
+  "nominal_under_plate_height_mm": 11.0,
+  "front_clear_width_mm": 18.0,
+  "between_tabs_clear_depth_mm": 21.25,
+  "tab_bounds_xy_mm": [
+    [
+      8.0,
+      -5.449999999999999,
+      14.5,
+      -3.2499999999999996
+    ],
+    [
+      8.0,
+      18.0,
+      14.5,
+      20.200000000000003
+    ]
+  ],
+  "tab_root_depth_mm": 2.2,
+  "outside_gusset_mm": 0.8,
+  "tongue_thickness_mm": 2.0,
+  "tab_clearance_probes_passed": true,
+  "hole_distances_mm": {
+    "AB": 22.5,
+    "AC": 19.520477577288496,
+    "BC": 27.850303291300076
+  },
+  "previous_servo_dimensions_valid": false,
+  "servo_fit_computation_performed": false,
+  "physical_fit_verified": false,
+  "physical_print_verified": false,
+  "previous_oversized_reference_physically_printed_user_report": true,
+  "assembly_limitations": "Latest physical trial: bores too small, front tooth broke during servo insertion. Revised bores and tooth; post height reduced by 0.5 mm from H13.5 to H13 at user request. Actual servo and screw dimensions remain unmeasured; fit and durability require trial.",
+  "stl_sha256": "7970a2c590ddf2d7c1678e95281b9c36cfa57051793c2f40186e927d1615ee80"
+}

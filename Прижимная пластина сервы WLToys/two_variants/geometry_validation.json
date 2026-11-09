@@ -1,0 +1,88 @@
+{
+  "parts": {
+    "Original_16mm": {
+      "extents_mm": [
+        30.299999237060547,
+        28.498796463012695,
+        16.0
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_solids": 1,
+      "volume_mm3": 1655.3236026100851,
+      "triangles": 3856,
+      "minimum_triangle_area_mm2": 1.4086723922446254e-05,
+      "stl_sha256": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898",
+      "pilot_centers_print_xy_mm": [
+        [
+          2.5,
+          3.998796224594116
+        ],
+        [
+          27.8,
+          3.998796224594116
+        ],
+        [
+          6.0,
+          25.998796224594116
+        ]
+      ],
+      "pilot_floor_z_mm": 8.0,
+      "pilot_diameter_mm": 1.2,
+      "pilot_depth_mm": 8.0,
+      "under_plate_height_mm": 14.0,
+      "physical_fit_verified": false,
+      "physical_print_verified": false
+    },
+    "Reduced_10p2mm": {
+      "extents_mm": [
+        30.299999237060547,
+        28.498796463012695,
+        10.199999809265137
+      ],
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_solids": 1,
+      "volume_mm3": 1227.7607917891344,
+      "triangles": 3856,
+      "minimum_triangle_area_mm2": 1.4086723922446254e-05,
+      "stl_sha256": "919a0b4cd203184720dbe05755827c09e12e06671a52b7b381aba6ece435e019",
+      "pilot_centers_print_xy_mm": [
+        [
+          2.5,
+          3.998796224594116
+        ],
+        [
+          27.8,
+          3.998796224594116
+        ],
+        [
+          6.0,
+          25.998796224594116
+        ]
+      ],
+      "pilot_floor_z_mm": 2.1999998092651367,
+      "pilot_diameter_mm": 1.2,
+      "pilot_depth_mm": 8.0,
+      "under_plate_height_mm": 8.199999809265137,
+      "physical_fit_verified": false,
+      "physical_print_verified": false
+    }
+  },
+  "small_assembly": {
+    "servo_installed_dimensions_mm": [
+      19.8,
+      21.5,
+      8.2
+    ],
+    "dimension_orientation_assumed_from_previous_user_plan_dimensions": true,
+    "servo_insertion_prism_intersection_mm3": 0.0,
+    "nominal_lateral_clearance_mm": 0.25,
+    "vertical_clearance_at_contact_mm": 0,
+    "material_below_blind_hole_mm": 2.1999999999999993,
+    "head_and_chassis_dimensions_known": false,
+    "chassis_hole_positions_verified": false,
+    "steering_motion_verified": false,
+    "assembly_note": "Same screw coordinates as original trial. Three stock screws enter from chassis into post ends. Tip insertion must be less than 7.5 mm. No nuts or printed threads. Verify real chassis and body height before tightening."
+  }
+}

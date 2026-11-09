@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-17T16:37:53.072058+00:00",
+  "printer": "Bambu Lab P1S",
+  "assumed_nozzle_mm": 0.4,
+  "assumed_material": "white PLA",
+  "slicer": "BambuStudio 02.08.02.61",
+  "all_exported_stl_checks_passed": true,
+  "assembly_geometry_checks_passed": true,
+  "exact_delivery_projects_reloaded_and_sliced": true,
+  "support_extrusion_moves": 0,
+  "cavity_and_functional_openings_checks_passed": true,
+  "physical_print_tested": false,
+  "physical_fit_tested": false,
+  "actual_illumination_tested": false,
+  "unsupported_roof_chord_mm": 8.07891198353565,
+  "main_parts_estimate_seconds": 80482.9970703125,
+  "main_parts_estimate_grams": 235.83255004882812,
+  "reports": [
+    "geometry_validation.json",
+    "slicing_validation.json",
+    "toolpath_validation.json"
+  ]
+}

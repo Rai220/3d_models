@@ -1,0 +1,255 @@
+{
+  "parameters": {
+    "units": "mm",
+    "servo_model": "JX DHV56MG",
+    "body_width": 19.8,
+    "body_thickness": 8.2,
+    "body_length": 21.5,
+    "body_back_y": 16.0,
+    "ear_spacing_estimate": 24.0,
+    "ear_thickness_assumption": 1.2,
+    "ear_hole_height_over_body_bottom": 4.6,
+    "ear_mount_face_y": 0.0,
+    "post_free_length": 0.0,
+    "plate_thickness": 5.0,
+    "chassis_pilot_diameter": 1.6,
+    "chassis_pilot_depth": 5.0,
+    "ear_pilot_diameter": 1.6,
+    "ear_pilot_depth": 4.0,
+    "ear_entry_diameter": 2.0,
+    "ear_entry_depth": 0.3,
+    "mount_width": 3.8,
+    "mount_depth": 5.2,
+    "mount_height_above_plate": 6.5,
+    "body_side_clearance": 0.3,
+    "original_stl_sha256": "7970a2c590ddf2d7c1678e95281b9c36cfa57051793c2f40186e927d1615ee80",
+    "physical_fit_verified": false,
+    "ear_dimensions_measured": false,
+    "servo_offset_x_mm": -5.0,
+    "offset_direction": "Toward near chassis side in supplied photo; away from shaft, toward negative assembly X",
+    "chassis_hole_registration": "Match fitting Original_H13 after turning screw openings downward; fixed thin B,C correspond to original C,B; correct outer front A only",
+    "chassis_holes_through": true
+  },
+  "extents_mm": [
+    32.79999923706055,
+    28.162128448486328,
+    11.5
+  ],
+  "bounds_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      32.79999923706055,
+      28.162128448486328,
+      11.5
+    ]
+  ],
+  "watertight": true,
+  "consistent_normals": true,
+  "connected_solids": 1,
+  "positive_volume": true,
+  "volume_mm3": 3539.4659679886395,
+  "minimum_triangle_area_mm2": 4.247228423537308e-05,
+  "stl_sha256": "14716d15afb39005bb5a4348c7502b8339266fa0ccbd9756ebc52302abb22eed",
+  "print_shift_mm": [
+    7.650000095367432,
+    5.800000190734863,
+    -0.0
+  ],
+  "chassis_pilot_centers_xy_mm": [
+    [
+      10.881343395708411,
+      2.6746339984129754
+    ],
+    [
+      30.15000009536743,
+      5.800000190734863
+    ],
+    [
+      10.131325682656835,
+      25.16212993349007
+    ]
+  ],
+  "chassis_hole_centers_assembly_xy_mm": [
+    [
+      3.2313433003409795,
+      -3.125366192321888
+    ],
+    [
+      22.5,
+      0.0
+    ],
+    [
+      2.4813255872894033,
+      19.362129742755208
+    ]
+  ],
+  "reference_hole_centers_before_turnover_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      22.5,
+      0.0
+    ],
+    [
+      2.4813255872894033,
+      19.362129742755208
+    ]
+  ],
+  "reference_turnover_transform": [
+    [
+      -0.033334120580069904,
+      0.9994442637812041,
+      0.0,
+      3.2313433003409795
+    ],
+    [
+      0.9994442637812041,
+      0.03333412058007024,
+      0.0,
+      -3.125366192321888
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      13.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "reference_hole_mapping": {
+    "thin_A": "original_A",
+    "thin_B": "original_C",
+    "thin_C": "original_B"
+  },
+  "corrected_hole": "A - outer front",
+  "hole_A_delta_from_previous_mm": [
+    3.2313433003409795,
+    -3.125366192321888
+  ],
+  "holes_B_C_unchanged": true,
+  "orientation_inferred_from_two_matching_holes": true,
+  "ear_hole_centers_assembly_xyz_mm": [
+    [
+      -5.75,
+      0.0,
+      9.6
+    ],
+    [
+      18.25,
+      0.0,
+      9.6
+    ]
+  ],
+  "ear_offset_from_previous_mm": [
+    -5.0,
+    0,
+    0
+  ],
+  "chassis_holes_unchanged": false,
+  "original_base_footprint_retained": true,
+  "ear_pilot_centers_xyz_mm": [
+    [
+      1.9000000953674316,
+      5.800000190734863,
+      9.6
+    ],
+    [
+      25.90000009536743,
+      5.800000190734863,
+      9.6
+    ]
+  ],
+  "chassis_pilot_depth_mm": 5.0,
+  "ear_pilot_depth_mm": 4.0,
+  "shelf_bottom_z_mm": 0.0,
+  "shelf_top_z_mm": 5.0,
+  "nominal_body_min_mm": [
+    -3.6500000000000004,
+    -5.5,
+    5.0
+  ],
+  "nominal_body_size_mm": [
+    19.8,
+    21.5,
+    8.2
+  ],
+  "body_clearance_per_side_at_uprights_mm": 0.2,
+  "minimum_ear_bore_side_wall_mm": 0.8999999999999999,
+  "ear_bore_end_wall_mm": 1.2000000000000002,
+  "ear_entry_top_ligament_mm": 0.9000000000000004,
+  "chassis_bore_roof_to_servo_mm": 0,
+  "chassis_holes_through": true,
+  "chassis_holes_under_nominal_servo": [
+    "A"
+  ],
+  "insertion_sweep": [
+    {
+      "lift_mm": 0,
+      "intersection_mm3": 5.537497543839365e-14
+    },
+    {
+      "lift_mm": 0.2,
+      "intersection_mm3": 0.0
+    },
+    {
+      "lift_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "lift_mm": 1,
+      "intersection_mm3": 0.0
+    },
+    {
+      "lift_mm": 2,
+      "intersection_mm3": 0.0
+    },
+    {
+      "lift_mm": 4,
+      "intersection_mm3": 0.0
+    },
+    {
+      "lift_mm": 8,
+      "intersection_mm3": 0.0
+    },
+    {
+      "lift_mm": 15,
+      "intersection_mm3": 0.0
+    },
+    {
+      "lift_mm": 25,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "driver_envelope_diameter_mm": 3.6,
+  "maximum_chassis_screw_penetration_mm": 4.8,
+  "maximum_ear_screw_penetration_mm": 3.5,
+  "lower_legs_removed": true,
+  "solid_plate_thickness_mm": 5.0,
+  "ear_spacing_is_estimate": true,
+  "physical_fit_verified": false,
+  "limitations": "Nominal box and assumed ears only. Real ear spacing, height, thickness, screw sizes, wire exit, horn swept volume and chassis are not measured.",
+  "through_bore_change_validation": {
+    "previous_stl_sha256": "410488583e141dea6ab8a51e7c10df05a756839fabf42d19d8f9310b5b6d0a24",
+    "removed_volume_mm3": 18.066519384660523,
+    "material_added_mm3": 0.0,
+    "changed_volume_outside_three_bores_mm3": -4.90059381963448e-17,
+    "chassis_centers_unchanged": true,
+    "upper_ear_bores_unchanged": true,
+    "outer_shape_unchanged": true,
+    "bores_under_nominal_servo_body": [
+      "A"
+    ],
+    "physical_long_screw_clearance_verified": false
+  }
+}

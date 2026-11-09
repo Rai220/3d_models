@@ -1,0 +1,98 @@
+{
+  "project_sha256": "9230c2e503d80e974d1f4117e1e3a222c69aeeb85fdafb70f802b6a82dbf36d5",
+  "stl_sha256": "79037dd1b32bc4b01fb4e08eecf11f7e20e40584284183a7610c231110533898",
+  "slicer_version": "02.08.02.61",
+  "prepare_exit_code": 0,
+  "slice_exit_code": 0,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 2.174074172973633,
+        "Custom": 411.2014465332031,
+        "Flush": 29.0,
+        "Gap infill": 63.27643585205078,
+        "Inner wall": 648.7124633789062,
+        "Internal solid infill": 32.290367126464844,
+        "Outer wall": 395.5489807128906,
+        "Sparse infill": 6.036562442779541,
+        "Top surface": 28.605939865112305,
+        "Travel": 250.1876983642578,
+        "Undefined": 234.9320831298828
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 2.070814609527588,
+          "total_used_g": 2.070814609527588
+        }
+      ],
+      "generate_support_material_time": 26,
+      "id": 1,
+      "infill_time": 26,
+      "layer_filament_change": 0,
+      "main_predication": 1397.9091796875,
+      "make_perimeters_time": 63,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 28.498794555664062,
+            "height": 16.0,
+            "width": 30.299999237060547,
+            "x": 112.84999084472656,
+            "y": 113.75060272216797,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "WLToys servo clamp - photo fit trial",
+          "triangle_count": 3856
+        }
+      ],
+      "sliced_time": 232,
+      "sliced_time_with_cache": 98,
+      "total_predication": 1851.824462890625,
+      "triangle_count": 3856,
+      "warning_message": ""
+    }
+  ],
+  "model_instances": 1,
+  "bed_and_excluded_zones_checked": true,
+  "settings": {
+    "printer_model": "Bambu Lab P1S",
+    "printer_settings_id": "Bambu Lab P1S 0.4 nozzle",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_settings_id": [
+      "Generic PLA"
+    ],
+    "curr_bed_type": "Textured PEI Plate",
+    "layer_height": "0.12",
+    "wall_loops": "5",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_density": "40%",
+    "enable_support": "0"
+  },
+  "project_contains_gcode": false,
+  "check_file_contains_gcode": true,
+  "print_seconds_estimate": 1851.824462890625,
+  "filament_g_estimate": 2.070814609527588,
+  "gcode_bytes": 1825979,
+  "gcode_sha256": "6a5f3d871366d9f6773c76633c726956cab0734ab15aaabc16e5d4548e3f584e",
+  "log_messages_to_review": [
+    "[2026-10-30 12:05:50.849831] [0x00000001faf36180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+    "[2026-10-30 12:05:51.269760] [0x00000001faf36180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+    "[2026-10-30 12:05:51.280301] [0x00000001faf36180] [warning] run:2873, can not find system preset file: /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab P1S 0.4 nozzle.json ",
+    "[2026-10-30 12:05:51.280318] [0x00000001faf36180] [warning] run:2895, can not find system preset file: /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/0.12mm WLToys servo clamp trial @P1S.json ",
+    "[2026-10-30 12:05:51.280335] [0x00000001faf36180] [warning] no filament colors found in projects",
+    "[2026-10-30 12:05:51.281044] [0x00000001faf36180] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+    "[2026-10-30 12:05:51.371536] [0x00000001faf36180] [warning] tree support default to organic support"
+  ],
+  "physical_fit_verified": false
+}

@@ -1,0 +1,638 @@
+{
+  "project_sha256": "7ac46029b92c64909f0123cfbb51c02b70732c96856779d45983dcfb21b02f87",
+  "gcode_3mf_sha256": "94e7309643c15abc10651cd3cc481a5736e9775b3bf15675d07624c649876dce",
+  "source": "actual extrusion centerlines; nominal extrusion width allowance",
+  "physical_fit_verified": false,
+  "checks": [
+    {
+      "object": "wheel_unit_1",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9006
+    },
+    {
+      "object": "wheel_unit_1",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 2.0,
+      "center_to_extrusion_mm": 1.9003
+    },
+    {
+      "object": "wheel_unit_1",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.8999
+    },
+    {
+      "object": "foot_3",
+      "feature": "underside hex nut",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_3",
+      "feature": "underside hex nut",
+      "print_z_mm": 1.8,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_3",
+      "feature": "underside hex nut",
+      "print_z_mm": 3.4,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_3",
+      "feature": "through foot bore",
+      "print_z_mm": 4.0,
+      "center_to_extrusion_mm": 1.8997
+    },
+    {
+      "object": "foot_3",
+      "feature": "through foot bore",
+      "print_z_mm": 7.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "foot_3",
+      "feature": "through foot bore",
+      "print_z_mm": 10.8,
+      "center_to_extrusion_mm": 1.8997
+    },
+    {
+      "object": "foot_1",
+      "feature": "underside hex nut",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_1",
+      "feature": "underside hex nut",
+      "print_z_mm": 1.8,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_1",
+      "feature": "underside hex nut",
+      "print_z_mm": 3.4,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_1",
+      "feature": "through foot bore",
+      "print_z_mm": 4.0,
+      "center_to_extrusion_mm": 1.8998
+    },
+    {
+      "object": "foot_1",
+      "feature": "through foot bore",
+      "print_z_mm": 7.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "foot_1",
+      "feature": "through foot bore",
+      "print_z_mm": 10.8,
+      "center_to_extrusion_mm": 1.9006
+    },
+    {
+      "object": "foot_2",
+      "feature": "underside hex nut",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_2",
+      "feature": "underside hex nut",
+      "print_z_mm": 1.8,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_2",
+      "feature": "underside hex nut",
+      "print_z_mm": 3.4,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_2",
+      "feature": "through foot bore",
+      "print_z_mm": 4.0,
+      "center_to_extrusion_mm": 1.8998
+    },
+    {
+      "object": "foot_2",
+      "feature": "through foot bore",
+      "print_z_mm": 7.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "foot_2",
+      "feature": "through foot bore",
+      "print_z_mm": 10.8,
+      "center_to_extrusion_mm": 1.9001
+    },
+    {
+      "object": "foot_4",
+      "feature": "underside hex nut",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_4",
+      "feature": "underside hex nut",
+      "print_z_mm": 1.8,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_4",
+      "feature": "underside hex nut",
+      "print_z_mm": 3.4,
+      "center_to_extrusion_mm": 3.1599
+    },
+    {
+      "object": "foot_4",
+      "feature": "through foot bore",
+      "print_z_mm": 4.0,
+      "center_to_extrusion_mm": 1.8997
+    },
+    {
+      "object": "foot_4",
+      "feature": "through foot bore",
+      "print_z_mm": 7.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "foot_4",
+      "feature": "through foot bore",
+      "print_z_mm": 10.8,
+      "center_to_extrusion_mm": 1.9002
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 6.2,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 7.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 8.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9002
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "pivot bore",
+      "print_z_mm": 5.8,
+      "center_to_extrusion_mm": 1.9002
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 10.0,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 12.6,
+      "center_to_extrusion_mm": 2.4957
+    },
+    {
+      "object": "fit_slider_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 15.2,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 5.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 6.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 7.8,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 5.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 6.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 7.8,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "mount through bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.8999
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "mount through bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9005
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "mount through bore",
+      "print_z_mm": 8.8,
+      "center_to_extrusion_mm": 1.9008
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "mount through bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.8999
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "mount through bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9005
+    },
+    {
+      "object": "axle_saddle_2",
+      "feature": "mount through bore",
+      "print_z_mm": 8.8,
+      "center_to_extrusion_mm": 1.9008
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 5.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 6.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 7.8,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 5.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 6.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "crossrail nut slot",
+      "print_z_mm": 7.8,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "mount through bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9003
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "mount through bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.8997
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "mount through bore",
+      "print_z_mm": 8.8,
+      "center_to_extrusion_mm": 1.9008
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "mount through bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.8999
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "mount through bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9005
+    },
+    {
+      "object": "axle_saddle_1",
+      "feature": "mount through bore",
+      "print_z_mm": 8.8,
+      "center_to_extrusion_mm": 1.9008
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 6.2,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 7.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 8.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9001
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "pivot bore",
+      "print_z_mm": 5.8,
+      "center_to_extrusion_mm": 1.9002
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 10.0,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 12.6,
+      "center_to_extrusion_mm": 2.4957
+    },
+    {
+      "object": "wheel_carriage_left_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 15.2,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 6.2,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 7.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "pivot nut slot",
+      "print_z_mm": 8.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9001
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "pivot bore",
+      "print_z_mm": 5.8,
+      "center_to_extrusion_mm": 1.9002
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 10.0,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 12.6,
+      "center_to_extrusion_mm": 2.4957
+    },
+    {
+      "object": "wheel_carriage_right_1",
+      "feature": "clamp nut slot",
+      "print_z_mm": 15.2,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "pivot nut slot",
+      "print_z_mm": 6.2,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "pivot nut slot",
+      "print_z_mm": 7.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "pivot nut slot",
+      "print_z_mm": 8.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9001
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "pivot bore",
+      "print_z_mm": 5.8,
+      "center_to_extrusion_mm": 1.8999
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "clamp nut slot",
+      "print_z_mm": 10.0,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "clamp nut slot",
+      "print_z_mm": 12.6,
+      "center_to_extrusion_mm": 2.4957
+    },
+    {
+      "object": "wheel_carriage_left_2",
+      "feature": "clamp nut slot",
+      "print_z_mm": 15.2,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "pivot nut slot",
+      "print_z_mm": 6.2,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "pivot nut slot",
+      "print_z_mm": 7.4,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "pivot nut slot",
+      "print_z_mm": 8.6,
+      "center_to_extrusion_mm": 3.16
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9001
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.9009
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "pivot bore",
+      "print_z_mm": 5.8,
+      "center_to_extrusion_mm": 1.8999
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "clamp nut slot",
+      "print_z_mm": 10.0,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "clamp nut slot",
+      "print_z_mm": 12.6,
+      "center_to_extrusion_mm": 2.4957
+    },
+    {
+      "object": "wheel_carriage_right_2",
+      "feature": "clamp nut slot",
+      "print_z_mm": 15.2,
+      "center_to_extrusion_mm": 1.61
+    },
+    {
+      "object": "wheel_unit_3",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9002
+    },
+    {
+      "object": "wheel_unit_3",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 2.0,
+      "center_to_extrusion_mm": 1.8996
+    },
+    {
+      "object": "wheel_unit_3",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.905
+    },
+    {
+      "object": "wheel_unit_4",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9006
+    },
+    {
+      "object": "wheel_unit_4",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 2.0,
+      "center_to_extrusion_mm": 1.9003
+    },
+    {
+      "object": "wheel_unit_4",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.8999
+    },
+    {
+      "object": "wheel_unit_2",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 0.2,
+      "center_to_extrusion_mm": 1.9006
+    },
+    {
+      "object": "wheel_unit_2",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 2.0,
+      "center_to_extrusion_mm": 1.9003
+    },
+    {
+      "object": "wheel_unit_2",
+      "feature": "wheel unit pivot bore",
+      "print_z_mm": 3.0,
+      "center_to_extrusion_mm": 1.8999
+    }
+  ]
+}

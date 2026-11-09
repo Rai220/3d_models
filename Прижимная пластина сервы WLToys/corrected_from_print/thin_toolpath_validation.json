@@ -1,0 +1,1154 @@
+{
+  "project_sha256": "9fda4c21b07c50680aeac61253f618c16d61bf096c4c5927d65c4e9e17977b09",
+  "gcode_sha256": "91ba5a8db51f5eeea8fef8239c18dbff56803af1615ef2f432e45a75064b8807",
+  "former_A_filled_checks": [
+    {
+      "z_mm": 0.2,
+      "material_distance_mm": -0.0605936957430451
+    },
+    {
+      "z_mm": 0.44,
+      "material_distance_mm": -0.1039874561586034
+    },
+    {
+      "z_mm": 0.68,
+      "material_distance_mm": -0.1039874561586034
+    },
+    {
+      "z_mm": 4.76,
+      "material_distance_mm": -0.1039874561586034
+    }
+  ],
+  "chassis_checks": [
+    {
+      "z_mm": 0.2,
+      "hole": 0,
+      "clear_radius_mm": 1.0198066724040045
+    },
+    {
+      "z_mm": 0.2,
+      "hole": 1,
+      "clear_radius_mm": 1.0196929987033174
+    },
+    {
+      "z_mm": 0.2,
+      "hole": 2,
+      "clear_radius_mm": 1.0196682138275452
+    },
+    {
+      "z_mm": 0.32,
+      "hole": 0,
+      "clear_radius_mm": 0.8198812181741357
+    },
+    {
+      "z_mm": 0.32,
+      "hole": 1,
+      "clear_radius_mm": 0.8202675733232707
+    },
+    {
+      "z_mm": 0.32,
+      "hole": 2,
+      "clear_radius_mm": 0.8203652704181719
+    },
+    {
+      "z_mm": 0.44,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 0.44,
+      "hole": 1,
+      "clear_radius_mm": 0.7958035967052159
+    },
+    {
+      "z_mm": 0.44,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 0.56,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 0.56,
+      "hole": 1,
+      "clear_radius_mm": 0.7957615201035004
+    },
+    {
+      "z_mm": 0.56,
+      "hole": 2,
+      "clear_radius_mm": 0.7956326615018681
+    },
+    {
+      "z_mm": 0.68,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759587
+    },
+    {
+      "z_mm": 0.68,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 0.68,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 0.8,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759587
+    },
+    {
+      "z_mm": 0.8,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 0.8,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 0.92,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 0.92,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 0.92,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.04,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.04,
+      "hole": 1,
+      "clear_radius_mm": 0.7957615201035004
+    },
+    {
+      "z_mm": 1.04,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.16,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.16,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 1.16,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.28,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.28,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 1.28,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.4,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.4,
+      "hole": 1,
+      "clear_radius_mm": 0.7955541559483048
+    },
+    {
+      "z_mm": 1.4,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.52,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.52,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 1.52,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.64,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.64,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 1.64,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.76,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.76,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 1.76,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 1.88,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 1.88,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 1.88,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 2.0,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 2.0,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 2.0,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 2.12,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 2.12,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 2.12,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 2.24,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 2.24,
+      "hole": 1,
+      "clear_radius_mm": 0.7955541559483048
+    },
+    {
+      "z_mm": 2.24,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 2.36,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 2.36,
+      "hole": 1,
+      "clear_radius_mm": 0.7957615201035004
+    },
+    {
+      "z_mm": 2.36,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 2.48,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 2.48,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 2.48,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 2.6,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 2.6,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 2.6,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 2.72,
+      "hole": 0,
+      "clear_radius_mm": 0.7935589247702575
+    },
+    {
+      "z_mm": 2.72,
+      "hole": 1,
+      "clear_radius_mm": 0.7934190004295902
+    },
+    {
+      "z_mm": 2.72,
+      "hole": 2,
+      "clear_radius_mm": 0.7935247280153233
+    },
+    {
+      "z_mm": 2.84,
+      "hole": 0,
+      "clear_radius_mm": 0.7937335244337493
+    },
+    {
+      "z_mm": 2.84,
+      "hole": 1,
+      "clear_radius_mm": 0.7935955557228951
+    },
+    {
+      "z_mm": 2.84,
+      "hole": 2,
+      "clear_radius_mm": 0.7937008431218591
+    },
+    {
+      "z_mm": 2.96,
+      "hole": 0,
+      "clear_radius_mm": 0.7939910564150705
+    },
+    {
+      "z_mm": 2.96,
+      "hole": 1,
+      "clear_radius_mm": 0.7938622876074872
+    },
+    {
+      "z_mm": 2.96,
+      "hole": 2,
+      "clear_radius_mm": 0.793955050454914
+    },
+    {
+      "z_mm": 3.08,
+      "hole": 0,
+      "clear_radius_mm": 0.7937379789708487
+    },
+    {
+      "z_mm": 3.08,
+      "hole": 1,
+      "clear_radius_mm": 0.7940413374328339
+    },
+    {
+      "z_mm": 3.08,
+      "hole": 2,
+      "clear_radius_mm": 0.7937577501345798
+    },
+    {
+      "z_mm": 3.2,
+      "hole": 0,
+      "clear_radius_mm": 0.7939185615717923
+    },
+    {
+      "z_mm": 3.2,
+      "hole": 1,
+      "clear_radius_mm": 0.7942213367136857
+    },
+    {
+      "z_mm": 3.2,
+      "hole": 2,
+      "clear_radius_mm": 0.7939364104139122
+    },
+    {
+      "z_mm": 3.32,
+      "hole": 0,
+      "clear_radius_mm": 0.7941000725084009
+    },
+    {
+      "z_mm": 3.32,
+      "hole": 1,
+      "clear_radius_mm": 0.7944022535997401
+    },
+    {
+      "z_mm": 3.32,
+      "hole": 2,
+      "clear_radius_mm": 0.7941158543445976
+    },
+    {
+      "z_mm": 3.44,
+      "hole": 0,
+      "clear_radius_mm": 0.7942824771343273
+    },
+    {
+      "z_mm": 3.44,
+      "hole": 1,
+      "clear_radius_mm": 0.7942009770970468
+    },
+    {
+      "z_mm": 3.44,
+      "hole": 2,
+      "clear_radius_mm": 0.7942960407027166
+    },
+    {
+      "z_mm": 3.56,
+      "hole": 0,
+      "clear_radius_mm": 0.7945576757719259
+    },
+    {
+      "z_mm": 3.56,
+      "hole": 1,
+      "clear_radius_mm": 0.7943817203236878
+    },
+    {
+      "z_mm": 3.56,
+      "hole": 2,
+      "clear_radius_mm": 0.7940582573732167
+    },
+    {
+      "z_mm": 3.68,
+      "hole": 0,
+      "clear_radius_mm": 0.7947421407975868
+    },
+    {
+      "z_mm": 3.68,
+      "hole": 1,
+      "clear_radius_mm": 0.7941409567235513
+    },
+    {
+      "z_mm": 3.68,
+      "hole": 2,
+      "clear_radius_mm": 0.7942428342222363
+    },
+    {
+      "z_mm": 3.8,
+      "hole": 0,
+      "clear_radius_mm": 0.7950115451354827
+    },
+    {
+      "z_mm": 3.8,
+      "hole": 1,
+      "clear_radius_mm": 0.794327005948273
+    },
+    {
+      "z_mm": 3.8,
+      "hole": 2,
+      "clear_radius_mm": 0.7944281591905673
+    },
+    {
+      "z_mm": 3.92,
+      "hole": 0,
+      "clear_radius_mm": 0.7951987016869444
+    },
+    {
+      "z_mm": 3.92,
+      "hole": 1,
+      "clear_radius_mm": 0.7946074559191969
+    },
+    {
+      "z_mm": 3.92,
+      "hole": 2,
+      "clear_radius_mm": 0.7946995690354723
+    },
+    {
+      "z_mm": 4.04,
+      "hole": 0,
+      "clear_radius_mm": 0.7949994834697858
+    },
+    {
+      "z_mm": 4.04,
+      "hole": 1,
+      "clear_radius_mm": 0.7947952609575673
+    },
+    {
+      "z_mm": 4.04,
+      "hole": 2,
+      "clear_radius_mm": 0.7949817698189172
+    },
+    {
+      "z_mm": 4.16,
+      "hole": 0,
+      "clear_radius_mm": 0.7946863150476717
+    },
+    {
+      "z_mm": 4.16,
+      "hole": 1,
+      "clear_radius_mm": 0.7949836672513821
+    },
+    {
+      "z_mm": 4.16,
+      "hole": 2,
+      "clear_radius_mm": 0.7951706785643484
+    },
+    {
+      "z_mm": 4.28,
+      "hole": 0,
+      "clear_radius_mm": 0.7948759555644029
+    },
+    {
+      "z_mm": 4.28,
+      "hole": 1,
+      "clear_radius_mm": 0.795172609495733
+    },
+    {
+      "z_mm": 4.28,
+      "hole": 2,
+      "clear_radius_mm": 0.7953601320458772
+    },
+    {
+      "z_mm": 4.4,
+      "hole": 0,
+      "clear_radius_mm": 0.7950660751884184
+    },
+    {
+      "z_mm": 4.4,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 4.4,
+      "hole": 2,
+      "clear_radius_mm": 0.7955500596448717
+    },
+    {
+      "z_mm": 4.52,
+      "hole": 0,
+      "clear_radius_mm": 0.7953519841539081
+    },
+    {
+      "z_mm": 4.52,
+      "hole": 1,
+      "clear_radius_mm": 0.7957395883158418
+    },
+    {
+      "z_mm": 4.52,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 4.64,
+      "hole": 0,
+      "clear_radius_mm": 0.7955429533572556
+    },
+    {
+      "z_mm": 4.64,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 4.64,
+      "hole": 2,
+      "clear_radius_mm": 0.7956099336415399
+    },
+    {
+      "z_mm": 4.76,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 4.76,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 4.76,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    },
+    {
+      "z_mm": 4.88,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759584
+    },
+    {
+      "z_mm": 4.88,
+      "hole": 1,
+      "clear_radius_mm": 0.7955453894038145
+    },
+    {
+      "z_mm": 4.88,
+      "hole": 2,
+      "clear_radius_mm": 0.7955249898299372
+    },
+    {
+      "z_mm": 5.0,
+      "hole": 0,
+      "clear_radius_mm": 0.7956505007759587
+    },
+    {
+      "z_mm": 5.0,
+      "hole": 1,
+      "clear_radius_mm": 0.7957860087287734
+    },
+    {
+      "z_mm": 5.0,
+      "hole": 2,
+      "clear_radius_mm": 0.7956682138275353
+    }
+  ],
+  "ear_checks": [
+    {
+      "z_mm": 9.2,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.6539938011169476
+    },
+    {
+      "z_mm": 9.2,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.6539938011169476
+    },
+    {
+      "z_mm": 9.2,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.6539938011169476
+    },
+    {
+      "z_mm": 9.2,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7229938011169361
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7229938011169361
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7229938011169361
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7689938011169568
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7689938011169568
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7689938011169568
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.5000621261596699
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7929938011169293
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7929938011169293
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7929938011169293
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.5000621261596699
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7989938011169295
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7989938011169295
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7989938011169295
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7869938011169575
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7869938011169575
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7869938011169575
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7559938011169517
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7559938011169517
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7559938011169517
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7039938011169306
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7039938011169306
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7039938011169306
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.6239938011169466
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.6239938011169467
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.6239938011169467
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 1.9000000953674316,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.2,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.6539938011169476
+    },
+    {
+      "z_mm": 9.2,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.6539938011169476
+    },
+    {
+      "z_mm": 9.2,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.6539938011169476
+    },
+    {
+      "z_mm": 9.2,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7229938011169361
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7229938011169361
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7229938011169361
+    },
+    {
+      "z_mm": 9.32,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7689938011169568
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7689938011169568
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7689938011169568
+    },
+    {
+      "z_mm": 9.44,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.5000621261596699
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7929938011169293
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7929938011169293
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7929938011169293
+    },
+    {
+      "z_mm": 9.56,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.5000621261596699
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7989938011169295
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7989938011169295
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7989938011169295
+    },
+    {
+      "z_mm": 9.68,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7869938011169575
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7869938011169575
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7869938011169575
+    },
+    {
+      "z_mm": 9.8,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7559938011169517
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7559938011169517
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7559938011169517
+    },
+    {
+      "z_mm": 9.92,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.7039938011169306
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.7039938011169306
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.7039938011169306
+    },
+    {
+      "z_mm": 10.04,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 0.5,
+      "clear_radius_mm": 0.6239938011169466
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 1.5,
+      "clear_radius_mm": 0.6239938011169467
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 2.5,
+      "clear_radius_mm": 0.6239938011169467
+    },
+    {
+      "z_mm": 10.16,
+      "x_mm": 25.90000009536743,
+      "depth_mm": 3.5,
+      "clear_radius_mm": 0.50006212615967
+    }
+  ],
+  "base_material_checks": [
+    {
+      "z_mm": 0.2,
+      "xy_mm": [
+        13.900000095367432,
+        2
+      ],
+      "material_distance_mm": -0.06705282721480518
+    },
+    {
+      "z_mm": 0.2,
+      "xy_mm": [
+        13.900000095367432,
+        11.5
+      ],
+      "material_distance_mm": -0.050597439734442584
+    },
+    {
+      "z_mm": 0.2,
+      "xy_mm": [
+        13.900000095367432,
+        20.7
+      ],
+      "material_distance_mm": -0.15524924335004145
+    },
+    {
+      "z_mm": 0.68,
+      "xy_mm": [
+        13.900000095367432,
+        2
+      ],
+      "material_distance_mm": -0.1170623168945383
+    },
+    {
+      "z_mm": 0.68,
+      "xy_mm": [
+        13.900000095367432,
+        11.5
+      ],
+      "material_distance_mm": -0.11247260266292927
+    },
+    {
+      "z_mm": 0.68,
+      "xy_mm": [
+        13.900000095367432,
+        20.7
+      ],
+      "material_distance_mm": -0.16135986650670775
+    },
+    {
+      "z_mm": 4.76,
+      "xy_mm": [
+        13.900000095367432,
+        2
+      ],
+      "material_distance_mm": -0.1170623168945383
+    },
+    {
+      "z_mm": 4.76,
+      "xy_mm": [
+        13.900000095367432,
+        11.5
+      ],
+      "material_distance_mm": -0.11247260266292927
+    },
+    {
+      "z_mm": 4.76,
+      "xy_mm": [
+        13.900000095367432,
+        20.7
+      ],
+      "material_distance_mm": -0.16135986650670775
+    }
+  ],
+  "all_functional_bores_clear": true,
+  "chassis_bores_through_all_plate_layers": true,
+  "no_support_extrusions": true,
+  "solid_plate_thickness_mm": 5.0,
+  "minimum_chassis_nominal_diameter_mm": 1.5868380008591805,
+  "physical_fit_verified": false,
+  "limitation": "Extrusion-width envelopes do not establish printed fit or support removability."
+}

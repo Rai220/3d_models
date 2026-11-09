@@ -1,0 +1,16 @@
+{
+  "servo_installed_dimensions_mm": [
+    19.8,
+    21.5,
+    8.2
+  ],
+  "dimension_orientation_assumed_from_previous_user_plan_dimensions": true,
+  "servo_insertion_prism_intersection_mm3": 0.0,
+  "nominal_lateral_clearance_mm": 0.25,
+  "vertical_clearance_at_contact_mm": 0,
+  "material_below_blind_hole_mm": 2.1999999999999993,
+  "head_and_chassis_dimensions_known": false,
+  "chassis_hole_positions_verified": false,
+  "steering_motion_verified": false,
+  "assembly_note": "Same screw coordinates as original trial. Three stock screws enter from chassis into post ends. Tip insertion must be less than 7.5 mm. No nuts or printed threads. Verify real chassis and body height before tightening."
+}

@@ -1,0 +1,92 @@
+{
+    "error_string": "Success.",
+    "export_time": 103,
+    "layer_height": 0.11999999731779099,
+    "plate_index": 1,
+    "prepare_time": 13,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 33.044193267822266,
+                "Bridge": 18.732128143310547,
+                "Custom": 411.1600036621094,
+                "Flush": 29.0,
+                "Gap infill": 98.14411163330078,
+                "Inner wall": 848.31884765625,
+                "Internal solid infill": 72.2192153930664,
+                "Outer wall": 583.8010864257813,
+                "Overhang wall": 0.18756356835365295,
+                "Sparse infill": 230.95770263671875,
+                "Top surface": 83.88040161132813,
+                "Travel": 333.0118713378906,
+                "Undefined": 317.79718017578125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 4.983527660369873,
+                    "total_used_g": 4.983527660369873
+                }
+            ],
+            "generate_support_material_time": 20,
+            "id": 1,
+            "infill_time": 31,
+            "layer_filament_change": 0,
+            "main_predication": 2273.29443359375,
+            "make_perimeters_time": 80,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 28.162126541137695,
+                        "height": 11.5,
+                        "width": 32.799991607666016,
+                        "x": 131.60000610351563,
+                        "y": 113.91893768310547,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Thin_DHV56MG",
+                    "triangle_count": 3238
+                },
+                {
+                    "bbox": {
+                        "depth": 27.862125396728516,
+                        "height": 13.0,
+                        "width": 27.0,
+                        "x": 94.5,
+                        "y": 114.06893920898438,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "Original_H13",
+                    "triangle_count": 3948
+                }
+            ],
+            "sliced_time": 275,
+            "sliced_time_with_cache": 125,
+            "total_predication": 2727.209228515625,
+            "triangle_count": 7186,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 40.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 5
+}

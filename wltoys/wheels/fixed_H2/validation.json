@@ -1,0 +1,163 @@
+{
+  "source_sha256": "5eb9e9e881bed7c3511990474bcbd9fab755bf459933a301ef54599898685b72",
+  "dimension_source": "Measured in downloaded Printables 723463 / Hamster RC and 1320028 / Lay10000: 2.0 mm axial hub thickness, 5.0 mm outer diameter; compatible models, not an OEM drawing",
+  "stock_hub_length_independently_verified": false,
+  "hub_od_source": "5 mm measured in Printables models 723463 and 1320028; not OEM drawing",
+  "hub_identical_across_widths": true,
+  "object_count": 20,
+  "build_placements_preserved": true,
+  "physical_fit_tested": false,
+  "wheels": [
+    {
+      "width_mm": 6,
+      "hub_length_mm": 2.0,
+      "hub_outer_diameter_mm": 5.0,
+      "bore_xy_mm": [
+        3.09998,
+        2.09998
+      ],
+      "inboard_mount_z_mm": 0,
+      "nut_seat_z_mm": 2.0,
+      "rim_inboard_z_mm": 0,
+      "rim_outboard_z_mm": 6,
+      "outer_extension_vs_W06_mm": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 600.1702547767179,
+      "original_volume_mm3": 732.8876159372866,
+      "min_radius_above_nut_seat_mm": 8.098082135203372
+    },
+    {
+      "width_mm": 8,
+      "hub_length_mm": 2.0,
+      "hub_outer_diameter_mm": 5.0,
+      "bore_xy_mm": [
+        3.09998,
+        2.09998
+      ],
+      "inboard_mount_z_mm": 0,
+      "nut_seat_z_mm": 2.0,
+      "rim_inboard_z_mm": 0,
+      "rim_outboard_z_mm": 8,
+      "outer_extension_vs_W06_mm": 2,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 737.1786744084811,
+      "original_volume_mm3": 923.30448244154,
+      "min_radius_above_nut_seat_mm": 8.098082135203372
+    },
+    {
+      "width_mm": 10,
+      "hub_length_mm": 2.0,
+      "hub_outer_diameter_mm": 5.0,
+      "bore_xy_mm": [
+        3.09998,
+        2.09998
+      ],
+      "inboard_mount_z_mm": 0,
+      "nut_seat_z_mm": 2.0,
+      "rim_inboard_z_mm": 0,
+      "rim_outboard_z_mm": 10,
+      "outer_extension_vs_W06_mm": 4,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 874.1870925009116,
+      "original_volume_mm3": 1113.7213459871573,
+      "min_radius_above_nut_seat_mm": 8.098082135203372
+    },
+    {
+      "width_mm": 12,
+      "hub_length_mm": 2.0,
+      "hub_outer_diameter_mm": 5.0,
+      "bore_xy_mm": [
+        3.09998,
+        2.09998
+      ],
+      "inboard_mount_z_mm": 0,
+      "nut_seat_z_mm": 2.0,
+      "rim_inboard_z_mm": 0,
+      "rim_outboard_z_mm": 12,
+      "outer_extension_vs_W06_mm": 6,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1011.1953108946394,
+      "original_volume_mm3": 1304.138009831692,
+      "min_radius_above_nut_seat_mm": 8.098082135203372
+    },
+    {
+      "width_mm": 14,
+      "hub_length_mm": 2.0,
+      "hub_outer_diameter_mm": 5.0,
+      "bore_xy_mm": [
+        3.09998,
+        2.09998
+      ],
+      "inboard_mount_z_mm": 0,
+      "nut_seat_z_mm": 2.0,
+      "rim_inboard_z_mm": 0,
+      "rim_outboard_z_mm": 14,
+      "outer_extension_vs_W06_mm": 8,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1148.2037296874196,
+      "original_volume_mm3": 1494.554874940132,
+      "min_radius_above_nut_seat_mm": 8.098082135203372
+    }
+  ],
+  "exported_stl_manifold_checks": [
+    {
+      "file": "K989_D20_W06_FIXED_H2.stl",
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 600.170258965499
+    },
+    {
+      "file": "K989_D20_W08_FIXED_H2.stl",
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 737.1786836005944
+    },
+    {
+      "file": "K989_D20_W10_FIXED_H2.stl",
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 874.1871067758452
+    },
+    {
+      "file": "K989_D20_W12_FIXED_H2.stl",
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 1011.1953204580874
+    },
+    {
+      "file": "K989_D20_W14_FIXED_H2.stl",
+      "manifold_status": "Error.NoError",
+      "volume_mm3": 1148.2037442324247
+    }
+  ],
+  "bambu_studio_cli_info": {
+    "status": "failed_to_run",
+    "exit_code": 139,
+    "same_failure_on_original": true
+  },
+  "printer_settings_preserved_except_compatibility_changes": true,
+  "profile_compatibility_changes": {
+    "sparse_infill_pattern": {
+      "from": "rectilinear",
+      "to": "zig-zag"
+    },
+    "internal_solid_infill_pattern": {
+      "from": "rectilinear",
+      "to": "zig-zag"
+    }
+  },
+  "geometry_unchanged_by_profile_fix": true,
+  "bambu_studio_gui_import": {
+    "status": "passed",
+    "user_confirmed": true,
+    "loaded_20_wheels_visible": true,
+    "profile_substitution_warning_resolved": true,
+    "slicing_verified": false
+  }
+}

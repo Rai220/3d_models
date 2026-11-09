@@ -1,0 +1,152 @@
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /Users/knkrestnikov/giga/3d_models/ldrc_steering/all_slots/step/tie_rod_slot_1p95.step(2962 ents)  Write  Done[0m
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /Users/knkrestnikov/giga/3d_models/ldrc_steering/all_slots/step/tie_rod_slot_1p1.step(2972 ents)  Write  Done[0m
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /Users/knkrestnikov/giga/3d_models/ldrc_steering/all_slots/step/knuckle_original.step(2888 ents)  Write  Done[0m
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /Users/knkrestnikov/giga/3d_models/ldrc_steering/all_slots/step/knuckle_mirrored.step(2908 ents)  Write  Done[0m
+[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /Users/knkrestnikov/giga/3d_models/ldrc_steering/all_slots/step/tie_rod_slot_2p8_original.step(2830 ents)  Write  Done[0m
+{
+  "feature_type_times": {
+    "Bridge": 1.063101053237915,
+    "Brim": 18.774364471435547,
+    "Custom": 411.3815612792969,
+    "Flush": 29.0,
+    "Gap infill": 3.233403444290161,
+    "Inner wall": 656.4771728515625,
+    "Internal solid infill": 15.485471725463867,
+    "Outer wall": 1119.323974609375,
+    "Overhang wall": 17.642812728881836,
+    "Support": 142.39944458007812,
+    "Support interface": 34.05449676513672,
+    "Support transition": 24.648557662963867,
+    "Top surface": 40.67851257324219,
+    "Travel": 381.8476867675781,
+    "Undefined": 366.51507568359375
+  },
+  "filament_change_times": 0,
+  "filaments": [
+    {
+      "filament_id": "GFL99",
+      "id": 1,
+      "main_used_g": 4.993916034698486,
+      "total_used_g": 4.993916034698486
+    }
+  ],
+  "generate_support_material_time": 130,
+  "id": 1,
+  "infill_time": 56,
+  "layer_filament_change": 0,
+  "main_predication": 2426.600830078125,
+  "make_perimeters_time": 254,
+  "obj_cached_cnt": 0,
+  "objects": [
+    {
+      "bbox": {
+        "depth": 11.0,
+        "height": 5.49993896484375,
+        "width": 49.499935150146484,
+        "x": 103.0,
+        "y": 166.0,
+        "z": -2.4218751448756848e-09
+      },
+      "id": 5,
+      "name": "tie_rod_slot_1p95.stl",
+      "triangle_count": 5712
+    },
+    {
+      "bbox": {
+        "depth": 11.0,
+        "height": 5.49993896484375,
+        "width": 49.499935150146484,
+        "x": 103.0,
+        "y": 145.0,
+        "z": -2.4218751448756848e-09
+      },
+      "id": 9,
+      "name": "tie_rod_slot_1p1.stl",
+      "triangle_count": 5712
+    },
+    {
+      "bbox": {
+        "depth": 11.0,
+        "height": 5.49993896484375,
+        "width": 49.499935150146484,
+        "x": 103.0,
+        "y": 187.0,
+        "z": -2.4218751448756848e-09
+      },
+      "id": 13,
+      "name": "tie_rod_slot_2p8_original.stl",
+      "triangle_count": 5764
+    },
+    {
+      "bbox": {
+        "depth": 21.499048233032227,
+        "height": 12.5,
+        "width": 19.75,
+        "x": 100.0,
+        "y": 108.0,
+        "z": 0.0
+      },
+      "id": 17,
+      "name": "knuckle_original.stl",
+      "triangle_count": 22080
+    },
+    {
+      "bbox": {
+        "depth": 21.499048233032227,
+        "height": 12.5,
+        "width": 19.75,
+        "x": 136.0,
+        "y": 108.0,
+        "z": 0.0
+      },
+      "id": 21,
+      "name": "knuckle_mirrored.stl",
+      "triangle_count": 22080
+    }
+  ],
+  "sliced_time": 1015,
+  "sliced_time_with_cache": 539,
+  "total_predication": 2880.619140625,
+  "triangle_count": 61348,
+  "warning_message": ""
+}

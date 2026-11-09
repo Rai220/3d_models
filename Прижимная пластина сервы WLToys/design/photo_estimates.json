@@ -1,0 +1,203 @@
+{
+  "source": "photo_2026-10-30_11-46-12.jpg",
+  "grid_pixels": [
+    [
+      364.0,
+      450.0
+    ],
+    [
+      459.0,
+      450.0
+    ],
+    [
+      557.0,
+      452.0
+    ],
+    [
+      654.0,
+      452.0
+    ],
+    [
+      360.0,
+      537.0
+    ],
+    [
+      463.0,
+      539.0
+    ],
+    [
+      563.0,
+      539.0
+    ],
+    [
+      669.0,
+      541.0
+    ],
+    [
+      358.0,
+      634.0
+    ],
+    [
+      466.0,
+      635.0
+    ],
+    [
+      572.0,
+      635.0
+    ],
+    [
+      681.0,
+      636.0
+    ],
+    [
+      354.0,
+      737.0
+    ],
+    [
+      470.0,
+      738.0
+    ],
+    [
+      583.0,
+      738.0
+    ],
+    [
+      700.0,
+      739.0
+    ]
+  ],
+  "grid_mm": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0
+    ],
+    [
+      20.0,
+      0.0
+    ],
+    [
+      30.0,
+      0.0
+    ],
+    [
+      0.0,
+      10.0
+    ],
+    [
+      10.0,
+      10.0
+    ],
+    [
+      20.0,
+      10.0
+    ],
+    [
+      30.0,
+      10.0
+    ],
+    [
+      0.0,
+      20.0
+    ],
+    [
+      10.0,
+      20.0
+    ],
+    [
+      20.0,
+      20.0
+    ],
+    [
+      30.0,
+      20.0
+    ],
+    [
+      0.0,
+      30.0
+    ],
+    [
+      10.0,
+      30.0
+    ],
+    [
+      20.0,
+      30.0
+    ],
+    [
+      30.0,
+      30.0
+    ]
+  ],
+  "pixel_to_grid_homography": [
+    [
+      0.1348046629983774,
+      0.002367069910096735,
+      -49.74200737964049
+    ],
+    [
+      -0.0012756846208757519,
+      0.1600630415635772,
+      -71.665313700617
+    ],
+    [
+      -9.465266848224671e-06,
+      0.0007264672428342029,
+      1.0
+    ]
+  ],
+  "grid_fit_rms_mm": 0.12687168086722903,
+  "estimated_post_root_pixels": [
+    [
+      388,
+      711
+    ],
+    [
+      645,
+      711
+    ],
+    [
+      423,
+      518
+    ]
+  ],
+  "estimated_relative_centers_mm": [
+    [
+      0.0,
+      -0.0
+    ],
+    [
+      22.94181911906333,
+      0.17272677583402185
+    ],
+    [
+      3.392599770977812,
+      19.724566470155864
+    ]
+  ],
+  "important": "Roots are manually estimated, partly occluded, and above mat; grid residual is NOT part dimensional accuracy.",
+  "other_photos": "35: outline and two tabs; 22/26/32/38: post arrangement and approximate height.",
+  "height_method": "Side-view comparison with nearby grid; 16 mm adopted with roughly +/- 2 mm uncertainty; no calibrated 3D scan.",
+  "practical_uncertainty_mm": {
+    "hole_pitch": 1,
+    "rear_hole_position": 1.5,
+    "total_height": 2,
+    "plate_thickness": 0.5
+  },
+  "user_measurement_mm": [
+    19.8,
+    21.5
+  ],
+  "design_change": "Photo-only AB=23 and C_y=20 would not clear the known servo body. Adopted AB=25.3, C_y=22 for a 19.8 x 21.5 footprint and 0.25 mm clearance each side. Chassis pitch must be trial fitted.",
+  "source_hashes": {
+    "photo_2026-10-30_11-46-12.jpg": "40605d5405d9e79f55f188133b73ff329f95be710c68418f255c6b6ccb0db5fe",
+    "photo_2026-10-30_11-46-22.jpg": "1dd3573de824ae8f9ca1f53bf8cbd8f054a0770a2782bbb148979ca267150763",
+    "photo_2026-10-30_11-46-26.jpg": "e04c411d26557ab1bed2152acb4a04ab46c7570ec74ad6d468c87b46d5b2a713",
+    "photo_2026-10-30_11-46-32.jpg": "b7a5b849c48f94fe79e139af47adac6db4f761bd75f97fdff7ae1d0593bdedd7",
+    "photo_2026-10-30_11-46-35.jpg": "4dcc9cc89b57b327126303cd45938cdeee004d4eac05388e0527eda9759b2784",
+    "photo_2026-10-30_11-46-38.jpg": "2bb0520d38e8f032f5cc3839257c18d53cac8d91cece58f48e12c032585ebd3e"
+  }
+}

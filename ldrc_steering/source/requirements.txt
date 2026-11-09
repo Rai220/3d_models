@@ -1,0 +1,7 @@
+cadquery-ocp==7.9.3.1.1
+numpy==2.4.6
+trimesh==5.1.1
+matplotlib==3.11.2
+shapely==2.2.0
+scipy==1.17.1
+networkx==3.6.1
